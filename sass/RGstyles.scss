@@ -1,0 +1,25 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+$Brightblue: #16c1f8;
+$Darkblue: #282E44;
+$Pink: #FD6C6E;
+$Green: #55CDC3;
+$Yellow: #ffe576;
+
+
+@import "compass/reset";
+@import "partials/menu";
+@import "partials/header";
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}

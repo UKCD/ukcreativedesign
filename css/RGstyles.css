@@ -1,0 +1,354 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* Overlay style */
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 86, 120, 0.9);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column; }
+  .overlay .my_contact {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 5% 0;
+    height: 30%;
+    text-align: center;
+    position: absolute;
+    bottom: 0; }
+    .overlay .my_contact ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 25px 40px 0 0; }
+      .overlay .my_contact ul li {
+        flex: 1;
+        text-align: center; }
+    .overlay .my_contact img {
+      width: 60px;
+      height: auto; }
+    .overlay .my_contact .email {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 30px;
+      font-size: bold; }
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  overflow: hidden;
+  border: none;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/52820/cross.png) no-repeat center center;
+  text-indent: 200%;
+  color: transparent;
+  outline: none;
+  z-index: 1000; }
+
+/* Menu style */
+.overlay nav {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  top: 35%;
+  height: 50%;
+  font-size: 54px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  height: 100%;
+  position: relative; }
+  @media all and (min-width: 650px) {
+    .overlay ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 10%; } }
+
+.overlay ul li {
+  display: block;
+  height: 100%;
+  height: calc(100% / 5);
+  min-height: 54px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.overlay ul li a {
+  font-size: 30px;
+  font-weight: 300;
+  display: block;
+  color: #fff;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s; }
+  @media all and (min-width: 750px) {
+    .overlay ul li a {
+      font-size: 35px; } }
+  @media all and (min-width: 1000px) {
+    .overlay ul li a {
+      font-size: 45px; } }
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+  color: #e3fcb1; }
+
+/* Effects */
+.overlay-slidedown {
+  visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
+  transition: transform 0.4s ease-in-out, visibility 0s 0.4s; }
+
+.overlay-slidedown.open {
+  visibility: visible;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out; }
+
+@media screen and (max-height: 30.5em) {
+  .overlay nav {
+    height: 70%;
+    font-size: 34px; }
+
+  .overlay ul li {
+    min-height: 34px; } }
+#splash .container {
+  margin-left: 5%;
+  min-width: 100%; }
+
+.branding {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+  margin-top: 0%;
+  color: white;
+  font-family: "futura-pt"; }
+  @media all and (min-width: 600px) {
+    .branding {
+      flex-direction: row;
+      justify-content: center;
+      text-align: left;
+      margin-top: 5%; } }
+  @media all and (min-width: 1150px) {
+    .branding {
+      width: 220px; } }
+  .branding .logo {
+    min-height: 100%;
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .branding .logo img {
+      width: 150px; }
+      @media all and (min-width: 600px) {
+        .branding .logo img {
+          min-width: 100%; } }
+  .branding .big_title {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; }
+    .branding .big_title h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      min-width: 100%;
+      margin-top: 15px; }
+      @media all and (min-width: 750px) {
+        .branding .big_title h1 {
+          font-size: 3.5em; } }
+      @media all and (min-width: 950px) {
+        .branding .big_title h1 {
+          font-size: 4.2em; } }
+      @media all and (min-width: 1200px) {
+        .branding .big_title h1 {
+          font-size: 6em; } }
+      @media all and (min-width: 1300px) {
+        .branding .big_title h1 {
+          font-size: 7.2em; } }
+    .branding .big_title h2 {
+      color: #4ECDC4;
+      font-size: 1.8em;
+      width: 100%;
+      margin-top: 15px; }
+      @media all and (min-width: 750px) {
+        .branding .big_title h2 {
+          font-size: 3.0em; } }
+      @media all and (min-width: 1200px) {
+        .branding .big_title h2 {
+          font-size: 5.5em; } }
+  .branding .index-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    min-width: 100%;
+    margin-top: 25px; }
+    @media all and (min-width: 600px) {
+      .branding .index-footer {
+        justify-content: flex-start; } }
+    .branding .index-footer .headButton {
+      display: block;
+      width: 200px;
+      height: auto;
+      margin: 15px;
+      padding: 10px 30px;
+      background: rgba(0, 0, 0, 0.3);
+      border: solid #16c1f8 4px;
+      font-size: 16px;
+      color: #ffffff; }
+      @media all and (min-width: 600px) {
+        .branding .index-footer .headButton {
+          width: 150px;
+          font-size: 16px; } }
+      @media all and (min-width: 850px) {
+        .branding .index-footer .headButton {
+          width: 280px;
+          font-size: 26px;
+          padding: 15px 30px; } }
+
+.main_arrow {
+  width: 100%;
+  position: relative;
+  background-color: #fff; }
+
+/* the wrapper element that will become the outer circle */
+.arrow-wrap {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: -5em;
+  margin-left: -5em;
+  background: #111;
+  width: 10em;
+  height: 10em;
+  padding: 4em 2em;
+  border-radius: 50%;
+  font-size: 0.5em;
+  display: block;
+  box-shadow: 0px 0px 5px 0px #333; }
+
+/* a triangle to make the main part of the arrow. Adjust the border-color to fit your needs */
+.arrow {
+  float: left;
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #ffffff transparent transparent transparent;
+  -webkit-transform: rotate(360deg);
+  /* added for better anti-aliasing on webkit browsers */ }
+
+/* a pseudo element arrow placed on top of the other one with the same color as the wrapper */
+.arrow:after {
+  content: '';
+  position: absolute;
+  top: -3.2em;
+  left: -3em;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #111 transparent transparent transparent;
+  -webkit-transform: rotate(360deg);
+  /* added for better anti-aliasing on webkit browsers */ }
+
+@-webkit-keyframes arrows {
+  0% {
+    top: 0; }
+  10% {
+    top: 12%; }
+  20% {
+    top: 0; }
+  30% {
+    top: 12%; }
+  40% {
+    top: -12%; }
+  50% {
+    top: 12%; }
+  60% {
+    top: 0; }
+  70% {
+    top: 12%; }
+  80% {
+    top: -12%; }
+  90% {
+    top: 12%; }
+  100% {
+    top: 0; } }
+.arrow-wrap .arrow {
+  -webkit-animation: arrows 2.8s 0.4s;
+  -webkit-animation-delay: 3s; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }

@@ -1,0 +1,219 @@
+#splash {
+  .container {
+
+     margin-left: 5%;
+     min-width:100%;
+
+   }
+}
+
+.branding {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  min-width:100%;
+  min-height:100%;
+  margin-top: 0%;
+  color:white;
+  font-family: "futura-pt";
+  @media all and (min-width: 600px) {
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  margin-top: 5%;
+}
+     @media all and (min-width:1150px){
+          width:220px;
+
+
+      }
+
+
+
+  .logo {
+    min-height:100%;
+    flex:0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  img {
+
+       width:150px;
+     @media all and (min-width:600px){
+          min-width:100%;
+
+      }
+     @media all and (min-width:1200px){
+
+
+      }
+
+    }
+  } // end logo
+
+  .big_title {
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    max-width:100%;
+
+    h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      min-width:100%;
+      margin-top: 15px;
+       @media all and (min-width:750px){
+          font-size: 3.5em;
+
+      }
+       @media all and (min-width:950px){
+          font-size: 4.2em;
+
+      }
+
+      @media all and (min-width:1200px){
+          font-size: 6em;
+
+      }
+      @media all and (min-width:1300px){
+          font-size: 7.2em;
+
+      }
+    }
+
+    h2 {
+      color:#4ECDC4;
+      font-size: 1.8em;
+      width:100%;
+      margin-top: 15px;
+
+      @media all and (min-width:750px){
+          font-size: 3.0em;
+
+      }
+
+       @media all and (min-width:1200px){
+          font-size: 5.5em;
+
+      }
+    }
+
+  } // end big_title
+
+  .index-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0;
+  	min-width:100%;
+  	margin-top: 25px;
+
+    @media all and (min-width:600px){
+        justify-content: flex-start;
+
+
+    }
+
+
+
+  .headButton {
+  	display: block;
+  	width: 200px;
+  	height: auto;
+  	margin:15px;
+  	padding:10px 30px;
+  	background: rgba(0, 0, 0, 0.3);
+  	border:solid #16c1f8 4px;
+  	font-size: 16px;
+  	color: #ffffff;
+
+    @media all and (min-width:600px){
+        width: 150px;
+        font-size: 16px;
+
+
+    }
+
+    @media all and (min-width:850px){
+        width: 280px;
+        font-size: 26px;
+        padding:15px 30px;
+
+    }
+  }
+}
+ //end index-footer
+
+} //end branding
+
+
+
+.main_arrow {
+  width:100%;
+  position:relative;
+  background-color:#fff;
+}
+
+/* the wrapper element that will become the outer circle */
+.arrow-wrap {
+  position:absolute;
+  z-index:1;
+  left:50%;
+  top:-5em;
+  margin-left:-5em;
+  background:#111;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+  box-shadow:0px 0px 5px 0px #333;
+}
+
+/* a triangle to make the main part of the arrow. Adjust the border-color to fit your needs */
+.arrow {
+  float:left;
+  position:relative;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #ffffff transparent transparent transparent;
+  -webkit-transform:rotate(360deg);/* added for better anti-aliasing on webkit browsers */
+}
+
+/* a pseudo element arrow placed on top of the other one with the same color as the wrapper */
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #111 transparent transparent transparent;
+  -webkit-transform:rotate(360deg);/* added for better anti-aliasing on webkit browsers */
+}
+
+@-webkit-keyframes arrows {
+  0% { top:0; }
+  10% { top:12%; }
+  20% { top:0; }
+  30% { top:12%; }
+  40% { top:-12%; }
+  50% { top:12%; }
+  60% { top:0; }
+  70% { top:12%; }
+  80% { top:-12%; }
+  90% { top:12%; }
+  100% { top:0; }
+}
+
+.arrow-wrap .arrow {
+  -webkit-animation: arrows 2.8s 0.4s;
+  -webkit-animation-delay: 3s;
+}
