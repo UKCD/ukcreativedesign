@@ -198,22 +198,3 @@
   border-color: rgba(#fff,0);
   -webkit-transform:rotate(360deg);/* added for better anti-aliasing on webkit browsers */
 }
-
-@-webkit-keyframes arrows {
-  0% { top:0; }
-  10% { top:12%; }
-  20% { top:0; }
-  30% { top:12%; }
-  40% { top:-12%; }
-  50% { top:12%; }
-  60% { top:0; }
-  70% { top:12%; }
-  80% { top:-12%; }
-  90% { top:12%; }
-  100% { top:0; }
-}
-
-.arrow-wrap .arrow {
-  -webkit-animation: arrows 2.8s 0.4s;
-  -webkit-animation-delay: 3s;
-}

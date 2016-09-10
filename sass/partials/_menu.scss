@@ -15,8 +15,10 @@
   .my_contact {
 background-color: rgba(#fff,0.7);
 width:100%;
-padding:5% 0;
-height:30%;
+height:40%;
+display: flex;
+flex-direction: column;
+justify-content: center;
 text-align: center;
 position:absolute;
 bottom:0;
@@ -28,13 +30,19 @@ bottom:0;
       margin:25px 40px 0 0;
 
       li {
-          flex:1;
+        flex:1;
         text-align: center;
       }
     }
     img{
       width: 60px;
       height:auto;
+			@media all and (min-width: 600px){
+				width: 80px;
+			}
+			@media all and (min-width: 1000px){
+				width: 100px;
+			}
     }
 
     .email {
@@ -42,6 +50,14 @@ bottom:0;
     margin-top:20px;
     font-size: 30px;
     font-size: bold;
+		padding-top: 15px;
+
+		@media all and (min-width: 600px){
+			font-size: 40px;
+		}
+		@media all and (min-width: 1000px){
+			font-size: 60px;
+		}
     }
   }
 
@@ -72,7 +88,7 @@ bottom:0;
 	position: relative;
   margin-top: 20px;
 	top: 35%;
-	height: 50%;
+	height: 40%;
 	font-size: 54px;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
