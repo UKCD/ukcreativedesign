@@ -1,4 +1,16 @@
 #splash {
+
+    background:url(http://oliverwebdesigns.com/UKCD/images/background.jpeg)no-repeat center center;
+  	-webkit-background-size: cover;
+  	min-height:100vh;
+  	min-width: 100%;
+  	padding-bottom:100px;
+  	vertical-align: middle;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin: 0;
+    
   .container {
 
      margin-left: 5%;
@@ -17,17 +29,16 @@
   min-height:100%;
   margin-top: 0%;
   color:white;
-  font-family: "futura-pt";
-  @media all and (min-width: 600px) {
+  font-family: $secondary_font;
+
+  @include MQ (XS){
   flex-direction: row;
   justify-content: center;
   text-align: left;
   margin-top: 5%;
 }
-     @media all and (min-width:1150px){
-          width:220px;
-
-
+  @include MQ (L){
+  width:220px;
       }
 
 
@@ -39,17 +50,8 @@
     justify-content: center;
     align-items: center;
   img {
-
        width:150px;
-     @media all and (min-width:600px){
-          min-width:100%;
-
-      }
-     @media all and (min-width:1200px){
-
-
-      }
-
+       min-width: 100%;
     }
   } // end logo
 
@@ -60,26 +62,21 @@
     max-width:100%;
 
     h1 {
-      font-size: 2.5em;
+      font-size: 2.3em;
       font-weight: bold;
       min-width:100%;
       margin-top: 15px;
-       @media all and (min-width:750px){
+      @include MQ (S){
           font-size: 3.5em;
-
       }
-       @media all and (min-width:950px){
+      @include MQ (M){
           font-size: 4.2em;
-
       }
-
-      @media all and (min-width:1200px){
+      @include MQ (L){
           font-size: 6em;
-
       }
-      @media all and (min-width:1300px){
+      @include MQ (XL){
           font-size: 7.2em;
-
       }
     }
 
@@ -88,15 +85,11 @@
       font-size: 1.8em;
       width:100%;
       margin-top: 15px;
-
-      @media all and (min-width:750px){
+      @include MQ (S){
           font-size: 3.0em;
-
       }
-
-       @media all and (min-width:1200px){
+       @include MQ (L){
           font-size: 5.5em;
-
       }
     }
 
@@ -110,37 +103,36 @@
   	min-width:100%;
   	margin-top: 25px;
 
-    @media all and (min-width:600px){
+    @include MQ (XS){
         justify-content: flex-start;
-
 
     }
 
 
 
   .headButton {
-  	display: block;
-  	width: 200px;
   	height: auto;
   	margin:15px;
   	padding:10px 30px;
-  	background: rgba(0, 0, 0, 0.3);
-  	border:solid #16c1f8 4px;
+  	background: rgba(0, 0, 0, 0.5);
+  	border:solid #16c1f8 2px;
   	font-size: 16px;
-  	color: #ffffff;
+  	font-family: $secondary_font;
+    font-weight: 700;
 
-    @media all and (min-width:600px){
+    a {
+      color:darken($Brightblue,5%);
+    }
+
+  @include MQ (XS){
         width: 150px;
         font-size: 16px;
-
-
     }
 
     @media all and (min-width:850px){
         width: 280px;
         font-size: 26px;
         padding:15px 30px;
-
     }
   }
 }

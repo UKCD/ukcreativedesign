@@ -1,0 +1,44 @@
+/* media query breakpoints Variables/mixin statement
+
+Root size (body,html): 16px;
+Using REM Units
+
+IF statement used from BOOK SASS and Compass for Designer
+
+*/
+
+$XS: 37.5rem; //600px      600px/16px=37.5rem
+$S: 48rem; //768px
+$M: 64rem; //1024px
+$L: 76.25rem; //1220px
+$XL: 87.50rem; //1400px
+
+
+
+@mixin MQ($canvas) {
+  @if $canvas == XS {
+    @media only screen and (min-width: $XS)  {
+      @content;
+    }
+  }
+  @else if $canvas == S {
+    @media only screen and (min-width: $S)  {
+      @content;
+    }
+  }
+  @else if $canvas == M {
+    @media only screen and (min-width: $M) {
+      @content;
+    }
+  }
+  @else if $canvas == L {
+    @media only screen and (min-width: $L)  {
+      @content;
+    }
+  }
+  @else if $canvas == XL {
+    @media only screen and (min-width: $XL) {
+      @content;
+    }
+  }
+}

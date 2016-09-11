@@ -1,19 +1,21 @@
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+*/
 
 
-$Brightblue: #16c1f8;
-$Darkblue: #282E44;
-$Pink: #FD6C6E;
-$Green: #55CDC3;
-$Yellow: #ffe576;
+
 
 
 @import "compass/reset";
+@import "partials/variables";
+@import "partials/fonts";
+@import "partials/mixin";
+@import "partials/placeholders";
+@import "partials/media_queries";
 @import "partials/menu";
 @import "partials/header";
+@import "partials/index_about";
+@import "partials/expertise";
 
 html,body
 {
@@ -22,4 +24,26 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    font-family: $main_font;
+    font-size: 16px;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+      text-decoration: none;
+      }
+    }
+}
+
+.container {
+	margin:0;
+}
+
+//Responsive Image
+
+img {
+  max-width: 100%;
+  height: auto;
 }
