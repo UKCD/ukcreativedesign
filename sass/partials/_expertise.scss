@@ -1,48 +1,76 @@
-.expertise {
-  width:100%;
+#index-expertise {
   display: flex;
   flex-direction: column;
+  font-size: 16px;
 
+  @include MQ (L) {
+    font-size: 20px;
+  }
+
+  @include MQ (XL) {
+    font-size: 26px;
+  }
+  h1 {
+      @extend %big_title;
+      color:green;
+      font-weight: bold;
+      font-weight: 700;
+      color: $greenText;
+      margin-bottom: 80px;
+      font-size: 1.8em;
+    }
+
+.expertise {
+
+h1 {color:white;
+}
 
 .top, .bottom{
- display: flex;
- flex-wrap:wrap;
- width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @include MQ (S){
+      flex-direction: row;
+    }
+
+
 }
 
 .menu {
-  flex:1;
-  height:450px;
-  color:white;
-  min-width:300px;
   display: flex;
+  flex: 1;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  font-size: 30px;
-  text-align: center;
+  height:450px;
+  color:white;
 
-  img{ width:100px;height:100px;
+
+
+
+  img{ width:200px;
+    height:200px;
     padding:30px;
 
   }
 }
 
 .menu1 {
-background-color: #23283C;
+background-color: $Darkblue;
+
 }
 .menu2 {
-background-color: #45C7BC;
+background-color: $Green;
 }
 .menu3 {
-background-color: #FEE576;
+background-color: $Yellow;
 }
 .menu4 {
-background-color: #FD6C6E;
+background-color: $Brightred;
 }
 
 .view {
-   margin: 10px;
+   margin:0;
    overflow: hidden;
    position: relative;
    text-align: center;
@@ -284,6 +312,13 @@ background-color: #FD6C6E;
    transition-delay: 0s;
 }
 }
+}
+
+
+/* AnimatioN
+
+*/
+
 @keyframes bounceY {
     0% { transform: translateY(-205px);}
     40% { transform: translateY(-100px);}

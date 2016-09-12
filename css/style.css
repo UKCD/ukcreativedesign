@@ -50,19 +50,8 @@
 
 }
 
-/*portfolio section on home page*/
-.portfolio-img{
-	width:332px;height:250px;
-	padding:30px;
-}
-.container-portfolio {
-	width:95%;
-	margin: 0 auto;
-}
 
-#index-testimonial{
-	background-color: #ffe576;
-}
+
 
 /* carousel */
 #quote-carousel {
@@ -107,111 +96,4 @@ blockquote span {
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	margin-top: 10px;
-}
-
-
-
-
-
-/**********************************************
-RESPONSIVE DESIGN
-**********************************************/
-/* smallest screens*/
-@media all and (max-width: 550px) {
-	h1 {
-		font-size: 20px;
-		margin-left: 0px;
-	}
-	h2 {
-		font-size: 24px;
-	}
-	.index-footer{
-		display: none;
-	}
-	.social-media-img{
-		width: 100px;
-		height: 100px;
-		margin: 10px;
-		padding: 10px;
-	}
-	.footer-email-text{
-		display: none;
-	}
-}
-
-
-/* medium screens*/
-@media all and (max-width:768px) {
-	h1 {
-		font-size: 40px;
-		margin-left: 0px;
-	}
-	h2 {
-		font-size: 24px;
-		margin-left: 0px;
-	}
-	.headButton {
-		margin: 0 auto;
-		font-size: 14px;
-	}
-	.left_button {
-		margin-bottom:15px;
-	}
-	.social-media-img{
-		width: 150px;
-		height: 150px;
-		margin: 10px;
-		padding: 10px;
-	}
-}
-
-@media all and (min-width: 600px) {
-	.branding {
-		flex-direction: row;
-		justify-content: center;
-		text-align: left;
-	}
-	.logoImg {
-		min-width:100%;
-		margin-top: 20px;
-	}
-}
-
-@media all and (min-width:768px) {
-	h1{
-		font-size: 50px;
-		margin-left: 30px;
-	}
-	h2{
-		font-size: 40px;
-		margin-left: 30px;
-	}
-	.left_button{
-		float:right;
-	}
-	.headButton{
-		font-size: 18px;
-	}
-	.social-media-img{
-		width: 150px;
-		height: 150px;
-		margin: 10px;
-		padding: 10px;
-	}
-
-}
-
-@media all and (min-width:1150px) {
-	.branding{
-		width:220px;
-		margin-top: 0%;
-
-	}
-
-	.social-media-img{
-		width: 250px;
-		height: 250px;
-		margin: 10px;
-		padding: 10px;
-	}
 }
