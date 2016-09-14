@@ -802,10 +802,17 @@ IF statement used from BOOK SASS and Compass for Designer
       font-size: 1em;
       color: white;
       font-family: "futura-pt", sans-serif; }
-  #index-work .portfolio-img {
-    width: 332px;
-    height: 250px;
-    padding: 30px; }
+  #index-work .portofolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%; }
+    #index-work .portofolio .portofolio-section {
+      flex: 1 1 300px; }
+    #index-work .portofolio .portfolio-img {
+      width: 332px;
+      height: 250px;
+      padding: 30px; }
 
 html, body {
   width: 100%;
