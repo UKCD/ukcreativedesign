@@ -134,7 +134,7 @@ IF statement used from BOOK SASS and Compass for Designer
     top: 8px;
     position: absolute;
     width: 50px;
-    font-family: "ff-tisa-web-pro", serif; } }
+    font-family: "tenso", serif; } }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent; }
@@ -346,7 +346,7 @@ IF statement used from BOOK SASS and Compass for Designer
         .branding .big_title h1 {
           font-size: 7.2em; } }
     .branding .big_title h2 {
-      color: #33b5ac;
+      color: #16c1f8;
       font-size: 1.8em;
       width: 100%;
       margin-top: 15px; }
@@ -436,7 +436,7 @@ IF statement used from BOOK SASS and Compass for Designer
 
 #index-about {
   padding: 60px 15px;
-  font-family: "museo-slab", serif;
+  font-family: "futura-pt", sans-serif;
   font-size: 16px; }
   @media only screen and (min-width: 48rem) {
     #index-about {
@@ -820,7 +820,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-family: "ff-tisa-web-pro", serif;
+  font-family: "tenso", serif;
   font-size: 16px;
   text-align: center; }
   html a, body a {

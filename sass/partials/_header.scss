@@ -19,6 +19,7 @@
    }
 }
 
+
 .branding {
   flex-direction: column;
   justify-content: center;
@@ -81,7 +82,7 @@
     }
 
     h2 {
-      color:darken(#4ECDC4,10%);
+      color: $Brightblue;
       font-size: 1.8em;
       width:100%;
       margin-top: 15px;
