@@ -280,19 +280,17 @@ IF statement used from BOOK SASS and Compass for Designer
   .overlay ul li {
     min-height: 34px; } }
 #splash {
-  background: url(http://oliverwebdesigns.com/UKCD/images/background.jpeg) no-repeat center center;
+  background: url("http://oliverwebdesigns.com/UKCD/images/background.jpeg") no-repeat center center;
   -webkit-background-size: cover;
   min-height: 100vh;
   min-width: 100%;
+  width: 100%;
   padding-bottom: 100px;
-  vertical-align: middle;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0; }
-  #splash .container {
-    margin-left: 5%;
-    min-width: 100%; }
 
 .branding {
   flex-direction: column;
@@ -302,7 +300,7 @@ IF statement used from BOOK SASS and Compass for Designer
   display: flex;
   min-width: 100%;
   min-height: 100%;
-  margin-top: 0%;
+  margin: 0;
   color: white;
   font-family: "futura-pt", sans-serif; }
   @media only screen and (min-width: 37.5rem) {
@@ -310,7 +308,8 @@ IF statement used from BOOK SASS and Compass for Designer
       flex-direction: row;
       justify-content: center;
       text-align: left;
-      margin-top: 5%; } }
+      margin-top: 5%;
+      padding-left: 10%; } }
   @media only screen and (min-width: 76.25rem) {
     .branding {
       width: 220px; } }
@@ -319,15 +318,15 @@ IF statement used from BOOK SASS and Compass for Designer
     flex: 0.5;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    margin-right: 5%; }
     .branding .logo img {
       width: 150px;
       min-width: 100%; }
   .branding .big_title {
     flex: 2;
     display: flex;
-    flex-direction: column;
-    max-width: 100%; }
+    flex-direction: column; }
     .branding .big_title h1 {
       font-size: 2.3em;
       font-weight: bold;
@@ -341,10 +340,10 @@ IF statement used from BOOK SASS and Compass for Designer
           font-size: 4.2em; } }
       @media only screen and (min-width: 76.25rem) {
         .branding .big_title h1 {
-          font-size: 6em; } }
+          font-size: 5em; } }
       @media only screen and (min-width: 87.5rem) {
         .branding .big_title h1 {
-          font-size: 7.2em; } }
+          font-size: 6.2em; } }
     .branding .big_title h2 {
       color: #16c1f8;
       font-size: 1.8em;
@@ -355,37 +354,35 @@ IF statement used from BOOK SASS and Compass for Designer
           font-size: 3.0em; } }
       @media only screen and (min-width: 76.25rem) {
         .branding .big_title h2 {
-          font-size: 5.5em; } }
-  .branding .index-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    min-width: 100%;
-    margin-top: 25px; }
+          font-size: 4em; } }
+
+.index-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  min-width: 100%;
+  margin-top: 25px; }
+  .index-footer .headButton {
+    height: auto;
+    margin: 15px;
+    padding: 10px 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border: solid #16c1f8 2px;
+    font-size: 16px;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700; }
+    .index-footer .headButton a {
+      color: #07b5ed; }
     @media only screen and (min-width: 37.5rem) {
-      .branding .index-footer {
-        justify-content: flex-start; } }
-    .branding .index-footer .headButton {
-      height: auto;
-      margin: 15px;
-      padding: 10px 30px;
-      background: rgba(0, 0, 0, 0.5);
-      border: solid #16c1f8 2px;
-      font-size: 16px;
-      font-family: "futura-pt", sans-serif;
-      font-weight: 700; }
-      .branding .index-footer .headButton a {
-        color: #07b5ed; }
-      @media only screen and (min-width: 37.5rem) {
-        .branding .index-footer .headButton {
-          width: 150px;
-          font-size: 16px; } }
-      @media all and (min-width: 850px) {
-        .branding .index-footer .headButton {
-          width: 280px;
-          font-size: 26px;
-          padding: 15px 30px; } }
+      .index-footer .headButton {
+        width: 150px;
+        font-size: 16px; } }
+    @media all and (min-width: 850px) {
+      .index-footer .headButton {
+        width: 280px;
+        font-size: 26px;
+        padding: 15px 30px; } }
 
 .main_arrow {
   width: 100%;
@@ -822,7 +819,8 @@ html, body {
   overflow-x: hidden;
   font-family: "tenso", serif;
   font-size: 16px;
-  text-align: center; }
+  text-align: center;
+  box-sizing: border-box; }
   html a, body a {
     text-decoration: none; }
     html a:hover, body a:hover {

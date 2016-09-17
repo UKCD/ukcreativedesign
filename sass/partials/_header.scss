@@ -1,22 +1,17 @@
 #splash {
 
-    background:url(http://oliverwebdesigns.com/UKCD/images/background.jpeg)no-repeat center center;
+    background:url('http://oliverwebdesigns.com/UKCD/images/background.jpeg')no-repeat center center;
   	-webkit-background-size: cover;
   	min-height:100vh;
   	min-width: 100%;
+    width:100%;
   	padding-bottom:100px;
-  	vertical-align: middle;
   	display: flex;
+    flex-direction: column;
   	justify-content: center;
   	align-items: center;
   	margin: 0;
 
-  .container {
-
-     margin-left: 5%;
-     min-width:100%;
-
-   }
 }
 
 
@@ -26,20 +21,23 @@
   align-items: center;
   text-align: center;
   display: flex;
-  min-width:100%;
+  min-width: 100%;
   min-height:100%;
-  margin-top: 0%;
+  margin:0;
   color:white;
   font-family: $secondary_font;
+
 
   @include MQ (XS){
   flex-direction: row;
   justify-content: center;
   text-align: left;
   margin-top: 5%;
+  padding-left: 10%;
 }
   @include MQ (L){
   width:220px;
+
       }
 
 
@@ -50,6 +48,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right:5%;
+
+
+
+
   img {
        width:150px;
        min-width: 100%;
@@ -60,7 +63,8 @@
     flex:2;
     display: flex;
     flex-direction: column;
-    max-width:100%;
+
+
 
     h1 {
       font-size: 2.3em;
@@ -74,10 +78,10 @@
           font-size: 4.2em;
       }
       @include MQ (L){
-          font-size: 6em;
+          font-size: 5em;
       }
       @include MQ (XL){
-          font-size: 7.2em;
+          font-size: 6.2em;
       }
     }
 
@@ -90,56 +94,57 @@
           font-size: 3.0em;
       }
        @include MQ (L){
-          font-size: 5.5em;
+          font-size: 4em;
       }
     }
 
   } // end big_title
 
-  .index-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:10px 0;
-  	min-width:100%;
-  	margin-top: 25px;
 
-    @include MQ (XS){
-        justify-content: flex-start;
-
-    }
-
-
-
-  .headButton {
-  	height: auto;
-  	margin:15px;
-  	padding:10px 30px;
-  	background: rgba(0, 0, 0, 0.5);
-  	border:solid #16c1f8 2px;
-  	font-size: 16px;
-  	font-family: $secondary_font;
-    font-weight: 700;
-
-    a {
-      color:darken($Brightblue,5%);
-    }
-
-  @include MQ (XS){
-        width: 150px;
-        font-size: 16px;
-    }
-
-    @media all and (min-width:850px){
-        width: 280px;
-        font-size: 26px;
-        padding:15px 30px;
-    }
-  }
-}
- //end index-footer
 
 } //end branding
+
+.index-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px 0;
+  min-width: 100%;
+  margin-top: 25px;
+
+
+
+
+
+.headButton {
+  height: auto;
+  margin:15px;
+  padding:10px 30px;
+  background: rgba(0, 0, 0, 0.5);
+  border:solid #16c1f8 2px;
+  font-size: 16px;
+  font-family: $secondary_font;
+  font-weight: 700;
+
+  a {
+    color:darken($Brightblue,5%);
+  }
+
+@include MQ (XS){
+      width: 150px;
+      font-size: 16px;
+  }
+
+  @media all and (min-width:850px){
+      width: 280px;
+      font-size: 26px;
+      padding:15px 30px;
+  }
+}
+}
+//end index-footer
+
+
 
 
 
