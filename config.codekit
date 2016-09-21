@@ -20,6 +20,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/bgPortofolio.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 282020,
+		"inputAbbreviatedPath": "\/css\/bgPortofolio.jpeg",
+		"outputAbbreviatedPath": "\/css\/bgPortofolio.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/bgPortofolio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 426917,
+		"inputAbbreviatedPath": "\/css\/bgPortofolio.jpg",
+		"outputAbbreviatedPath": "\/css\/bgPortofolio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/bootstrap.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -107,6 +129,17 @@
 		"initialSize": 355165,
 		"inputAbbreviatedPath": "\/images\/BFW-index.png",
 		"outputAbbreviatedPath": "\/images\/BFW-index.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bgPortofolio.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 282020,
+		"inputAbbreviatedPath": "\/images\/bgPortofolio.jpeg",
+		"outputAbbreviatedPath": "\/images\/bgPortofolio.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -785,6 +818,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/_testimonials.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_testimonials.scss",
+		"outputAbbreviatedPath": "\/css\/_testimonials.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/partials\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -820,7 +869,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jane Oliver",
+"lastSavedByUser": "Romain Gaget",
 "manualImportLinks": {
 	},
 "projectAttributes": {
