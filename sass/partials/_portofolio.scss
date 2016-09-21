@@ -7,7 +7,7 @@
     @extend %big_title;
     font-weight: bold;
     font-weight: 700;
-    color: $greenText;
+    color: black;
     margin-bottom: 20px;
     font-size: 2em;
 
@@ -45,15 +45,80 @@
 
 .portofolio-section {
 flex: 1 1 300px;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+flex-direction: column;
+min-width: 100%;
+justify-content: center;
+align-items: center;
+padding: 80px;
 
-
+a {
+  color:$Green;
+  text-decoration: underline;
 }
+
+
+
+&:nth-child(1) {
+  background-color: #F1F1F1;
+
+  a {
+     color:$pinkText;
+  }
+}
+
+&:nth-child(3) {
+  background-color: #F1F1F1;
+
+  a {
+    color:$pinkText;
+  }
+}
+}
+
+.portofolio-body {
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   @include MQ (S) {
+     flex-direction:row;
+   }
+}
+
 
 .portfolio-img{
 	width:332px;
   height:250px;
-	padding:30px;
+	margin:80px 0;
 }
+
+ .portofolio-footer {
+
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-width: 100%;
+
+   button {
+     @extend %button ;
+     background-color: $Yellow;
+   }
+
+ }
 
 }
 

@@ -51,7 +51,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*
 Typekit Fonts
 */
-#index-about .button, #index-work .index-work--header button {
+#index-about .button, #index-work .index-work--header button, #index-work .portofolio .portofolio-footer button {
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -783,7 +783,7 @@ IF statement used from BOOK SASS and Compass for Designer
   #index-work h1 {
     font-weight: bold;
     font-weight: 700;
-    color: #55CDC3;
+    color: black;
     margin-bottom: 20px;
     font-size: 2em; }
   #index-work .index-work--header {
@@ -805,11 +805,55 @@ IF statement used from BOOK SASS and Compass for Designer
     flex-wrap: wrap;
     min-width: 100%; }
     #index-work .portofolio .portofolio-section {
-      flex: 1 1 300px; }
+      flex: 1 1 300px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-direction: column;
+      min-width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding: 80px; }
+      #index-work .portofolio .portofolio-section a {
+        color: #45C7BC;
+        text-decoration: underline; }
+      #index-work .portofolio .portofolio-section:nth-child(1) {
+        background-color: #F1F1F1; }
+        #index-work .portofolio .portofolio-section:nth-child(1) a {
+          color: #FD6C6E; }
+      #index-work .portofolio .portofolio-section:nth-child(3) {
+        background-color: #F1F1F1; }
+        #index-work .portofolio .portofolio-section:nth-child(3) a {
+          color: #FD6C6E; }
+    #index-work .portofolio .portofolio-body {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      @media only screen and (min-width: 48rem) {
+        #index-work .portofolio .portofolio-body {
+          flex-direction: row; } }
     #index-work .portofolio .portfolio-img {
       width: 332px;
       height: 250px;
-      padding: 30px; }
+      margin: 80px 0; }
+    #index-work .portofolio .portofolio-footer {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      min-width: 100%; }
+      #index-work .portofolio .portofolio-footer button {
+        background-color: #ffe576; }
 
 html, body {
   width: 100%;
