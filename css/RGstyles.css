@@ -815,7 +815,8 @@ IF statement used from BOOK SASS and Compass for Designer
       min-width: 100%;
       justify-content: center;
       align-items: center;
-      padding: 80px; }
+      padding: 60px 0 10px 0;
+      border-bottom: 2px solid lightgrey; }
       #index-work .portofolio .portofolio-section a {
         color: #45C7BC;
         text-decoration: underline; }
@@ -827,6 +828,8 @@ IF statement used from BOOK SASS and Compass for Designer
         background-color: #F1F1F1; }
         #index-work .portofolio .portofolio-section:nth-child(3) a {
           color: #FD6C6E; }
+      #index-work .portofolio .portofolio-section:nth-child(4) {
+        border-bottom: none; }
     #index-work .portofolio .portofolio-body {
       display: -webkit-flex;
       display: -moz-flex;
@@ -839,6 +842,10 @@ IF statement used from BOOK SASS and Compass for Designer
       @media only screen and (min-width: 48rem) {
         #index-work .portofolio .portofolio-body {
           flex-direction: row; } }
+      #index-work .portofolio .portofolio-body p {
+        font-family: "tenso", serif;
+        padding: 25px 40px;
+        font-size: 1.2em; }
     #index-work .portofolio .portfolio-img {
       width: 332px;
       height: 250px;
@@ -853,7 +860,9 @@ IF statement used from BOOK SASS and Compass for Designer
       align-items: flex-end;
       min-width: 100%; }
       #index-work .portofolio .portofolio-footer button {
-        background-color: #ffe576; }
+        background-color: #282E44;
+        color: white;
+        margin: 60px 10px 5px 0; }
 
 html, body {
   width: 100%;
