@@ -60,7 +60,7 @@ Typekit Fonts
   cursor: pointer;
   max-width: 200px; }
 
-#index-about h1, #index-expertise h1, #index-work h1 {
+#index-about h1, #index-expertise h1, #index-work h1, #index-contact h1 {
   font-family: "futura-pt", sans-serif;
   font-size: 1.3em; }
 
@@ -72,6 +72,14 @@ Using REM Units
 IF statement used from BOOK SASS and Compass for Designer
 
 */
+.headText {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "futura-pt"; }
+
+.pinkText {
+  color: #FD6C6E; }
+
 .menu2-button {
   border-radius: 50%;
   width: 50px;
@@ -840,6 +848,14 @@ IF statement used from BOOK SASS and Compass for Designer
           color: #FD6C6E; }
       #index-work .portofolio .portofolio-section:nth-child(4) {
         border-bottom: none; }
+      #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex; }
+        #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body img {
+          order: 1; }
     #index-work .portofolio .portofolio-body {
       display: -webkit-flex;
       display: -moz-flex;
@@ -848,7 +864,8 @@ IF statement used from BOOK SASS and Compass for Designer
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      margin: 35px 0; }
       @media only screen and (min-width: 48rem) {
         #index-work .portofolio .portofolio-body {
           flex-direction: row;
@@ -882,16 +899,23 @@ IF statement used from BOOK SASS and Compass for Designer
         margin: 60px 10px 5px 0; }
 
 #index-testimonial {
-  background: url("bgPortofolio.jpg") no-repeat center center;
-  -webkit-background-size: cover;
+  background-color: #59cdc3;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 300px;
-  font-weight: bold;
   font-family: "tenso", serif;
-  font-size: 1em; }
+  font-size: 16px; }
+  #index-testimonial p {
+    margin: 20px 0 30px 0;
+    color: black;
+    font-family: "tenso", serif;
+    font-style: italic; }
+    @media only screen and (min-width: 48rem) {
+      #index-testimonial p {
+        font-size: 1.5em; } }
 
 /* carousel */
 #quote-carousel {
@@ -921,22 +945,38 @@ IF statement used from BOOK SASS and Compass for Designer
 .container-index-testimonial {
   margin: auto; }
 
-blockquote {
-  border: none;
-  font-size: 14px/20px;
-  padding: 20px;
-  margin: 20px;
-  background-image: url("http://oliverwebdesigns.com/UKCD/images/openquote1.png");
-  background-position: top left;
-  background-repeat: no-repeat;
-  text-indent: 23px; }
-
-blockquote span {
-  display: block;
-  background-image: url("http://oliverwebdesigns.com/UKCD/images/closequote1.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  margin-top: 10px; }
+#index-contact {
+  padding: 30px 0; }
+  #index-contact h1 {
+    font-size: 2em;
+    font-family: "futura-pt", sans-serif; }
+  #index-contact ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0; }
+    #index-contact ul li {
+      flex: 1; }
+    #index-contact ul img {
+      width: 100px;
+      height: 100px;
+      border-radius: 30%; }
+      @media only screen and (min-width: 48rem) {
+        #index-contact ul img {
+          width: 150px;
+          height: 150px; } }
+      @media only screen and (min-width: 76.25rem) {
+        #index-contact ul img {
+          width: 200px;
+          height: 200px; } }
+      @media only screen and (min-width: 87.5rem) {
+        #index-contact ul img {
+          width: 200px;
+          height: 200px; } }
 
 html, body {
   width: 100%;
