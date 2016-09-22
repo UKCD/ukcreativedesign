@@ -6,10 +6,14 @@
   h1 {
     @extend %big_title;
     font-weight: bold;
-    font-weight: 700;
-    color: black;
+    color: $Brightblue;
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 2.3em;
+    font-family: $secondary_font;
+
+    @include MQ (M) {
+      font-size: 3em;
+    };
 
   }
 
@@ -23,6 +27,11 @@
       font-size: 1.3em;
       margin: 1em 0;
       padding: 5px 0 35px 0;
+      font-weight: bold;
+
+      @include MQ (M) {
+        font-size: 2em;
+      };
     }
 
     button {
@@ -32,6 +41,11 @@
       font-size: 1em;
       color: white;
       font-family: $secondary_font;
+
+      a {
+        color:black;
+        font-weight: bold;
+      }
     }
 
 
