@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UKCD</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+
+	<link rel="shortcut icon" href="./favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/RGstyles.css" />
+
+	<script src="https://use.typekit.net/uwx0lnm.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<!-- <script src="https://use.typekit.net/bad3szz.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script> -->
+
+<style>
+.flex-grid {
+
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
+}
+
+#radio-box {
+    margin:4px;
+    float:left;
+}
+
+#radio-box label {
+    float:left;
+    margin:4px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    overflow:auto;
+}
+
+#radio-box label span {
+    text-align:center;
+    padding:13px 0px;
+    display:block;
+}
+
+/*hide the actual button*/
+#radio-box input {
+    visibility:hidden;
+}
+
+#radio-box label input {
+    position:absolute;
+    top:-20px;
+}
+
+#radio-box input:checked + span {
+    background-color:#404040;
+    color:#F7F7F7;
+}
+#radio-box .yellow {
+    background-color:#ffe576;
+    color:#333;
+}
+
+#radio-box .blue {
+    background-color:#16c1f8;
+    color:#333;
+}
+
+#radio-box .red {
+    background-color:#FD6C6E;
+    color:#333;
+}
+
+#radio-box .green {
+    background-color:#45C7BC;
+    color:#333;
+}
+
+#theTotal{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#rightColumn{
+  border: 3px solid blue;
+  padding: 5px;
+  margin: 15px;
+  min-height: 100px;
+}
+</style>
+
+
+</head>
+<body>
+  <div class="se-pre-con"></div><!--loader-->
+  				<!--navbar-->
+  				<nav id="menu1" class="navbar navbar-default navbar-fixed-top" style="z-index:999">
+  					<button id="trigger-overlay-m1" type="button" class="pull-left navbar-toggle">
+  						<span class="sr-only">Toggle navigation</span>
+  						<span class="icon-bar"></span>
+  						<span class="icon-bar"></span>
+  						<span class="icon-bar"></span>
+  					</button>
+  				</nav>
+
+  				<nav id="menu2" class="navbar navbar-default navbar-fixed-top" style="z-index:999">
+  					<button id="trigger-overlay-m2" type="button" class="pull-left navbar-toggle menu2-button">
+  						<span class="sr-only">Toggle navigation</span>
+  						<span class="icon-bar menu2-icon-bar"></span>
+  						<span class="icon-bar menu2-icon-bar"></span>
+  						<span class="icon-bar menu2-icon-bar"></span>
+  					</button>
+  				</nav>
+
+  		<!-- open/close -->
+  		<div class="overlay overlay-slidedown">
+  			<button type="button" class="overlay-close">Close</button>
+  			<nav>
+  				<ul>
+  					<li><a href="#">Home</a></li>
+  					<li><a href="#">About</a></li>
+  					<li><a href="#">Work</a></li>
+  					<li><a href="#">Pricing</a></li>
+  					<li><a href="#">Contact</a></li>
+  				</ul>
+  			</nav>
+        <div class="my_contact">
+        <div class="media">
+          <ul>
+            <li><a href="#"></a><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/52820/twitter_copy.png" alt="" /></a></li>
+            <li><a href="#"></a><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/52820/facebook.png" alt="" /></a></li>
+            <li><a href="#"></a><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/52820/instagram_copy.png" alt="" /></a></li>
+          </ul>
+        </div>
+        <div class="email">info@ukcreativedesign</div>
+        </div>
+  		</div>
+<!--END NAV-->
+
+
+<div class="container">
+  <div class="row">
+
+  <div class="col-sm-9">
+  <h2 class="pinkText headText">Type</h2>
+
+  <div  id="radio-box" class="flex-grid">
+    <div class="col">
+      <label class="blue">
+        <input name="websiteType" id="staticSite" type="radio" value="100">
+        <span>Static - I don't need to be able to update my site regularly or sell anything on it.</span>
+      </label>
+    </div>
+    <div class="col">
+      <label class="blue">
+        <input name="websiteType" id="wpSite" type="radio" value="300">
+        <span>Wordpress - I want to be able to log in to my website and update the content myself.</span>
+      </label>
+    </div>
+    <div class="col">
+        <label class="blue">
+          <input name="websiteType" id="eCommerceSite" type="radio" value="500">
+          <span>ECommerce - I need to be able to update my website myself and sell items from it.</span>
+        </label>
+    </div>
+  </div>
+
+   <h2>Pages</h2>
+
+      <input name="websitePages" id="onePage" type="radio" value="50"> 1 Page
+      <input name="websitePages" id="twoPage" type="radio" value="100"> 2 Pages
+      <input name="websitePages" id="threePage" type="radio" value="150"> 3 Pages
+      <input name="websitePages" id="fourPage" type="radio" value="200.50"> 4 Pages
+      <input name="websitePages" id="fivePage" type="radio" value="250"> 5 Pages
+      <input name="websitePages" id="sixPage" type="radio" value="300"> 6 Pages
+      <input name="websitePages" id="sevenPage" type="radio" value="350"> 7 Pages
+      <input name="websitePages" id="eightPage" type="radio" value="400"> 8 Pages
+      <input name="websitePages" id="ninePage" type="radio" value="450"> 9 Pages
+      <input name="websitePages" id="tenPage" type="radio" value="500"> 10 Pages
+      <input name="websitePages" id="overTenPage" type="radio" value="ERROR"> 10 + Pages
+      <input name="websitePages" id="unknownPage" type="radio" value="ERROR"> Don't Know
+
+    <h2>Image Gallery</h2>
+
+      <input name="websiteGallery" id="gallery" type="radio" value="50"> Include a scrollable image gallery.
+      <input name="websiteGallery" id="portfolio" type="radio" value="100">Include an image portfolio.
+
+    <h2>Other Options</h2>
+
+      <input name="websiteOther" id="mobileResponsive" type="checkbox" value="200"> My website should be mobile responsive.
+      <input name="websiteOther" id="logo" type="checkbox" value="300"> I need a new logo designed.
+      <input name="websiteOther" id="images" type="checkbox" value="ERROR"> I need you to provide all my images.
+
+    <h2>Digital Marketing & SEO</h2>
+
+      <input name="websiteMarketing" id="package1" type="radio" value="100">Package 1
+      <input name="websiteMarketing" id="package2" type="radio" value="200">Package 2
+      <input name="websiteMarketing" id="package3" type="radio" value="300">Package 3
+      <input name="websiteMarketing" id="packageNone" type="radio" value="0">I don't need any marketing done.
+
+
+</div><!--end column-->
+  <div class="col-sm-3">
+    <div id="rightColumn" >
+    <h2>Total</h2>
+    <div id="theTotal"></div>
+   </div>
+    </div>
+</div> <!--close row-->
+</div> <!--close container-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/slideMenu.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+
+//pricing calculator
+
+  function calculateTotal(){
+    var total = 0;
+    var checkedData = $('input:radio:checked').map(function(){
+      return $(this).val();
+    }).get();
+    var checkedData1 = $('input:checkbox:checked').map(function(){
+      return $(this).val();
+    }).get();
+
+    $.each(checkedData,function(){
+      total+=parseFloat(this) || 0;
+    });
+    $.each(checkedData1,function(){
+      total+=parseFloat(this) || 0;
+    });
+
+    if ( ( $.inArray('ERROR', checkedData) > -1 ) || ( $.inArray('ERROR', checkedData1) > -1 ) ) {
+      // the value is in the array
+      $('#theTotal').html('Please contact us for a quote.');
+    } else{
+      $('#theTotal').html(total);
+    }
+
+
+} //end calculateTotal function
+
+
+  $(document).on('change', 'input:radio, input:checkbox', function (event) {
+    calculateTotal();
+  });
+
+
+</script>
+</body>
+</html>
