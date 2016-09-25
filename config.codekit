@@ -941,8 +941,8 @@
 		"useLibsass": 0
 		},
 	"\/sass\/RGstyles.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
+		"createSourceMap": 1,
+		"debugStyle": 2,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,

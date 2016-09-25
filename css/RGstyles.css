@@ -1,6 +1,7 @@
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\000035}}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,36 +22,45 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
 html {
   line-height: 1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
 ol, ul {
   list-style: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
 q, blockquote {
   quotes: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
 a img {
   border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
 /*
 Typekit Fonts
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_placeholders\.scss}line{font-family:\000031}}
 #index-about .button, #index-work .index-work--header button, #index-work .portofolio .portofolio-footer button {
   border: none;
   padding: 15px 32px;
@@ -60,6 +70,7 @@ Typekit Fonts
   cursor: pointer;
   max-width: 200px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_placeholders\.scss}line{font-family:\0000312}}
 #index-about h1, #index-expertise h1, #index-work h1 {
   font-family: "futura-pt", sans-serif;
   font-size: 1.3em; }
@@ -72,14 +83,17 @@ Using REM Units
 IF statement used from BOOK SASS and Compass for Designer
 
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_helper\.scss}line{font-family:\000031}}
 .headText {
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: "futura-pt"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_helper\.scss}line{font-family:\000037}}
 .pinkText {
   color: #FD6C6E; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\000031}}
 .menu2-button {
   border-radius: 50%;
   width: 50px;
@@ -87,52 +101,64 @@ IF statement used from BOOK SASS and Compass for Designer
   background-color: #282E44; }
 
 /* show navbar button on all screen size and change colour of it */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\000038}}
 .navbar-header {
   float: none;
   background-color: white;
   opacity: 1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000313}}
 .navbar-default .navbar-toggle {
   border-color: transparent; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000316}}
 .navbar-toggle {
   display: block;
   margin-left: 10px; }
 
 /*the menu bars*/
 /*set the bar colour*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000323}}
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #16c1f8;
   border: 2px solid #16c1f8; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000328}}
 .menu2-icon-bar {
   margin-left: 3px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000331}}
 .navbar-collapse {
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000335}}
 .navbar-collapse.collapse {
   display: none !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000338}}
 #menu1 .navbar-nav {
   float: none !important;
   margin: 7.5px -15px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000342}}
 #menu1 .navbar-nav > li {
   float: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000345}}
 #menu1 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px; }
 
 /*transparent navbar*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000350}}
 .navbar-default {
   background-color: transparent;
   border-color: transparent; }
 
 /*menu text next to toggle*/
 @media only screen and (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000356}}
   #menu1 .navbar-toggle:before {
     content: "MENU";
     color: #07b5ed;
@@ -144,10 +170,12 @@ IF statement used from BOOK SASS and Compass for Designer
     width: 50px;
     font-family: "tenso", serif; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000372}}
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent; }
 
 /* Overlay style */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000377}}
 .overlay {
   position: fixed;
   width: 100%;
@@ -158,6 +186,7 @@ IF statement used from BOOK SASS and Compass for Designer
   z-index: 1000;
   display: flex;
   flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000388}}
   .overlay .my_contact {
     background-color: rgba(255, 255, 255, 0.7);
     width: 100%;
@@ -168,23 +197,29 @@ IF statement used from BOOK SASS and Compass for Designer
     text-align: center;
     position: absolute;
     bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\0000399}}
     .overlay .my_contact ul {
       display: flex;
       justify-content: center;
       align-items: center;
       margin: 25px 40px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003105}}
       .overlay .my_contact ul li {
         flex: 1;
         text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003110}}
     .overlay .my_contact img {
       width: 60px;
       height: auto; }
       @media all and (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003110}}
         .overlay .my_contact img {
           width: 80px; } }
       @media all and (min-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003110}}
         .overlay .my_contact img {
           width: 100px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003121}}
     .overlay .my_contact .email {
       text-align: center;
       margin-top: 20px;
@@ -192,13 +227,16 @@ IF statement used from BOOK SASS and Compass for Designer
       font-size: bold;
       padding-top: 15px; }
       @media all and (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003121}}
         .overlay .my_contact .email {
           font-size: 40px; } }
       @media all and (min-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003121}}
         .overlay .my_contact .email {
           font-size: 60px; } }
 
 /* Overlay closing cross */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003142}}
 .overlay .overlay-close {
   width: 80px;
   height: 80px;
@@ -214,6 +252,7 @@ IF statement used from BOOK SASS and Compass for Designer
   z-index: 1000; }
 
 /* Menu style */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003159}}
 .overlay nav {
   text-align: center;
   position: relative;
@@ -224,6 +263,7 @@ IF statement used from BOOK SASS and Compass for Designer
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003171}}
 .overlay ul {
   list-style: none;
   padding: 0;
@@ -232,6 +272,7 @@ IF statement used from BOOK SASS and Compass for Designer
   height: 100%;
   position: relative; }
   @media all and (min-width: 650px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003171}}
     .overlay ul {
       display: flex;
       flex-direction: row;
@@ -239,6 +280,7 @@ IF statement used from BOOK SASS and Compass for Designer
       align-items: center;
       margin: 0 10%; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003188}}
 .overlay ul li {
   display: block;
   height: 100%;
@@ -247,6 +289,7 @@ IF statement used from BOOK SASS and Compass for Designer
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003197}}
 .overlay ul li a {
   font-size: 30px;
   font-weight: 300;
@@ -255,17 +298,21 @@ IF statement used from BOOK SASS and Compass for Designer
   -webkit-transition: color 0.2s;
   transition: color 0.2s; }
   @media all and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003197}}
     .overlay ul li a {
       font-size: 35px; } }
   @media all and (min-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003197}}
     .overlay ul li a {
       font-size: 45px; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003213}}
 .overlay ul li a:hover,
 .overlay ul li a:focus {
   color: #e3fcb1; }
 
 /* Effects */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003219}}
 .overlay-slidedown {
   visibility: hidden;
   -webkit-transform: translateY(-100%);
@@ -273,6 +320,7 @@ IF statement used from BOOK SASS and Compass for Designer
   -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
   transition: transform 0.4s ease-in-out, visibility 0s 0.4s; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003227}}
 .overlay-slidedown.open {
   visibility: visible;
   -webkit-transform: translateY(0%);
@@ -281,12 +329,15 @@ IF statement used from BOOK SASS and Compass for Designer
   transition: transform 0.4s ease-in-out; }
 
 @media screen and (max-height: 30.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003236}}
   .overlay nav {
     height: 70%;
     font-size: 34px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_menu\.scss}line{font-family:\00003240}}
   .overlay ul li {
     min-height: 34px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\000031}}
 #splash {
   background: url("http://oliverwebdesigns.com/UKCD/images/background.jpeg") no-repeat center center;
   -webkit-background-size: cover;
@@ -300,6 +351,7 @@ IF statement used from BOOK SASS and Compass for Designer
   align-items: center;
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000318}}
 .branding {
   flex-direction: column;
   justify-content: center;
@@ -312,6 +364,7 @@ IF statement used from BOOK SASS and Compass for Designer
   color: white;
   font-family: "futura-pt", sans-serif; }
   @media only screen and (min-width: 37.5rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000318}}
     .branding {
       flex-direction: row;
       justify-content: center;
@@ -319,8 +372,10 @@ IF statement used from BOOK SASS and Compass for Designer
       margin-top: 5%;
       padding-left: 10%; } }
   @media only screen and (min-width: 76.25rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000318}}
     .branding {
       width: 220px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000345}}
   .branding .logo {
     min-height: 100%;
     flex: 0.5;
@@ -328,42 +383,53 @@ IF statement used from BOOK SASS and Compass for Designer
     justify-content: center;
     align-items: center;
     margin-right: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000356}}
     .branding .logo img {
       width: 150px;
       min-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000362}}
   .branding .big_title {
     flex: 2;
     display: flex;
     flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000369}}
     .branding .big_title h1 {
       font-size: 2.3em;
       font-weight: bold;
       min-width: 100%;
       margin-top: 15px; }
       @media only screen and (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000369}}
         .branding .big_title h1 {
           font-size: 3.5em; } }
       @media only screen and (min-width: 64rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000369}}
         .branding .big_title h1 {
           font-size: 4.2em; } }
       @media only screen and (min-width: 76.25rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000369}}
         .branding .big_title h1 {
           font-size: 5em; } }
       @media only screen and (min-width: 87.5rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000369}}
         .branding .big_title h1 {
           font-size: 6.2em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000388}}
     .branding .big_title h2 {
       color: #16c1f8;
       font-size: 1.8em;
       width: 100%;
       margin-top: 15px; }
       @media only screen and (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000388}}
         .branding .big_title h2 {
           font-size: 3.0em; } }
       @media only screen and (min-width: 76.25rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\0000388}}
         .branding .big_title h2 {
           font-size: 4em; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\00003107}}
 .index-footer {
   display: flex;
   justify-content: center;
@@ -371,6 +437,7 @@ IF statement used from BOOK SASS and Compass for Designer
   padding: 10px 0;
   min-width: 100%;
   margin-top: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\00003119}}
   .index-footer .headButton {
     height: auto;
     margin: 15px;
@@ -380,24 +447,29 @@ IF statement used from BOOK SASS and Compass for Designer
     font-size: 16px;
     font-family: "futura-pt", sans-serif;
     font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\00003129}}
     .index-footer .headButton a {
       color: #07b5ed; }
     @media only screen and (min-width: 37.5rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\00003119}}
       .index-footer .headButton {
         width: 150px;
         font-size: 16px; } }
     @media all and (min-width: 850px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\00003119}}
       .index-footer .headButton {
         width: 280px;
         font-size: 26px;
         padding: 15px 30px; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\00003151}}
 .main_arrow {
   width: 100%;
   position: relative;
   background-color: #fff; }
 
 /* the wrapper element that will become the outer circle */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\00003158}}
 .arrow-wrap {
   position: absolute;
   z-index: 1;
@@ -414,6 +486,7 @@ IF statement used from BOOK SASS and Compass for Designer
   box-shadow: 0px 0px 5px 0px #333; }
 
 /* a triangle to make the main part of the arrow. Adjust the border-color to fit your needs */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\00003175}}
 .arrow {
   float: left;
   position: relative;
@@ -426,6 +499,7 @@ IF statement used from BOOK SASS and Compass for Designer
   /* added for better anti-aliasing on webkit browsers */ }
 
 /* a pseudo element arrow placed on top of the other one with the same color as the wrapper */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_header\.scss}line{font-family:\00003187}}
 .arrow:after {
   content: '';
   position: absolute;
@@ -439,29 +513,36 @@ IF statement used from BOOK SASS and Compass for Designer
   -webkit-transform: rotate(360deg);
   /* added for better anti-aliasing on webkit browsers */ }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\000031}}
 #index-about {
   padding: 60px 15px;
   font-family: "futura-pt", sans-serif;
   font-size: 16px; }
   @media only screen and (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\000031}}
     #index-about {
       font-size: 20px;
       padding: 60px 35px; } }
   @media only screen and (min-width: 64rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\000031}}
     #index-about {
       font-size: 25px;
       padding: 60px 65px; } }
   @media only screen and (min-width: 87.5rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\000031}}
     #index-about {
       font-size: 30px;
       padding: 60px 165px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\0000323}}
   #index-about h1 {
     font-weight: 700;
     color: #FD6C6E; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\0000329}}
   #index-about h2 {
     font-family: "futura-pt", sans-serif;
     font-size: 0.9em;
     margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\0000335}}
   #index-about p {
     font-size: 0.8em;
     line-height: 1.3;
@@ -469,35 +550,44 @@ IF statement used from BOOK SASS and Compass for Designer
     font-weight: 400;
     color: #595959; }
     @media only screen and (min-width: 64rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\0000335}}
       #index-about p {
         line-height: 1.4;
         color: #8c8c8c; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\0000349}}
   #index-about .buttonHolder {
     margin: 60px auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\0000353}}
   #index-about .button {
     background-color: #282E44;
     font-size: 1em;
     color: white;
     font-family: "futura-pt", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\0000365}}
   #index-about .btn-blue:hover,
   #index-about .btn-blue:focus {
     color: #FD6C6E;
     text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_index_about\.scss}line{font-family:\0000372}}
   #index-about .btn-pink:hover,
   #index-about .btn-pink:focus {
     color: #282E44;
     text-decoration: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\000031}}
 #index-expertise {
   display: flex;
   flex-direction: column;
   font-size: 16px; }
   @media only screen and (min-width: 76.25rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\000031}}
     #index-expertise {
       font-size: 20px; } }
   @media only screen and (min-width: 87.5rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\000031}}
     #index-expertise {
       font-size: 26px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000313}}
   #index-expertise h1 {
     color: green;
     font-weight: bold;
@@ -505,16 +595,21 @@ IF statement used from BOOK SASS and Compass for Designer
     color: #55CDC3;
     margin-bottom: 80px;
     font-size: 1.8em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000323}}
   #index-expertise .expertise {
     /* Header Style */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000325}}
     #index-expertise .expertise h1 {
       color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000328}}
     #index-expertise .expertise .top, #index-expertise .expertise .bottom {
       display: flex;
       flex-direction: column; }
       @media only screen and (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000328}}
         #index-expertise .expertise .top, #index-expertise .expertise .bottom {
           flex-direction: row; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000339}}
     #index-expertise .expertise .menu {
       display: flex;
       flex: 1;
@@ -523,18 +618,24 @@ IF statement used from BOOK SASS and Compass for Designer
       align-items: center;
       height: 450px;
       color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000351}}
       #index-expertise .expertise .menu img {
         width: 200px;
         height: 200px;
         padding: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000358}}
     #index-expertise .expertise .menu1 {
       background-color: #282E44; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000362}}
     #index-expertise .expertise .menu2 {
       background-color: #45C7BC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000365}}
     #index-expertise .expertise .menu3 {
       background-color: #ffe576; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000368}}
     #index-expertise .expertise .menu4 {
       background-color: #FD6C6E; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000372}}
     #index-expertise .expertise .view {
       margin: 0;
       overflow: hidden;
@@ -544,6 +645,7 @@ IF statement used from BOOK SASS and Compass for Designer
       -moz-box-shadow: 1px 1px 2px #e6e6e6;
       box-shadow: 1px 1px 2px #e6e6e6;
       cursor: default; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000383}}
     #index-expertise .expertise .view .mask, #index-expertise .expertise .view .content {
       width: 100%;
       height: 100%;
@@ -551,6 +653,7 @@ IF statement used from BOOK SASS and Compass for Designer
       overflow: hidden;
       top: 0;
       left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\0000392}}
     #index-expertise .expertise .view h2 {
       text-transform: uppercase;
       color: #fff;
@@ -560,6 +663,7 @@ IF statement used from BOOK SASS and Compass for Designer
       padding: 10px;
       background: rgba(0, 0, 0, 0.8);
       margin: 20px 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003102}}
     #index-expertise .expertise .view p {
       font-family: Georgia, serif;
       font-style: italic;
@@ -568,6 +672,7 @@ IF statement used from BOOK SASS and Compass for Designer
       color: #fff;
       padding: 10px 20px 20px;
       text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003111}}
     #index-expertise .expertise .view a.info {
       display: inline-block;
       text-decoration: none;
@@ -578,12 +683,15 @@ IF statement used from BOOK SASS and Compass for Designer
       -webkit-box-shadow: 0 0 1px #000;
       -moz-box-shadow: 0 0 1px #000;
       box-shadow: 0 0 1px #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003122}}
     #index-expertise .expertise .view a.info:hover {
       -webkit-box-shadow: 0 0 5px #000;
       -moz-box-shadow: 0 0 5px #000;
       box-shadow: 0 0 5px #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003129}}
     #index-expertise .expertise .clr {
       clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003135}}
     #index-expertise .expertise .header {
       font-family: 'Arial Narrow', Arial, sans-serif;
       line-height: 24px;
@@ -596,19 +704,24 @@ IF statement used from BOOK SASS and Compass for Designer
       -moz-box-shadow: 1px 0px 2px #000;
       -webkit-box-shadow: 1px 0px 2px #000;
       box-shadow: 1px 0px 2px #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003148}}
     #index-expertise .expertise .header a {
       padding: 0px 10px;
       letter-spacing: 1px;
       color: #ddd;
       display: block;
       float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003155}}
     #index-expertise .expertise .header a:hover {
       color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003158}}
     #index-expertise .expertise .header span.right {
       float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003161}}
     #index-expertise .expertise .header span.right a {
       float: none;
       display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003166}}
     #index-expertise .expertise .more {
       position: relative;
       clear: both;
@@ -618,19 +731,23 @@ IF statement used from BOOK SASS and Compass for Designer
       padding: 5px 0px 10px;
       width: 540px;
       margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003176}}
     #index-expertise .expertise .more ul {
       display: block;
       text-align: center;
       height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003181}}
     #index-expertise .expertise .more ul li {
       display: block;
       padding: 4px 2px;
       float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003186}}
     #index-expertise .expertise .more ul li.selected a,
     #index-expertise .expertise .more ul li.selected a:hover {
       background: #b2891b;
       color: #fff;
       text-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003192}}
     #index-expertise .expertise .more ul li a {
       color: #555;
       float: left;
@@ -640,9 +757,11 @@ IF statement used from BOOK SASS and Compass for Designer
       -moz-box-shadow: 1px 1px 2px #aaa;
       -webkit-box-shadow: 1px 1px 2px #aaa;
       box-shadow: 1px 1px 2px #aaa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003202}}
     #index-expertise .expertise .more ul li a:hover {
       background: #000;
       color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003207}}
     #index-expertise .expertise .view-eighth .mask {
       background-color: rgba(255, 255, 255, 0.7);
       top: -200px;
@@ -659,6 +778,7 @@ IF statement used from BOOK SASS and Compass for Designer
       flex-direction: column;
       justify-content: center;
       align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003224}}
     #index-expertise .expertise .view-eighth h2 {
       -webkit-transform: translateY(-200px);
       -moz-transform: translateY(-200px);
@@ -670,6 +790,7 @@ IF statement used from BOOK SASS and Compass for Designer
       -o-transition: all 0.2s ease-in-out 0.1s;
       -ms-transition: all 0.2s ease-in-out 0.1s;
       transition: all 0.2s ease-in-out 0.1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003236}}
     #index-expertise .expertise .view-eighth p {
       color: #333;
       font-size: 30px;
@@ -683,6 +804,7 @@ IF statement used from BOOK SASS and Compass for Designer
       -o-transition: all 0.2s ease-in-out 0.2s;
       -ms-transition: all 0.2s ease-in-out 0.2s;
       transition: all 0.2s ease-in-out 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003250}}
     #index-expertise .expertise .view-eighth a.info {
       -webkit-transform: translateY(-200px);
       -moz-transform: translateY(-200px);
@@ -695,6 +817,7 @@ IF statement used from BOOK SASS and Compass for Designer
       -ms-transition: all 0.2s ease-in-out 0.3s;
       transition: all 0.2s ease-in-out 0.3s;
       width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003263}}
     #index-expertise .expertise .view-eighth:hover .mask {
       -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
       filter: alpha(opacity=100);
@@ -709,6 +832,7 @@ IF statement used from BOOK SASS and Compass for Designer
       -moz-animation: bounceY 0.9s linear;
       -ms-animation: bounceY 0.9s linear;
       animation: bounceY 0.9s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003278}}
     #index-expertise .expertise .view-eighth:hover h2 {
       -webkit-transform: translateY(0px);
       -moz-transform: translateY(0px);
@@ -720,6 +844,7 @@ IF statement used from BOOK SASS and Compass for Designer
       -o-transition-delay: 0.4s;
       -ms-transition-delay: 0.4s;
       transition-delay: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003290}}
     #index-expertise .expertise .view-eighth:hover p {
       -webkit-transform: translateY(0px);
       -moz-transform: translateY(0px);
@@ -731,6 +856,7 @@ IF statement used from BOOK SASS and Compass for Designer
       -o-transition-delay: 0.2s;
       -ms-transition-delay: 0.2s;
       transition-delay: 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_expertise\.scss}line{font-family:\00003302}}
     #index-expertise .expertise .view-eighth:hover a.info {
       -webkit-transform: translateY(0px);
       -moz-transform: translateY(0px);
@@ -785,9 +911,11 @@ IF statement used from BOOK SASS and Compass for Designer
     -webkit-transform: translateY(-12px); }
   55%, 75%, 87%, 97%, 100% {
     -webkit-transform: translateY(0px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\000031}}
 #index-work {
   font-size: 16px;
   padding: 60px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\000036}}
   #index-work h1 {
     font-weight: bold;
     color: #16c1f8;
@@ -795,10 +923,13 @@ IF statement used from BOOK SASS and Compass for Designer
     font-size: 2.3em;
     font-family: "futura-pt", sans-serif; }
     @media only screen and (min-width: 64rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\000036}}
       #index-work h1 {
         font-size: 2.5em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000320}}
   #index-work .index-work--header {
     margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000325}}
     #index-work .index-work--header h2 {
       font-family: "futura-pt", sans-serif;
       font-size: 1.3em;
@@ -806,24 +937,28 @@ IF statement used from BOOK SASS and Compass for Designer
       padding: 5px 0 35px 0;
       font-weight: bold; }
       @media only screen and (min-width: 64rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000325}}
         #index-work .index-work--header h2 {
           font-size: 2em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000337}}
     #index-work .index-work--header button {
       background-color: #ffe576;
       margin: 20px 0 30px 0;
       font-size: 1em;
       color: white;
       font-family: "futura-pt", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000345}}
       #index-work .index-work--header button a {
         color: black;
         font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000354}}
   #index-work .portofolio {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     min-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000362}}
     #index-work .portofolio .portofolio-section {
-      flex: 1 1 300px;
       display: -webkit-flex;
       display: -moz-flex;
       display: -ms-flex;
@@ -835,39 +970,39 @@ IF statement used from BOOK SASS and Compass for Designer
       align-items: center;
       padding: 60px 0 10px 0;
       border-bottom: 2px solid lightgrey; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000377}}
       #index-work .portofolio .portofolio-section a {
         color: #45C7BC;
         text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000384}}
       #index-work .portofolio .portofolio-section:nth-child(1) {
         background-color: #F1F1F1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000387}}
         #index-work .portofolio .portofolio-section:nth-child(1) a {
           color: #FD6C6E; }
-        @media only screen and (min-width: 48rem) {
-          #index-work .portofolio .portofolio-section:nth-child(1) .portofolio-header {
-            justify-content: flex-start;
-            margin-left: 70px;
-            margin-right: 0px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000393}}
       #index-work .portofolio .portofolio-section:nth-child(3) {
         background-color: #F1F1F1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\0000396}}
         #index-work .portofolio .portofolio-section:nth-child(3) a {
           color: #FD6C6E; }
-        @media only screen and (min-width: 48rem) {
-          #index-work .portofolio .portofolio-section:nth-child(3) .portofolio-header {
-            justify-content: flex-start;
-            margin-left: 120px;
-            margin-right: 0px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003104}}
       #index-work .portofolio .portofolio-section:nth-child(4) {
         border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003111}}
       #index-work .portofolio .portofolio-section:nth-child(even) h1 {
         align-self: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003114}}
       #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body {
         display: -webkit-flex;
         display: -moz-flex;
         display: -ms-flex;
         display: -o-flex;
         display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003120}}
         #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body img {
           order: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003128}}
     #index-work .portofolio .portofolio-body {
       display: -webkit-flex;
       display: -moz-flex;
@@ -879,30 +1014,29 @@ IF statement used from BOOK SASS and Compass for Designer
       align-items: center;
       margin: 35px 0; }
       @media only screen and (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003128}}
         #index-work .portofolio .portofolio-body {
           flex-direction: row;
           margin-top: 25px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003144}}
       #index-work .portofolio .portofolio-body p {
         font-family: "tenso", serif;
         padding: 15px 40px;
         font-size: 1.2em; }
         @media only screen and (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003144}}
           #index-work .portofolio .portofolio-body p {
             text-align: left; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003157}}
     #index-work .portofolio .portfolio-img {
       width: 332px;
       height: 250px;
       margin: 70px 0; }
       @media only screen and (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003157}}
         #index-work .portofolio .portfolio-img {
           margin: 0 10px 0 20px; } }
-    @media only screen and (min-width: 48rem) {
-      #index-work .portofolio .portofolio-header {
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-        margin-right: 60px;
-        margin-left: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003170}}
     #index-work .portofolio .portofolio-footer {
       display: -webkit-flex;
       display: -moz-flex;
@@ -912,11 +1046,13 @@ IF statement used from BOOK SASS and Compass for Designer
       justify-content: flex-end;
       align-items: flex-end;
       min-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_portofolio\.scss}line{font-family:\00003181}}
       #index-work .portofolio .portofolio-footer button {
         background-color: #282E44;
         color: white;
         margin: 60px 10px 5px 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_testimonials\.scss}line{font-family:\000031}}
 #index-testimonial {
   background-color: #59cdc3;
   display: -webkit-flex;
@@ -927,16 +1063,19 @@ IF statement used from BOOK SASS and Compass for Designer
   height: 400px;
   font-family: "tenso", serif;
   font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_testimonials\.scss}line{font-family:\0000316}}
   #index-testimonial p {
     margin: 20px 0 30px 0;
     color: black;
     font-family: "tenso", serif;
     font-style: italic; }
     @media only screen and (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_testimonials\.scss}line{font-family:\0000316}}
       #index-testimonial p {
         font-size: 1.5em; } }
 
 /* carousel */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_testimonials\.scss}line{font-family:\0000331}}
 #quote-carousel {
   padding: 0 10px 30px 10px;
   margin-top: 30px;
@@ -944,6 +1083,7 @@ IF statement used from BOOK SASS and Compass for Designer
   height: 100%; }
 
 /* indicator position */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_testimonials\.scss}line{font-family:\0000338}}
 #quote-carousel .carousel-indicators {
   right: 50%;
   top: auto;
@@ -951,21 +1091,26 @@ IF statement used from BOOK SASS and Compass for Designer
   margin-right: -19px; }
 
 /* indicator color */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_testimonials\.scss}line{font-family:\0000345}}
 #quote-carousel .carousel-indicators li {
   background: #c0c0c0; }
 
 /* active indicator */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_testimonials\.scss}line{font-family:\0000349}}
 #quote-carousel .carousel-indicators .active {
   background: #333333;
   height: 10px;
   width: 10px;
   margin-bottom: 1px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_testimonials\.scss}line{font-family:\0000355}}
 .container-index-testimonial {
   margin: auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_contact\.scss}line{font-family:\000031}}
 #index-contact {
   padding: 30px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_contact\.scss}line{font-family:\000035}}
   #index-contact h1 {
     font-weight: bold;
     color: #16c1f8;
@@ -973,8 +1118,10 @@ IF statement used from BOOK SASS and Compass for Designer
     font-size: 3.3em;
     font-family: "futura-pt", sans-serif; }
     @media only screen and (min-width: 64rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_contact\.scss}line{font-family:\000035}}
       #index-contact h1 {
         font-size: 3em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_contact\.scss}line{font-family:\0000318}}
   #index-contact ul {
     display: -webkit-flex;
     display: -moz-flex;
@@ -984,42 +1131,52 @@ IF statement used from BOOK SASS and Compass for Designer
     justify-content: center;
     align-items: center;
     margin: 35px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_contact\.scss}line{font-family:\0000334}}
     #index-contact ul li {
       flex: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_contact\.scss}line{font-family:\0000338}}
     #index-contact ul img {
       width: 100px;
       height: 100px;
       border-radius: 30%; }
       @media only screen and (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_contact\.scss}line{font-family:\0000338}}
         #index-contact ul img {
           width: 150px;
           height: 150px; } }
       @media only screen and (min-width: 76.25rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_contact\.scss}line{font-family:\0000338}}
         #index-contact ul img {
           width: 200px;
           height: 200px; } }
       @media only screen and (min-width: 87.5rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_contact\.scss}line{font-family:\0000338}}
         #index-contact ul img {
           width: 200px;
           height: 200px; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/layout\/_sticky-footer\.scss}line{font-family:\0000310}}
 html, body {
   height: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/layout\/_sticky-footer\.scss}line{font-family:\0000312}}
 #root {
   clear: both;
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin-bottom: -44px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/layout\/_sticky-footer\.scss}line{font-family:\0000318}}
   #root #root_footer {
     height: 44px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Romain\/Desktop\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/layout\/_sticky-footer\.scss}line{font-family:\0000320}}
 #footer {
   clear: both;
   position: relative;
   height: 44px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/partials\/_footer\.scss}line{font-family:\000033}}
 #footer {
   background-color: #0B6EF4;
   display: -webkit-flex;
@@ -1030,6 +1187,7 @@ html, body {
   align-items: center;
   padding-left: 20px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/RGstyles\.scss}line{font-family:\0000326}}
 html, body {
   width: 100%;
   height: 100%;
@@ -1040,14 +1198,20 @@ html, body {
   font-size: 16px;
   text-align: center;
   box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/RGstyles\.scss}line{font-family:\0000338}}
   html a, body a {
     text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/RGstyles\.scss}line{font-family:\0000341}}
     html a:hover, body a:hover {
       text-decoration: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/RGstyles\.scss}line{font-family:\0000347}}
 .container {
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ukcreativedesign\/sass\/RGstyles\.scss}line{font-family:\0000353}}
 img {
   max-width: 100%;
   height: auto; }
+
+/*# sourceMappingURL=RGstyles.css.map */

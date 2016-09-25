@@ -60,7 +60,7 @@
 
 
 .portofolio-section {
-flex: 1 1 300px;
+
 display: -webkit-flex;
 display: -moz-flex;
 display: -ms-flex;
@@ -88,16 +88,6 @@ a {
      color:$pinkText;
   }
 
- .portofolio-header {
-
-   @include MQ (S){;
-   justify-content: flex-start;
-   margin-left: 70px;
-     margin-right: 0px;
-}
-
- }
-
 }
 
 &:nth-child(3) {
@@ -107,15 +97,6 @@ a {
     color:$pinkText;
   }
 
-  .portofolio-header {
-
-    @include MQ (S){;
-    justify-content: flex-start;
-    margin-left: 120px;
-    margin-right: 0px;
- }
-
-  }
 
 
 }
@@ -184,20 +165,7 @@ a {
 
 }
 
-.portofolio-header {
 
-  @include MQ (S) {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    margin-right: 60px;
-    margin-left: 0;
-
-
-
-  }
-
-}
 
  .portofolio-footer {
 
