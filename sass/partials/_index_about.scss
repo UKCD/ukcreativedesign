@@ -19,7 +19,6 @@
 
   };
 
-
   h1 {
     @extend %big_title;
     font-weight: 700;
@@ -59,9 +58,6 @@
 
   }
 
-
-
-
   .btn-blue:hover,
   .btn-blue:focus {
   	color: #FD6C6E;
@@ -75,7 +71,4 @@
   	text-decoration: none;
 
   }
-
-
-
 } //index-about

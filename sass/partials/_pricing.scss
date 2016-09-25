@@ -1,0 +1,106 @@
+.pricingContainer {
+  padding: 20px;
+}
+
+.flex-grid {
+  display: flex;
+	justify-content: space-between;
+	margin: 0 0 20px 0;
+	padding:5px;
+}
+.col {
+  background: #16c1f8;
+  min-height: 50px;
+	margin:5px;
+}
+.flex-grid .col {
+  flex: 1;
+}
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+	padding:5px;
+}
+
+.flex-grid-thirds .col {
+  width: 32%;
+  margin-top: 10px;
+}
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+
+  }
+	.flex-grid-thirds .col {
+		width: 100%;
+
+	}
+	.flex-grid-thirds .col {
+		width: 100%;
+
+	}.flex-grid .col {
+		width: 100%;
+
+	}
+}
+
+/*hide the actual button*/
+#radio-box input {
+    visibility:hidden;
+}
+/*change the color on check*/
+#radio-box input:checked + span {
+    background-color:#404040;
+    color:#F7F7F7;
+    text-align:center;
+    display:block;
+}
+/*set the label size*/
+#radio-box label {
+    overflow:auto;
+    min-width:100%;
+    height: 100%;
+    margin-bottom:-5px;
+}
+/*make buttons fatter*/
+#radio-box label span {
+    text-align:center;
+    padding:20px 0px;
+    display:block;
+    min-height: 50px;
+    margin: 0px;
+}
+/*position text*/
+#radio-box label input {
+    position:absolute;
+    top:-20px;
+}
+
+
+#radio-box .yellow {
+    background-color:#ffe576;
+    color:#333;
+}
+
+#radio-box .blue {
+    background-color:#16c1f8;
+    color:#333;
+}
+
+#radio-box .red {
+    background-color:#FD6C6E;
+    color:#333;
+}
+
+#radio-box .green {
+    background-color:#45C7BC;
+    color:#333;
+}
+
+#totalDiv {
+  border: 5px solid #16c1f8;
+  min-height: 50px;
+  padding: 20px;
+}

@@ -19,88 +19,6 @@
 	<!-- <script src="https://use.typekit.net/bad3szz.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
 
-<style>
-.flex-grid {
-
-  display: flex;
-}
-.col {
-  flex: 1;
-}
-
-@media (max-width: 400px) {
-  .flex-grid {
-    display: block;
-  }
-}
-
-#radio-box {
-    margin:4px;
-    float:left;
-}
-
-#radio-box label {
-    float:left;
-    margin:4px;
-    background-color:#EFEFEF;
-    border-radius:4px;
-    overflow:auto;
-}
-
-#radio-box label span {
-    text-align:center;
-    padding:13px 0px;
-    display:block;
-}
-
-/*hide the actual button*/
-#radio-box input {
-    visibility:hidden;
-}
-
-#radio-box label input {
-    position:absolute;
-    top:-20px;
-}
-
-#radio-box input:checked + span {
-    background-color:#404040;
-    color:#F7F7F7;
-}
-#radio-box .yellow {
-    background-color:#ffe576;
-    color:#333;
-}
-
-#radio-box .blue {
-    background-color:#16c1f8;
-    color:#333;
-}
-
-#radio-box .red {
-    background-color:#FD6C6E;
-    color:#333;
-}
-
-#radio-box .green {
-    background-color:#45C7BC;
-    color:#333;
-}
-
-#theTotal{
-  font-weight: bold;
-  font-size: 18px;
-}
-
-#rightColumn{
-  border: 3px solid blue;
-  padding: 5px;
-  margin: 15px;
-  min-height: 100px;
-}
-</style>
-
-
 </head>
 <body>
   <div class="se-pre-con"></div><!--loader-->
@@ -148,77 +66,203 @@
   		</div>
 <!--END NAV-->
 
+<h1 class="darkBlueText headText">Pricing</h1>
 
-<div class="container">
-  <div class="row">
+<div class="underline"></div>
 
-  <div class="col-sm-9">
-  <h2 class="pinkText headText">Type</h2>
+<div class="pricingContainer">
+	<h2 class="darkBlueText subHeadText">Step 1: Type of Website</h2>
+	<p>Please select the type of website that you need. If you need a website that you can't edit or sell from please select "Static". If you want to be able to edit your website yourself, please select "Wordpress". If you want to sell goods from your website, please select "ECommerce".</p>
 
   <div  id="radio-box" class="flex-grid">
     <div class="col">
-      <label class="blue">
+      <label class="yellow">
         <input name="websiteType" id="staticSite" type="radio" value="100">
-        <span>Static - I don't need to be able to update my site regularly or sell anything on it.</span>
+        <span>Static</span>
       </label>
     </div>
     <div class="col">
-      <label class="blue">
+      <label class="yellow">
         <input name="websiteType" id="wpSite" type="radio" value="300">
-        <span>Wordpress - I want to be able to log in to my website and update the content myself.</span>
+        <span>Wordpress</span>
       </label>
     </div>
     <div class="col">
-        <label class="blue">
+        <label class="yellow">
           <input name="websiteType" id="eCommerceSite" type="radio" value="500">
-          <span>ECommerce - I need to be able to update my website myself and sell items from it.</span>
+          <span>ECommerce</span>
         </label>
     </div>
-  </div>
+  </div> <!--close radio-box-->
 
-   <h2>Pages</h2>
+   <h2 class="darkBlueText subHeadText">Step 2: Number of Pages</h2>
+	 <p>Please select the approximate number of pages you will have on your website.</p>
+	 <div  id="radio-box" class="flex-grid-thirds">
+	 	<div class="col">
+	 		<label class="green">
+				<input name="websitePages" id="onePage" type="radio" value="50">
+				<span>1 Page</span>
+	 		</label>
+	 	</div>
+	 	<div class="col">
+	 		<label class="green">
+				<input name="websitePages" id="twoPage" type="radio" value="100">
+				<span>2 Pages</span>
+	 		</label>
+	 	</div>
+	 	<div class="col">
+	 			<label class="green">
+					<input name="websitePages" id="threePage" type="radio" value="150">
+					<span>3 Pages</span>
+	 			</label>
+	 	</div>
+	 </div>
+	<div  id="radio-box" class="flex-grid-thirds">
+		<div class="col">
+			<label class="green">
+      	<input name="websitePages" id="fourPage" type="radio" value="200.50">
+				<span>4 Pages</span>
+			</label>
+		</div>
+		<div class="col">
+			<label class="green">
+	      <input name="websitePages" id="fivePage" type="radio" value="250">
+				<span>5 Pages</span>
+			</label>
+		</div>
+		<div class="col">
+			<label class="green">
+      	<input name="websitePages" id="sixPage" type="radio" value="300">
+				<span>6 Pages</span>
+			</label>
+		</div>
+	</div>
+	<div  id="radio-box" class="flex-grid-thirds">
+		<div class="col">
+			<label class="green">
+	      <input name="websitePages" id="sevenPage" type="radio" value="350">
+				<span>7 Pages</span>
+			</label>
+		</div>
+		<div class="col">
+			<label class="green">
+	      <input name="websitePages" id="eightPage" type="radio" value="400">
+				<span>8 Pages</span>
+			</label>
+		</div>
+		<div class="col">
+			<label class="green">
+	      <input name="websitePages" id="ninePage" type="radio" value="450">
+				<span>9 Pages</span>
+			</label>
+		</div>
+	</div>
+	<div  id="radio-box" class="flex-grid-thirds">
+		<div class="col">
+			<label class="green">
+	      <input name="websitePages" id="tenPage" type="radio" value="500">
+				<span>10 Pages</span>
+			</label>
+		</div>
+		<div class="col">
+			<label class="green">
+	      <input name="websitePages" id="overTenPage" type="radio" value="ERROR">
+				<span>11+</span>
+			</label>
+		</div>
+		<div class="col">
+			<label class="green">
+	      <input name="websitePages" id="unknownPage" type="radio" value="ERROR">
+				<span>Don't Know</span>
+			</label>
+		</div>
+	</div>
 
-      <input name="websitePages" id="onePage" type="radio" value="50"> 1 Page
-      <input name="websitePages" id="twoPage" type="radio" value="100"> 2 Pages
-      <input name="websitePages" id="threePage" type="radio" value="150"> 3 Pages
-      <input name="websitePages" id="fourPage" type="radio" value="200.50"> 4 Pages
-      <input name="websitePages" id="fivePage" type="radio" value="250"> 5 Pages
-      <input name="websitePages" id="sixPage" type="radio" value="300"> 6 Pages
-      <input name="websitePages" id="sevenPage" type="radio" value="350"> 7 Pages
-      <input name="websitePages" id="eightPage" type="radio" value="400"> 8 Pages
-      <input name="websitePages" id="ninePage" type="radio" value="450"> 9 Pages
-      <input name="websitePages" id="tenPage" type="radio" value="500"> 10 Pages
-      <input name="websitePages" id="overTenPage" type="radio" value="ERROR"> 10 + Pages
-      <input name="websitePages" id="unknownPage" type="radio" value="ERROR"> Don't Know
 
-    <h2>Image Gallery</h2>
+  <h2 class="darkBlueText subHeadText">Step 3: Image Gallery</h2>
+	<p>If you need an image gallery, please select from one of the following options.</p>
+	<div  id="radio-box" class="flex-grid">
+    <div class="col">
+      <label class="blue">
+				<input name="websiteGallery" id="gallery" type="radio" value="50">
+				<span>Scrollable image gallery.</span>
+			</label>
+		</div>
+		<div class="col">
+		  <label class="blue">
+      	<input name="websiteGallery" id="portfolio" type="radio" value="100">
+				<span>Image portfolio</span>
+			</label>
+		</div>
+		<div class="col">
+		  <label class="blue">
+      	<input name="websiteGallery" id="imageNone" type="radio" value="0">
+				<span>None</span>
+			</label>
+		</div>
+	</div> <!--close radio-box-->
 
-      <input name="websiteGallery" id="gallery" type="radio" value="50"> Include a scrollable image gallery.
-      <input name="websiteGallery" id="portfolio" type="radio" value="100">Include an image portfolio.
+    <h2 class="darkBlueText subHeadText">Step 4: Other Options</h2>
+		<div  id="radio-box" class="flex-grid">
+			<div class="col">
+				<label class="red">
+		      <input name="websiteOther" id="mobileResponsive" type="checkbox" value="200">
+					<span>Mobile responsive</span>
+			</label>
+		</div>
+			<div class="col">
+				<label class="red">
+	      	<input name="websiteOther" id="logo" type="checkbox" value="300">
+					<span>New logo design</span>
+				</label>
+			</div>
+			<div class="col">
+				<label class="red">
+	      	<input name="websiteOther" id="images" type="checkbox" value="ERROR">
+					<span>Provide my images</span>
+				</label>
+			</div>
+	</div> <!--close radio-box-->
 
-    <h2>Other Options</h2>
+    <h2 class="darkBlueText subHeadText">Step 5: Digital Marketing & SEO</h2>
+		<p>Please select the level of digital marketing you will need. For more information about our different packages, please refer to our <a href ="#">Digital Marketing and SEO</a> page.</p>
+		<div  id="radio-box" class="flex-grid">
+			<div class="col">
+				<label class="yellow">
+	      	<input name="websiteMarketing" id="package1" type="radio" value="100">
+					<span>Package 1</span>
+				</label>
+			</div>
+			<div class="col">
+				<label class="yellow">
+		      <input name="websiteMarketing" id="package2" type="radio" value="200">
+					<span>Package 2</span>
+				</label>
+			</div>
+			<div class="col">
+				<label class="yellow">
+		      <input name="websiteMarketing" id="package3" type="radio" value="300">
+					<span>Package 3</span>
+				</label>
+			</div>
+			<div class="col">
+				<label class="yellow">
+		      <input name="websiteMarketing" id="packageNone" type="radio" value="0">
+					<span>None</span>
+				</label>
+			</div>
+</div> <!--close radio-box-->
 
-      <input name="websiteOther" id="mobileResponsive" type="checkbox" value="200"> My website should be mobile responsive.
-      <input name="websiteOther" id="logo" type="checkbox" value="300"> I need a new logo designed.
-      <input name="websiteOther" id="images" type="checkbox" value="ERROR"> I need you to provide all my images.
 
-    <h2>Digital Marketing & SEO</h2>
-
-      <input name="websiteMarketing" id="package1" type="radio" value="100">Package 1
-      <input name="websiteMarketing" id="package2" type="radio" value="200">Package 2
-      <input name="websiteMarketing" id="package3" type="radio" value="300">Package 3
-      <input name="websiteMarketing" id="packageNone" type="radio" value="0">I don't need any marketing done.
-
-
-</div><!--end column-->
-  <div class="col-sm-3">
-    <div id="rightColumn" >
-    <h2>Total</h2>
-    <div id="theTotal"></div>
+    <div id="totalDiv" >
+    <h2 class="darkBlueText subHeadText">Estimate</h2>
+    <h2 class="pinkText subHeadText" id="theTotal"></h2>
+		<p class="pinkText">This is not a final quote. Please contact us for a full consultation.</p>
    </div>
-    </div>
-</div> <!--close row-->
-</div> <!--close container-->
+
+
+</div><!--close pricing container-->
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
