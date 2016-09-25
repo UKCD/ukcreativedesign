@@ -796,7 +796,7 @@ IF statement used from BOOK SASS and Compass for Designer
     font-family: "futura-pt", sans-serif; }
     @media only screen and (min-width: 64rem) {
       #index-work h1 {
-        font-size: 3em; } }
+        font-size: 2.5em; } }
   #index-work .index-work--header {
     margin: 0 auto; }
     #index-work .index-work--header h2 {
@@ -842,12 +842,24 @@ IF statement used from BOOK SASS and Compass for Designer
         background-color: #F1F1F1; }
         #index-work .portofolio .portofolio-section:nth-child(1) a {
           color: #FD6C6E; }
+        @media only screen and (min-width: 48rem) {
+          #index-work .portofolio .portofolio-section:nth-child(1) .portofolio-header {
+            justify-content: flex-start;
+            margin-left: 70px;
+            margin-right: 0px; } }
       #index-work .portofolio .portofolio-section:nth-child(3) {
         background-color: #F1F1F1; }
         #index-work .portofolio .portofolio-section:nth-child(3) a {
           color: #FD6C6E; }
+        @media only screen and (min-width: 48rem) {
+          #index-work .portofolio .portofolio-section:nth-child(3) .portofolio-header {
+            justify-content: flex-start;
+            margin-left: 120px;
+            margin-right: 0px; } }
       #index-work .portofolio .portofolio-section:nth-child(4) {
         border-bottom: none; }
+      #index-work .portofolio .portofolio-section:nth-child(even) h1 {
+        align-self: flex-start; }
       #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body {
         display: -webkit-flex;
         display: -moz-flex;
@@ -884,6 +896,13 @@ IF statement used from BOOK SASS and Compass for Designer
       @media only screen and (min-width: 48rem) {
         #index-work .portofolio .portfolio-img {
           margin: 0 10px 0 20px; } }
+    @media only screen and (min-width: 48rem) {
+      #index-work .portofolio .portofolio-header {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-right: 60px;
+        margin-left: 0; } }
     #index-work .portofolio .portofolio-footer {
       display: -webkit-flex;
       display: -moz-flex;
@@ -905,7 +924,7 @@ IF statement used from BOOK SASS and Compass for Designer
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 400px;
   font-family: "tenso", serif;
   font-size: 16px; }
   #index-testimonial p {
@@ -950,7 +969,7 @@ IF statement used from BOOK SASS and Compass for Designer
   #index-contact h1 {
     font-weight: bold;
     color: #16c1f8;
-    margin-bottom: 20px;
+    margin: 20px 0 100px 0;
     font-size: 3.3em;
     font-family: "futura-pt", sans-serif; }
     @media only screen and (min-width: 64rem) {
@@ -983,6 +1002,33 @@ IF statement used from BOOK SASS and Compass for Designer
         #index-contact ul img {
           width: 200px;
           height: 200px; } }
+
+html, body {
+  height: 100%; }
+
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -44px; }
+  #root #root_footer {
+    height: 44px; }
+
+#footer {
+  clear: both;
+  position: relative;
+  height: 44px; }
+
+#footer {
+  background-color: #0B6EF4;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px; }
 
 html, body {
   width: 100%;
