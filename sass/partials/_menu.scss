@@ -1,243 +1,229 @@
-.menu2-button{
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	background-color: #282E44;
+.menu2-button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #282E44;
 }
 /* show navbar button on all screen size and change colour of it */
 .navbar-header {
-	float: none;
-	background-color: white;
-	opacity: 1;
+    float: none;
+    background-color: white;
+    opacity: 1;
 }
 .navbar-default .navbar-toggle {
-	border-color: transparent;
+    border-color: transparent;
 }
 .navbar-toggle {
-	display: block;
-	margin-left: 10px;
+    display: block;
+    margin-left: 10px;
 }
-
 /*the menu bars*/
 /*set the bar colour*/
-.navbar-default .navbar-toggle .icon-bar{
-	background-color: #16c1f8;
-	border: 2px solid #16c1f8;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #16c1f8;
+    border: 2px solid #16c1f8;
 }
-
-.menu2-icon-bar{
-	margin-left: 3px;
+.menu2-icon-bar {
+    margin-left: 3px;
 }
 .navbar-collapse {
-	border-top: 1px solid transparent;
-	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
 }
 .navbar-collapse.collapse {
-	display: none!important;
+    display: none!important;
 }
 #menu1 .navbar-nav {
-	float: none!important;
-	margin: 7.5px -15px;
+    float: none!important;
+    margin: 7.5px -15px;
 }
-#menu1 .navbar-nav>li {
-	float: none;
+#menu1 .navbar-nav > li {
+    float: none;
 }
-#menu1 .navbar-nav>li>a {
-	padding-top: 10px;
-	padding-bottom: 10px;
+#menu1 .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /*transparent navbar*/
 .navbar-default {
-	background-color: transparent;
-	border-color: transparent;
+    background-color: transparent;
+    border-color: transparent;
 }
-
 /*menu text next to toggle*/
 #menu1 .navbar-toggle:before {
-
-
-	@include MQ (S) {
-		content:"MENU";
-		color: darken($Brightblue,5%);
-		font-weight: bold;
-		font-size: 24px;
-		right:-50px;
-		top:8px;
-		position:absolute;
-		width:50px;
-		font-family: $main_font;
-	}
+    @include MQ (S) {
+        content: "MENU";
+        color: darken($Brightblue,5%);
+        font-weight: bold;
+        font-size: 24px;
+        right: -50px;
+        top: 8px;
+        position: absolute;
+        width: 50px;
+        font-family: $main_font;
+    }
 }
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-	background-color: transparent;
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
 }
-
 /* Overlay style */
 .overlay {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(#005678,0.9);
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-
-  .my_contact {
-background-color: rgba(#fff,0.7);
-width:100%;
-height:40%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-position:absolute;
-bottom:0;
-
-    ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin:25px 40px 0 0;
-
-      li {
-        flex:1;
-        text-align: center;
-      }
-    }
-    img{
-      width: 60px;
-      height:auto;
-			@media all and (min-width: 600px){
-				width: 80px;
-			}
-			@media all and (min-width: 1000px){
-				width: 100px;
-			}
-    }
-
-    .email {
-    text-align: center;
-    margin-top:20px;
-    font-size: 30px;
-    font-size: bold;
-		padding-top: 15px;
-
-		@media all and (min-width: 600px){
-			font-size: 40px;
-		}
-		@media all and (min-width: 1000px){
-			font-size: 60px;
-		}
-    }
-  }
-
-
-
-}
-
-/* Overlay closing cross */
-.overlay .overlay-close {
-	width: 80px;
-	height: 80px;
-	position: absolute;
-	right: 20px;
-	top: 20px;
-	overflow: hidden;
-	border: none;
-	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/52820/cross.png) no-repeat center center;
-	text-indent: 200%;
-	color: transparent;
-	outline: none;
-	z-index: 1000;
-
-}
-
-/* Menu style */
-.overlay nav {
-	text-align: center;
-	position: relative;
-  margin-top: 20px;
-	top: 35%;
-	height: 40%;
-	font-size: 54px;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-
-}
-
-.overlay ul {
-	list-style: none;
-	padding: 0;
-	margin: 0 auto;
-	display: inline-block;
-	height: 100%;
-	position: relative;
-   @media all and (min-width:650px){
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(#005678,0.9);
+    z-index: 1000;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin:0 10%;
+    flex-direction: column;
+    .my_contact {
+        background-color: rgba(#fff,0.7);
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 25px 40px 0 0;
+            li {
+                flex: 1;
+                text-align: center;
+            }
+        }
+        img {
+            width: 60px;
+            height: auto;
+            @media all and (min-width: 600px) {
+                width: 80px;
+            }
+            @media all and (min-width: 1000px) {
+                width: 100px;
+            }
+        }
+        .email {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 30px;
+            font-size: bold;
+            padding-top: 15px;
+            @media all and (min-width: 600px) {
+                font-size: 40px;
+            }
+            @media all and (min-width: 1000px) {
+                font-size: 60px;
+            }
+        }
+    }
+    /* Overlay closing cross */
+    .overlay-close {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        overflow: hidden;
+        border: none;
+        background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/52820/cross.png') no-repeat center center;
+        text-indent: 200%;
+        color: transparent;
+        outline: none;
+        z-index: 1000;
+    }
+    /* Menu style */
+    nav {
+        text-align: center;
+        position: relative;
+        margin-top: 20px;
+        top: 35%;
+        height: 40%;
+        font-size: 54px;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            display: inline-block;
+            height: 100%;
+            position: relative;
+            @media all and (min-width:650px) {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 10%;
+            }
+            li {
+                display: block;
+                height: 100%;
+                height: calc(100% / 5);
+                min-height: 54px;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                a {
+                    font-size: 30px;
+                    font-weight: 300;
+                    display: block;
+                    padding: 20px;
+                    color: #fff;
+                    width: 100%;
+                    -webkit-transition: color 0.2s;
+                    transition: color 0.2s;
+                    &:hover {
+                        background-color: $Darkblue;
+                    }
+                    &:focus {
+                        background-color: $Darkblue;
+                    }
 
-  }
+										&:active {
+                        background-color: red;
+                    }
+                    @media all and (min-width:750px) {
+                        font-size: 35px;
+                    }
+                    @media all and (min-width:1000px) {
+                        font-size: 45px;
+                    }
+                }
+                /* Closing a */
+            }
+            /* Closing li */
+        }
+        /* Closing ul */
+    }
+    /* Closing nav */
 }
-
-.overlay ul li {
-	display: block;
-	height: 100%;
-	height: calc(100% / 5);
-	min-height: 54px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.overlay ul li a {
-	font-size: 30px;
-	font-weight: 300;
-	display: block;
-	color: #fff;
-	-webkit-transition: color 0.2s;
-	transition: color 0.2s;
-   @media all and (min-width:750px){
-     font-size: 35px;
-  }
-
-   @media all and (min-width:1000px){
-     font-size: 45px;
-  }
-}
-
-.overlay ul li a:hover,
-.overlay ul li a:focus {
-	color: #e3fcb1;
-}
-
+/* Closing overlay */
 /* Effects */
 .overlay-slidedown {
-	visibility: hidden;
-	-webkit-transform: translateY(-100%);
-	transform: translateY(-100%);
-	-webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
-	transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+    visibility: hidden;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
+    transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
 }
-
 .overlay-slidedown.open {
-	visibility: visible;
-	-webkit-transform: translateY(0%);
-	transform: translateY(0%);
-	-webkit-transition: -webkit-transform 0.4s ease-in-out;
-	transition: transform 0.4s ease-in-out;
+    visibility: visible;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: -webkit-transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
 }
-
 @media screen and (max-height: 30.5em) {
-	.overlay nav {
-		height: 70%;
-		font-size: 34px;
-	}
-	.overlay ul li {
-		min-height: 34px;
-	}
+    .overlay nav {
+        height: 70%;
+        font-size: 34px;
+    }
+    .overlay ul li {
+        min-height: 34px;
+    }
 }
