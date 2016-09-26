@@ -168,10 +168,11 @@ IF statement used from BOOK SASS and Compass for Designer
 /* Overlay style */
 .overlay {
   position: fixed;
-  width: 100%;
+  min-width: 100%;
   height: 100%;
   top: 0;
   left: 0;
+  margin: 0;
   background: rgba(0, 86, 120, 0.9);
   z-index: 1000;
   display: flex;
@@ -182,7 +183,7 @@ IF statement used from BOOK SASS and Compass for Designer
   .overlay .my_contact {
     background-color: rgba(255, 255, 255, 0.7);
     width: 100%;
-    height: 40%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,6 +201,8 @@ IF statement used from BOOK SASS and Compass for Designer
     .overlay .my_contact img {
       width: 60px;
       height: auto; }
+      .overlay .my_contact img:hover {
+        transform: scale(1.25); }
       @media all and (min-width: 600px) {
         .overlay .my_contact img {
           width: 80px; } }
@@ -208,6 +211,7 @@ IF statement used from BOOK SASS and Compass for Designer
           width: 100px; } }
     .overlay .my_contact .email {
       text-align: center;
+      text-decoration: underline;
       margin-top: 20px;
       font-size: 30px;
       font-size: bold;
@@ -234,8 +238,9 @@ IF statement used from BOOK SASS and Compass for Designer
   .overlay nav {
     text-align: center;
     position: relative;
+    font-family: "futura-pt", sans-serif;
     margin-top: 20px;
-    top: 35%;
+    top: 30%;
     height: 40%;
     font-size: 54px;
     -webkit-transform: translateY(-50%);
@@ -249,18 +254,21 @@ IF statement used from BOOK SASS and Compass for Designer
       height: 100%;
       position: relative;
       /* Closing li */ }
-      @media all and (min-width: 650px) {
+      @media only screen and (min-width: 48rem) {
         .overlay nav ul {
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
+          flex-wrap: wrap;
+          justify-content: center;
           align-items: center;
           margin: 0 10%; } }
       .overlay nav ul li {
         display: block;
+        flex: 1 1 250px;
         height: 100%;
         height: calc(100% / 5);
         min-height: 54px;
+        margin-right: 5px;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         /* Closing a */ }
@@ -268,7 +276,7 @@ IF statement used from BOOK SASS and Compass for Designer
           font-size: 30px;
           font-weight: 300;
           display: block;
-          padding: 20px;
+          padding: 15px;
           color: #fff;
           width: 100%;
           -webkit-transition: color 0.2s;
@@ -277,8 +285,6 @@ IF statement used from BOOK SASS and Compass for Designer
             background-color: #282E44; }
           .overlay nav ul li a:focus {
             background-color: #282E44; }
-          .overlay nav ul li a:active {
-            background-color: red; }
           @media all and (min-width: 750px) {
             .overlay nav ul li a {
               font-size: 35px; } }
@@ -309,6 +315,12 @@ IF statement used from BOOK SASS and Compass for Designer
 
   .overlay ul li {
     min-height: 34px; } }
+body.home nav a[href="index.html"],
+body.about nav a[href="about.html"],
+body.pricing nav a[href="pricing.html"],
+body.contact nav a[href="contact.html"] {
+  background-color: #282E44; }
+
 #splash {
   background: url("http://oliverwebdesigns.com/UKCD/images/background.jpeg") no-repeat center center;
   -webkit-background-size: cover;
