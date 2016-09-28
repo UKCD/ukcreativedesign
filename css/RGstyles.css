@@ -4,22 +4,22 @@ Error: File to import not found or unreadable: partials/footer.
          Compass::SpriteImporter
          C:/MAMP/htdocs/ukcreativedesign/sass
          C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets
-        on line 25 of C:/MAMP/htdocs/ukcreativedesign/sass/RGstyles.scss
+        on line 24 of C:/MAMP/htdocs/ukcreativedesign/sass/RGstyles.scss
 
+19: @import "partials/index_about";
 20: @import "partials/expertise";
 21: @import "partials/portofolio";
 22: @import "partials/testimonials";
 23: @import "partials/contact";
-24: @import "partials/pricing";
-25: @import "partials/footer";
+24: @import "partials/footer";
+25: @import "partials/pricing";
 26: 
-27: html,body
-28: {
-29:     width: 100%;
-30:     height: 100%;
+27: 
+28: html,body
+29: {
 
 Backtrace:
-C:/MAMP/htdocs/ukcreativedesign/sass/RGstyles.scss:25
+C:/MAMP/htdocs/ukcreativedesign/sass/RGstyles.scss:24
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -62,4 +62,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: partials/footer.\A        Load paths:\A          Compass::SpriteImporter\A          C:/MAMP/htdocs/ukcreativedesign/sass\A          C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets\A         on line 25 of C:/MAMP/htdocs/ukcreativedesign/sass/RGstyles.scss\A \A 20: @import \"partials/expertise\";\A 21: @import \"partials/portofolio\";\A 22: @import \"partials/testimonials\";\A 23: @import \"partials/contact\";\A 24: @import \"partials/pricing\";\A 25: @import \"partials/footer\";\A 26: \A 27: html,body\A 28: {\A 29:     width: 100%;\A 30:     height: 100%;"; }
+  content: "Error: File to import not found or unreadable: partials/footer.\A        Load paths:\A          Compass::SpriteImporter\A          C:/MAMP/htdocs/ukcreativedesign/sass\A          C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets\A         on line 24 of C:/MAMP/htdocs/ukcreativedesign/sass/RGstyles.scss\A \A 19: @import \"partials/index_about\";\A 20: @import \"partials/expertise\";\A 21: @import \"partials/portofolio\";\A 22: @import \"partials/testimonials\";\A 23: @import \"partials/contact\";\A 24: @import \"partials/footer\";\A 25: @import \"partials/pricing\";\A 26: \A 27: \A 28: html,body\A 29: {"; }

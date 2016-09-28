@@ -1,4 +1,4 @@
-$(window).load(function() {
+$(window).on('load',function() {
     // Animate loader off screen
     $(".se-pre-con").fadeOut("slow");
 
@@ -6,8 +6,8 @@ $(window).load(function() {
     $('#menu2').hide();
 
 });
+//
 
-$(document).ready(function() {
     $('#quote-carousel').carousel({
         pause: true, interval: 10000,
     });
@@ -31,9 +31,4 @@ $(document).ready(function() {
         $('#menu2').show();
     });
 
-
-
-
-
-
-});<!--end document ready function-->
+    

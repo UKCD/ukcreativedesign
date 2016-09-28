@@ -1,1 +1,4 @@
 *.scssc
+# General CodeKit files to ignore
+config.codekit
+/.sass-cache
