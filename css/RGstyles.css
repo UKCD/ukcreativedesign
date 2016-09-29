@@ -1019,7 +1019,33 @@ body.contact nav a[href="contact.html"] {
           width: 200px;
           height: 200px; } }
 
-/*@import "partials/footer";*/
+html, body {
+  height: 100%; }
+
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -44px; }
+  #root #root_footer {
+    height: 44px; }
+
+#footer {
+  clear: both;
+  position: relative;
+  height: 44px; }
+
+#footer {
+  background-color: #f1f1f1;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  color: black;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px; }
+
 .pricingContainer {
   padding: 20px; }
 
