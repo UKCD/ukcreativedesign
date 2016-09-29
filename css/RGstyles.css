@@ -1019,6 +1019,33 @@ body.contact nav a[href="contact.html"] {
           width: 200px;
           height: 200px; } }
 
+html, body {
+  height: 100%; }
+
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -44px; }
+  #root #root_footer {
+    height: 44px; }
+
+#footer {
+  clear: both;
+  position: relative;
+  height: 44px; }
+
+#footer {
+  background-color: #f1f1f1;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  color: black;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px; }
+
 .pricingContainer {
   padding: 20px; }
 
@@ -1110,32 +1137,56 @@ body.contact nav a[href="contact.html"] {
   min-height: 50px;
   padding: 20px; }
 
-html, body {
-  height: 100%; }
+.marketingContainer {
+  padding: 20px; }
 
-#root {
-  clear: both;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin-bottom: -44px; }
-  #root #root_footer {
-    height: 44px; }
+.quoteContainer {
+  padding: 50px; }
 
-#footer {
-  clear: both;
+h2 {
+  padding: 5px; }
+
+h3 {
+  padding: 5px;
+  font-weight: bold; }
+
+p {
+  padding: 5px;
+  padding-top: 10px; }
+
+.flex-grid-marketing {
   position: relative;
-  height: 44px; }
-
-#footer {
-  background-color: #f1f1f1;
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
-  color: black;
-  justify-content: flex-start;
-  align-items: center;
-  padding-left: 20px; }
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+  padding: 5px; }
+
+.col-marketing {
+  box-sizing: border-box;
+  flex: 1; }
+
+@media (max-width: 992px) {
+  .col-marketing {
+    flex-basis: 50%; } }
+@media (max-width: 640px) {
+  .col-marketing {
+    flex-basis: 100%; } }
+.cat {
+  margin: 5px; }
+
+.cat img {
+  width: 200px;
+  height: 200px; }
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+q:before {
+  content: open-quote; }
+
+q:after {
+  content: close-quote; }
 
 html, body {
   width: 100%;
@@ -1158,3 +1209,6 @@ html, body {
 img {
   max-width: 100%;
   height: auto; }
+
+p {
+  line-height: 1.5; }

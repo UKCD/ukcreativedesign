@@ -419,6 +419,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/marketing\/AdobeStock_68778219_WM.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172461,
+		"inputAbbreviatedPath": "\/images\/marketing\/AdobeStock_68778219_WM.jpeg",
+		"outputAbbreviatedPath": "\/images\/marketing\/AdobeStock_68778219_WM.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/marketing\/analytics.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 657889,
+		"inputAbbreviatedPath": "\/images\/marketing\/analytics.png",
+		"outputAbbreviatedPath": "\/images\/marketing\/analytics.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/marketing\/email.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 894765,
+		"inputAbbreviatedPath": "\/images\/marketing\/email.png",
+		"outputAbbreviatedPath": "\/images\/marketing\/email.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/marketing\/ppc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.68818e+06,
+		"inputAbbreviatedPath": "\/images\/marketing\/ppc.png",
+		"outputAbbreviatedPath": "\/images\/marketing\/ppc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/marketing\/seo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.03122e+06,
+		"inputAbbreviatedPath": "\/images\/marketing\/seo.png",
+		"outputAbbreviatedPath": "\/images\/marketing\/seo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/marketing\/social.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 288420,
+		"inputAbbreviatedPath": "\/images\/marketing\/social.png",
+		"outputAbbreviatedPath": "\/images\/marketing\/social.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/NAP-index.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -670,6 +736,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/marketing.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/marketing.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/pricing.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -764,6 +839,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/_footer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_footer.scss",
+		"outputAbbreviatedPath": "\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/partials\/_header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -805,6 +896,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/partials\/_index_about.scss",
 		"outputAbbreviatedPath": "\/css\/_index_about.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/partials\/_marketing.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_marketing.scss",
+		"outputAbbreviatedPath": "\/css\/_marketing.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

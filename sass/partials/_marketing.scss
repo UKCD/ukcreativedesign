@@ -1,0 +1,66 @@
+.marketingContainer {
+  padding: 20px;
+}
+
+.quoteContainer{
+    padding: 50px;
+}
+
+h2{
+  padding: 5px;
+}
+
+h3{
+  padding: 5px;
+  font-weight: bold;
+}
+p{
+  padding: 5px;
+  padding-top:10px;
+}
+
+.flex-grid-marketing {
+  position: relative;
+	display: flex;
+	flex-flow: row wrap;
+  justify-content: space-between;
+	margin: 0 0 20px 0;
+	padding:5px;
+}
+.col-marketing {
+	box-sizing: border-box;
+	flex: 1;
+}
+
+@media (max-width:992px) {
+	.col-marketing {
+		flex-basis: 50%;
+	}
+}
+
+@media (max-width:640px) {
+	.col-marketing {
+		flex-basis: 100%;
+	}
+}
+
+.cat{
+  margin: 5px;
+}
+
+.cat img{
+  width: 200px; height: 200px;
+}
+
+q{
+     quotes: "\201C" "\201D" "\2018" "\2019";
+ }
+q:before,
+  {
+     content: open-quote;
+
+ }
+
+q:after {
+     content: close-quote;
+ }
