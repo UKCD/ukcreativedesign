@@ -6,29 +6,26 @@ $(window).on('load',function() {
     $('#menu2').hide();
 
 });
-//
 
-    $('#quote-carousel').carousel({
-        pause: true, interval: 10000,
+$(document).ready(function() {
+  $('#quote-carousel').carousel({
+    pause: true, interval: 10000,
+  });
+
+  $( "#scroll-btn" ).click(function() {
+    $('#menu1').hide();
+    $('#menu2').show();
+  });
+
+  window.alert('hi');
+  var targetOffset = $("#index-about").offset().top;
+        $(window).scroll(function() {
+            if($(window).scrollTop() > targetOffset) { //scrolled past the other div?
+              $('#menu1').hide();
+              $('#menu2').show();
+            } else {
+                      $('#menu1').show();
+                      $('#menu2').hide();
+                  }
+        });
     });
-
-
-    var targetOffset = $("#separator").offset().top;
-
-    var $w = $(window).scroll(function(){
-        if ( $w.scrollTop() > targetOffset ) {
-            $('#menu1').hide();
-            $('#menu2').show();
-        } else {
-            $('#menu1').show();
-            $('#menu2').hide();
-        }
-    });
-
-    $( "#scroll-btn" ).click(function() {
-        alert('pressed');
-        $('#menu1').hide();
-        $('#menu2').show();
-    });
-
-    
