@@ -1114,6 +1114,9 @@ body.contact nav a[href="contact.html"] {
 .marketingContainer {
   padding: 20px; }
 
+h2 {
+  padding: 5px; }
+
 .flex-grid-marketing {
   position: relative;
   display: flex;
@@ -1123,22 +1126,17 @@ body.contact nav a[href="contact.html"] {
   padding: 5px; }
 
 .col-marketing {
-  background-color: tomato;
   box-sizing: border-box;
-  outline: 2px solid blue;
   flex: 1; }
 
 @media (max-width: 992px) {
   .col-marketing {
-    flex-basis: 50%;
-    background-color: red; } }
+    flex-basis: 50%; } }
 @media (max-width: 640px) {
   .col-marketing {
-    flex-basis: 100%;
-    background-color: green; } }
+    flex-basis: 100%; } }
 .cat {
-  margin: 5px;
-  background-color: white; }
+  margin: 5px; }
 
 html, body {
   width: 100%;
