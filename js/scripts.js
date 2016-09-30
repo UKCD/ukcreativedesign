@@ -6,29 +6,27 @@ $(window).on('load',function() {
     $('#menu2').hide();
 
 });
-//
-
-    $('#quote-carousel').carousel({
-        pause: true, interval: 10000,
-    });
 
 
-    var targetOffset = $("#separator").offset().top;
+  $('#quote-carousel').carousel({
+    pause: true, interval: 10000,
+  });
 
-    var $w = $(window).scroll(function(){
-        if ( $w.scrollTop() > targetOffset ) {
-            $('#menu1').hide();
-            $('#menu2').show();
-        } else {
-            $('#menu1').show();
-            $('#menu2').hide();
-        }
-    });
+  // $( "#scroll-btn" ).click(function() {
+  //   $('#menu1').hide();
+  //   $('#menu2').show();
+  // });
 
-    $( "#scroll-btn" ).click(function() {
-        alert('pressed');
-        $('#menu1').hide();
-        $('#menu2').show();
-    });
+  window.alert('hi');
+  var targetOffset = $("#index-about").offset().top;
+        $(window).scroll(function() {
+            if($(window).scrollTop() > 150) { //scrolled past the other div?
 
-    
+
+               $('.big_title').hide();
+              // $('#menu2').show();
+            } else {
+                      $('#menu1').show();
+                      $('#menu2').hide();
+                  }
+        });
