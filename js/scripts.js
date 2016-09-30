@@ -17,7 +17,6 @@ $(document).ready(function() {
     $('#menu2').show();
   });
 
-  window.alert('hi');
   var targetOffset = $("#index-about").offset().top;
         $(window).scroll(function() {
             if($(window).scrollTop() > targetOffset) { //scrolled past the other div?
