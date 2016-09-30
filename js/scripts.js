@@ -17,7 +17,7 @@ $(document).ready(function() {
     $('#menu2').show();
   });
 
-  window.alert('hi');
+
   var targetOffset = $("#index-about").offset().top;
         $(window).scroll(function() {
             if($(window).scrollTop() > targetOffset) { //scrolled past the other div?
@@ -29,7 +29,11 @@ $(document).ready(function() {
                   }
         });
 
-        $(window).scroll( function(){
+
+
+  // hides the indicator after the user begins scrolling.
+
+  $(window).scroll( function(){
 
   //get scroll position
   var topWindow = $(window).scrollTop();
@@ -49,6 +53,8 @@ $(document).ready(function() {
   $('.arrow-wrap').css('opacity', position);
 
 });
+
+// smooth scrolling
 
         $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
