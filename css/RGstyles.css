@@ -72,14 +72,14 @@ IF statement used from BOOK SASS and Compass for Designer
 .headText {
   margin-top: 50px;
   margin-bottom: 20px;
-  font-family: "futura-pt";
+  font-family: "futura-pt", sans-serif;
   font-size: 3em;
   font-weight: bold; }
 
 .subHeadText {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: "tenso";
+  font-family: "futura-pt", sans-serif;
   font-size: 2.0em; }
 
 .pinkText {
@@ -1189,6 +1189,14 @@ q:before {
 
 q:after {
   content: close-quote; }
+
+.marketing-mid-section {
+  width: 100%;
+  min-height: 50px;
+  background-color: #59cdc3;
+  padding: 50px;
+  color: #fff;
+  font-family: "futura-pt", sans-serif; }
 
 /* table css */
 table {

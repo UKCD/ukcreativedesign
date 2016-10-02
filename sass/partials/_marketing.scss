@@ -65,6 +65,16 @@ q:after {
      content: close-quote;
  }
 
+ .marketing-mid-section{
+   width: 100%;
+   min-height: 50px;
+   background-color: lighten($Green,5%);
+   padding: 50px;
+   color: #fff;
+   font-family: $secondary_font;
+
+ }
+
 /* table css */
  table {
    width: 100%;
