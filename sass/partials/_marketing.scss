@@ -69,16 +69,22 @@ q:after {
    width: 100%;
    min-height: 50px;
    background-color: lighten($Green,5%);
-   padding: 50px;
+   padding: 50px 100px 50px 100px;
    color: #fff;
    font-family: $secondary_font;
 
  }
 
 /* table css */
+.table-div{
+padding: 40px;
+}
  table {
    width: 100%;
    border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+
  }
  /* Zebra striping */
  /*tr:nth-of-type(odd) {
@@ -88,6 +94,7 @@ q:after {
    background: #282E44;
    color: white;
    font-weight: bold;
+
  }
  td, th {
    padding: 6px;
