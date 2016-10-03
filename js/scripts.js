@@ -8,6 +8,24 @@ $(window).on('load',function() {
 });
 
 $(document).ready(function() {
+
+
+  // Menu effect
+  $(function() {
+
+  $(".menu-link").click(function(e) {
+    e.preventDefault();
+
+    $(".menu-overlay").toggleClass('open');
+    $(".menu").toggleClass("open");
+
+  });
+
+});
+
+
+
+
   $('#quote-carousel').carousel({
     pause: true, interval: 10000,
   });
