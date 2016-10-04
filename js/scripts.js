@@ -18,34 +18,27 @@ $(document).ready(function() {
   });
 
 
-    //scroll on home page
+    //set target offset for scroll on home page
       if ($('body.home').length > 0)
       {
         var targetOffset = $("#index-about").offset().top;
-              $(window).scroll(function() {
-                  if($(window).scrollTop() > targetOffset) { //scrolled past the other div?
-                    $('#menu1').hide();
-                    $('#menu2').show();
-                  } else {
-                            $('#menu1').show();
-                            $('#menu2').hide();
-                        }
-              });
+
       }
-      //scroll on all other pages
+      //set target offset for scroll on all other pages
       else
       {
-        var targetOffset2 = $(".underline").offset().top;
-              $(window).scroll(function() {
-                  if($(window).scrollTop() > targetOffset2) { //scrolled past the other div?
-                    $('#menu1').hide();
-                    $('#menu2').show();
-                  } else {
-                            $('#menu1').show();
-                            $('#menu2').hide();
-                        }
-              });
-      }
+        var targetOffset = $(".underline").offset().top;
 
+      }
+      //do the scrolling
+      $(window).scroll(function() {
+          if($(window).scrollTop() > targetOffset) { //scrolled past the other div
+            $('#menu1').hide();
+            $('#menu2').show();
+          } else {
+                    $('#menu1').show();
+                    $('#menu2').hide();
+                }
+      });
 
     });
