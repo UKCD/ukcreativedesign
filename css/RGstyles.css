@@ -1060,7 +1060,8 @@ html, body {
 .col {
   background: #16c1f8;
   min-height: 50px;
-  margin: 5px; }
+  margin: 5px;
+  -ms-overflow-style: none; }
 
 .flex-grid .col {
   flex: 1; }
