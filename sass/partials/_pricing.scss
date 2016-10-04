@@ -51,7 +51,8 @@
 
 /*hide the actual button*/
 #radio-box input {
-    visibility:hidden;
+  
+    display: none;
 }
 /*change the color on check*/
 #radio-box input:checked + span {
