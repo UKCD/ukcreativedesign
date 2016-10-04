@@ -17,14 +17,35 @@ $(document).ready(function() {
     $('#menu2').show();
   });
 
-  var targetOffset = $("#index-about").offset().top;
-        $(window).scroll(function() {
-            if($(window).scrollTop() > targetOffset) { //scrolled past the other div?
-              $('#menu1').hide();
-              $('#menu2').show();
-            } else {
-                      $('#menu1').show();
-                      $('#menu2').hide();
-                  }
-        });
+
+    //scroll on home page
+      if ($('body.home').length > 0)
+      {
+        var targetOffset = $("#index-about").offset().top;
+              $(window).scroll(function() {
+                  if($(window).scrollTop() > targetOffset) { //scrolled past the other div?
+                    $('#menu1').hide();
+                    $('#menu2').show();
+                  } else {
+                            $('#menu1').show();
+                            $('#menu2').hide();
+                        }
+              });
+      }
+      //scroll on all other pages
+      else
+      {
+        var targetOffset2 = $(".underline").offset().top;
+              $(window).scroll(function() {
+                  if($(window).scrollTop() > targetOffset2) { //scrolled past the other div?
+                    $('#menu1').hide();
+                    $('#menu2').show();
+                  } else {
+                            $('#menu1').show();
+                            $('#menu2').hide();
+                        }
+              });
+      }
+
+
     });
