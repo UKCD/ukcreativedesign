@@ -1233,6 +1233,9 @@ This query will take effect for any screen smaller than 760px
 and also iPads specifically.
 */
 @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  .table-div {
+    padding: 20px 0 0 0; }
+
   /* Force table to not be like tables anymore */
   table, thead, tbody, th, td, tr {
     display: block; }
@@ -1251,7 +1254,9 @@ and also iPads specifically.
     border: none;
     border-bottom: 1px solid #eee;
     position: relative;
-    padding-left: 50%; }
+    padding-left: 50%;
+    min-height: 75px;
+    text-align: center; }
 
   td:before {
     /* Now like a table header */
@@ -1277,6 +1282,46 @@ and also iPads specifically.
 
   td:nth-of-type(4):before {
     content: "Package 3"; } }
+.tooltip {
+  position: relative;
+  /*this makes space to left of page in mobile!?*/
+  display: inline-block;
+  background: url("http://oliverwebdesigns.com/UKCD/images/info.png") 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  margin-bottom: -2px; }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #55CDC3;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+  opacity: 0;
+  transition: opacity 1s; }
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #55CDC3 transparent transparent transparent; }
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1; }
+
 html, body {
   width: 100%;
   height: 100%;

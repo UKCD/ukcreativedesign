@@ -8,6 +8,7 @@ $(window).on('load',function() {
 });
 
 $(document).ready(function() {
+
   $('#quote-carousel').carousel({
     pause: true, interval: 10000,
   });
@@ -41,4 +42,10 @@ $(document).ready(function() {
                 }
       });
 
-    });
+      //marketing page show tooltip on click
+        $( ".tooltip" ).click(function() {
+          $(".tooltip").css("visibility", "visible");
+          $(".tooltip").css("opacity", "1");
+        });
+
+    }); //close document ready
