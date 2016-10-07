@@ -1054,7 +1054,7 @@ body.contact nav a[href="contact.html"] {
         display: -o-flex;
         display: flex; }
         /* line 128, ../sass/partials/_portofolio.scss */
-        #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body img {
+        #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body a {
           order: 1; }
     /* line 137, ../sass/partials/_portofolio.scss */
     #index-work .portofolio .portofolio-body {
@@ -1087,7 +1087,7 @@ body.contact nav a[href="contact.html"] {
             font-size: 1.8em; } }
     /* line 171, ../sass/partials/_portofolio.scss */
     #index-work .portofolio .portfolio-img {
-      width: 332px;
+      min-width: 332px;
       height: 250px;
       margin: 70px 0; }
       @media only screen and (min-width: 48rem) {
