@@ -471,11 +471,11 @@ body.contact nav a[href="contact.html"] {
       @media only screen and (min-width: 48rem) {
         /* line 97, ../sass/partials/_header.scss */
         .branding .big_title h2 {
-          font-size: 3.0em; } }
+          font-size: 2.2em; } }
       @media only screen and (min-width: 76.25rem) {
         /* line 97, ../sass/partials/_header.scss */
         .branding .big_title h2 {
-          font-size: 4em; } }
+          font-size: 3em; } }
 
 /* line 116, ../sass/partials/_header.scss */
 .index-footer {
@@ -1053,10 +1053,11 @@ body.contact nav a[href="contact.html"] {
         display: -ms-flex;
         display: -o-flex;
         display: flex; }
-        /* line 128, ../sass/partials/_portofolio.scss */
-        #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body a {
-          order: 1; }
-    /* line 137, ../sass/partials/_portofolio.scss */
+        @media only screen and (min-width: 64rem) {
+          /* line 128, ../sass/partials/_portofolio.scss */
+          #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body a {
+            order: 1; } }
+    /* line 139, ../sass/partials/_portofolio.scss */
     #index-work .portofolio .portofolio-body {
       display: -webkit-flex;
       display: -moz-flex;
@@ -1068,33 +1069,33 @@ body.contact nav a[href="contact.html"] {
       align-items: center;
       margin: 35px 0; }
       @media only screen and (min-width: 64rem) {
-        /* line 137, ../sass/partials/_portofolio.scss */
+        /* line 139, ../sass/partials/_portofolio.scss */
         #index-work .portofolio .portofolio-body {
           flex-direction: row;
           margin-top: 25px; } }
-      /* line 153, ../sass/partials/_portofolio.scss */
+      /* line 155, ../sass/partials/_portofolio.scss */
       #index-work .portofolio .portofolio-body p {
         font-family: "tenso", serif;
         padding: 15px 40px;
         font-size: 1.2em; }
         @media only screen and (min-width: 48rem) {
-          /* line 153, ../sass/partials/_portofolio.scss */
+          /* line 155, ../sass/partials/_portofolio.scss */
           #index-work .portofolio .portofolio-body p {
             text-align: left; } }
         @media only screen and (min-width: 76.25rem) {
-          /* line 153, ../sass/partials/_portofolio.scss */
+          /* line 155, ../sass/partials/_portofolio.scss */
           #index-work .portofolio .portofolio-body p {
             font-size: 1.8em; } }
-    /* line 171, ../sass/partials/_portofolio.scss */
+    /* line 173, ../sass/partials/_portofolio.scss */
     #index-work .portofolio .portfolio-img {
       min-width: 332px;
       height: 250px;
       margin: 70px 0; }
       @media only screen and (min-width: 48rem) {
-        /* line 171, ../sass/partials/_portofolio.scss */
+        /* line 173, ../sass/partials/_portofolio.scss */
         #index-work .portofolio .portfolio-img {
           margin: 0 10px 0 20px; } }
-    /* line 184, ../sass/partials/_portofolio.scss */
+    /* line 186, ../sass/partials/_portofolio.scss */
     #index-work .portofolio .portofolio-footer {
       display: -webkit-flex;
       display: -moz-flex;
@@ -1104,7 +1105,7 @@ body.contact nav a[href="contact.html"] {
       justify-content: flex-end;
       align-items: flex-end;
       min-width: 100%; }
-      /* line 195, ../sass/partials/_portofolio.scss */
+      /* line 197, ../sass/partials/_portofolio.scss */
       #index-work .portofolio .portofolio-footer button {
         background-color: #282E44;
         color: white;

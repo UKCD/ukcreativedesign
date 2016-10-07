@@ -126,8 +126,10 @@ a {
           display: -o-flex;
           display: flex;
           a {
-            order: 1;
 
+            @include MQ (M) {
+            order: 1;
+        }
           }
     }
 
