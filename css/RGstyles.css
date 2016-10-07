@@ -1,3 +1,4 @@
+/* line 5, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,36 +19,45 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
+/* line 22, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
+/* line 24, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
+/* line 26, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* line 28, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
+/* line 30, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
+  /* line 103, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
+/* line 32, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
+/* line 116, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
 /*
 Typekit Fonts
 */
+/* line 1, ../sass/partials/_placeholders.scss */
 #index-about .button, #index-work .index-work--header button, #index-work .portofolio .portofolio-footer button {
   border: none;
   padding: 15px 32px;
@@ -57,6 +67,7 @@ Typekit Fonts
   cursor: pointer;
   max-width: 200px; }
 
+/* line 12, ../sass/partials/_placeholders.scss */
 #index-about h1, #index-expertise h1, #index-work h1 {
   font-family: "futura-pt", sans-serif;
   font-size: 1.3em; }
@@ -69,6 +80,7 @@ Using REM Units
 IF statement used from BOOK SASS and Compass for Designer
 
 */
+/* line 1, ../sass/partials/_helper.scss */
 .headText {
   margin-top: 50px;
   margin-bottom: 20px;
@@ -76,27 +88,34 @@ IF statement used from BOOK SASS and Compass for Designer
   font-size: 3em;
   font-weight: bold; }
 
+/* line 9, ../sass/partials/_helper.scss */
 .subHeadText {
   margin-top: 15px;
   margin-bottom: 15px;
   font-family: "futura-pt", sans-serif;
   font-size: 2.0em; }
 
+/* line 16, ../sass/partials/_helper.scss */
 .pinkText {
   color: #FD6C6E; }
 
+/* line 19, ../sass/partials/_helper.scss */
 .blueText {
   color: #16c1f8; }
 
+/* line 22, ../sass/partials/_helper.scss */
 .darkBlueText {
   color: #282E44; }
 
+/* line 25, ../sass/partials/_helper.scss */
 .greenText {
   color: #45C7BC; }
 
+/* line 29, ../sass/partials/_helper.scss */
 .uppercase {
   text-transform: uppercase; }
 
+/* line 1, ../sass/partials/_menu.scss */
 .menu2-button {
   border-radius: 50%;
   width: 50px;
@@ -104,52 +123,64 @@ IF statement used from BOOK SASS and Compass for Designer
   background-color: #282E44; }
 
 /* show navbar button on all screen size and change colour of it */
+/* line 8, ../sass/partials/_menu.scss */
 .navbar-header {
   float: none;
   background-color: white;
   opacity: 1; }
 
+/* line 13, ../sass/partials/_menu.scss */
 .navbar-default .navbar-toggle {
   border-color: transparent; }
 
+/* line 16, ../sass/partials/_menu.scss */
 .navbar-toggle {
   display: block;
   margin-left: 10px; }
 
 /*the menu bars*/
 /*set the bar colour*/
+/* line 22, ../sass/partials/_menu.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #16c1f8;
   border: 2px solid #16c1f8; }
 
+/* line 26, ../sass/partials/_menu.scss */
 .menu2-icon-bar {
   margin-left: 3px; }
 
+/* line 29, ../sass/partials/_menu.scss */
 .navbar-collapse {
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
 
+/* line 33, ../sass/partials/_menu.scss */
 .navbar-collapse.collapse {
   display: none !important; }
 
+/* line 36, ../sass/partials/_menu.scss */
 #menu1 .navbar-nav {
   float: none !important;
   margin: 7.5px -15px; }
 
+/* line 40, ../sass/partials/_menu.scss */
 #menu1 .navbar-nav > li {
   float: none; }
 
+/* line 43, ../sass/partials/_menu.scss */
 #menu1 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px; }
 
 /*transparent navbar*/
+/* line 48, ../sass/partials/_menu.scss */
 .navbar-default {
   background-color: transparent;
   border-color: transparent; }
 
 /*menu text next to toggle*/
 @media only screen and (min-width: 48rem) {
+  /* line 53, ../sass/partials/_menu.scss */
   #menu1 .navbar-toggle:before {
     content: "MENU";
     color: #07b5ed;
@@ -161,11 +192,13 @@ IF statement used from BOOK SASS and Compass for Designer
     width: 50px;
     font-family: "tenso", serif; } }
 
+/* line 66, ../sass/partials/_menu.scss */
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
   background-color: transparent; }
 
 /* Overlay style */
+/* line 71, ../sass/partials/_menu.scss */
 .overlay {
   position: fixed;
   min-width: 100%;
@@ -180,6 +213,7 @@ IF statement used from BOOK SASS and Compass for Designer
   /* Overlay closing cross */
   /* Menu style */
   /* Closing nav */ }
+  /* line 82, ../sass/partials/_menu.scss */
   .overlay .my_contact {
     background-color: rgba(255, 255, 255, 0.7);
     width: 100%;
@@ -190,25 +224,32 @@ IF statement used from BOOK SASS and Compass for Designer
     text-align: center;
     position: absolute;
     bottom: 0; }
+    /* line 92, ../sass/partials/_menu.scss */
     .overlay .my_contact ul {
       display: flex;
       justify-content: center;
       align-items: center;
       margin: 25px 40px 0 0; }
+      /* line 97, ../sass/partials/_menu.scss */
       .overlay .my_contact ul li {
         flex: 1;
         text-align: center; }
+    /* line 102, ../sass/partials/_menu.scss */
     .overlay .my_contact img {
       width: 60px;
       height: auto; }
+      /* line 106, ../sass/partials/_menu.scss */
       .overlay .my_contact img:hover {
         transform: scale(1.25); }
       @media all and (min-width: 600px) {
+        /* line 102, ../sass/partials/_menu.scss */
         .overlay .my_contact img {
           width: 80px; } }
       @media all and (min-width: 1000px) {
+        /* line 102, ../sass/partials/_menu.scss */
         .overlay .my_contact img {
           width: 100px; } }
+    /* line 116, ../sass/partials/_menu.scss */
     .overlay .my_contact .email {
       text-align: center;
       text-decoration: underline;
@@ -217,11 +258,14 @@ IF statement used from BOOK SASS and Compass for Designer
       font-size: bold;
       padding-top: 15px; }
       @media all and (min-width: 600px) {
+        /* line 116, ../sass/partials/_menu.scss */
         .overlay .my_contact .email {
           font-size: 40px; } }
       @media all and (min-width: 1000px) {
+        /* line 116, ../sass/partials/_menu.scss */
         .overlay .my_contact .email {
           font-size: 60px; } }
+  /* line 132, ../sass/partials/_menu.scss */
   .overlay .overlay-close {
     width: 80px;
     height: 80px;
@@ -235,6 +279,7 @@ IF statement used from BOOK SASS and Compass for Designer
     color: transparent;
     outline: none;
     z-index: 1000; }
+  /* line 147, ../sass/partials/_menu.scss */
   .overlay nav {
     text-align: center;
     position: relative;
@@ -246,6 +291,7 @@ IF statement used from BOOK SASS and Compass for Designer
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     /* Closing ul */ }
+    /* line 157, ../sass/partials/_menu.scss */
     .overlay nav ul {
       list-style: none;
       padding: 0;
@@ -255,6 +301,7 @@ IF statement used from BOOK SASS and Compass for Designer
       position: relative;
       /* Closing li */ }
       @media only screen and (min-width: 48rem) {
+        /* line 157, ../sass/partials/_menu.scss */
         .overlay nav ul {
           display: flex;
           flex-direction: row;
@@ -262,6 +309,7 @@ IF statement used from BOOK SASS and Compass for Designer
           justify-content: center;
           align-items: center;
           margin: 0 10%; } }
+      /* line 172, ../sass/partials/_menu.scss */
       .overlay nav ul li {
         display: block;
         flex: 1 1 250px;
@@ -272,6 +320,7 @@ IF statement used from BOOK SASS and Compass for Designer
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         /* Closing a */ }
+        /* line 181, ../sass/partials/_menu.scss */
         .overlay nav ul li a {
           font-size: 30px;
           font-weight: 300;
@@ -281,19 +330,24 @@ IF statement used from BOOK SASS and Compass for Designer
           width: 100%;
           -webkit-transition: color 0.2s;
           transition: color 0.2s; }
+          /* line 190, ../sass/partials/_menu.scss */
           .overlay nav ul li a:hover {
             background-color: #282E44; }
+          /* line 193, ../sass/partials/_menu.scss */
           .overlay nav ul li a:focus {
             background-color: #282E44; }
           @media all and (min-width: 750px) {
+            /* line 181, ../sass/partials/_menu.scss */
             .overlay nav ul li a {
               font-size: 35px; } }
           @media all and (min-width: 1000px) {
+            /* line 181, ../sass/partials/_menu.scss */
             .overlay nav ul li a {
               font-size: 45px; } }
 
 /* Closing overlay */
 /* Effects */
+/* line 215, ../sass/partials/_menu.scss */
 .overlay-slidedown {
   visibility: hidden;
   -webkit-transform: translateY(-100%);
@@ -301,6 +355,7 @@ IF statement used from BOOK SASS and Compass for Designer
   -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
   transition: transform 0.4s ease-in-out, visibility 0s 0.4s; }
 
+/* line 222, ../sass/partials/_menu.scss */
 .overlay-slidedown.open {
   visibility: visible;
   -webkit-transform: translateY(0%);
@@ -309,18 +364,22 @@ IF statement used from BOOK SASS and Compass for Designer
   transition: transform 0.4s ease-in-out; }
 
 @media screen and (max-height: 30.5em) {
+  /* line 230, ../sass/partials/_menu.scss */
   .overlay nav {
     height: 70%;
     font-size: 34px; }
 
+  /* line 234, ../sass/partials/_menu.scss */
   .overlay ul li {
     min-height: 34px; } }
+/* line 241, ../sass/partials/_menu.scss */
 body.home nav a[href="index.html"],
 body.about nav a[href="about.html"],
 body.pricing nav a[href="pricing.html"],
 body.contact nav a[href="contact.html"] {
   background-color: #282E44; }
 
+/* line 1, ../sass/partials/_header.scss */
 #splash {
   background: url("http://oliverwebdesigns.com/UKCD/images/background.jpeg") no-repeat center center;
   -webkit-background-size: cover;
@@ -330,6 +389,7 @@ body.contact nav a[href="contact.html"] {
   padding-bottom: 100px;
   margin: 0; }
 
+/* line 13, ../sass/partials/_header.scss */
 .header-wrapper {
   position: absolute;
   display: flex;
@@ -339,6 +399,7 @@ body.contact nav a[href="contact.html"] {
   width: 100%;
   height: 100%; }
 
+/* line 25, ../sass/partials/_header.scss */
 .branding {
   flex-direction: column;
   justify-content: center;
@@ -351,6 +412,7 @@ body.contact nav a[href="contact.html"] {
   font-family: "futura-pt", sans-serif;
   position: relative; }
   @media only screen and (min-width: 37.5rem) {
+    /* line 25, ../sass/partials/_header.scss */
     .branding {
       flex-direction: row;
       justify-content: center;
@@ -358,8 +420,10 @@ body.contact nav a[href="contact.html"] {
       margin-top: 5%;
       padding-left: 10%; } }
   @media only screen and (min-width: 76.25rem) {
+    /* line 25, ../sass/partials/_header.scss */
     .branding {
       width: 220px; } }
+  /* line 54, ../sass/partials/_header.scss */
   .branding .logo {
     min-height: 100%;
     flex: 0.5;
@@ -367,42 +431,53 @@ body.contact nav a[href="contact.html"] {
     justify-content: center;
     align-items: center;
     margin-right: 5%; }
+    /* line 65, ../sass/partials/_header.scss */
     .branding .logo img {
       width: 150px;
       min-width: 100%; }
+  /* line 71, ../sass/partials/_header.scss */
   .branding .big_title {
     flex: 2;
     display: flex;
     flex-direction: column; }
+    /* line 78, ../sass/partials/_header.scss */
     .branding .big_title h1 {
       font-size: 2.3em;
       font-weight: bold;
       min-width: 100%;
       margin-top: 15px; }
       @media only screen and (min-width: 48rem) {
+        /* line 78, ../sass/partials/_header.scss */
         .branding .big_title h1 {
           font-size: 3.5em; } }
       @media only screen and (min-width: 64rem) {
+        /* line 78, ../sass/partials/_header.scss */
         .branding .big_title h1 {
           font-size: 4.2em; } }
       @media only screen and (min-width: 76.25rem) {
+        /* line 78, ../sass/partials/_header.scss */
         .branding .big_title h1 {
           font-size: 5em; } }
       @media only screen and (min-width: 87.5rem) {
+        /* line 78, ../sass/partials/_header.scss */
         .branding .big_title h1 {
           font-size: 6.2em; } }
+    /* line 97, ../sass/partials/_header.scss */
     .branding .big_title h2 {
       color: #16c1f8;
       font-size: 1.8em;
       width: 100%;
       margin-top: 15px; }
       @media only screen and (min-width: 48rem) {
+        /* line 97, ../sass/partials/_header.scss */
         .branding .big_title h2 {
           font-size: 3.0em; } }
       @media only screen and (min-width: 76.25rem) {
+        /* line 97, ../sass/partials/_header.scss */
         .branding .big_title h2 {
           font-size: 4em; } }
 
+/* line 116, ../sass/partials/_header.scss */
 .index-footer {
   display: flex;
   justify-content: center;
@@ -410,6 +485,7 @@ body.contact nav a[href="contact.html"] {
   padding: 10px 0;
   min-width: 100%;
   position: relative; }
+  /* line 129, ../sass/partials/_header.scss */
   .index-footer .headButton {
     height: auto;
     margin: 15px;
@@ -419,24 +495,29 @@ body.contact nav a[href="contact.html"] {
     font-size: 16px;
     font-family: "futura-pt", sans-serif;
     font-weight: 700; }
+    /* line 139, ../sass/partials/_header.scss */
     .index-footer .headButton a {
       color: #07b5ed; }
     @media only screen and (min-width: 37.5rem) {
+      /* line 129, ../sass/partials/_header.scss */
       .index-footer .headButton {
         width: 150px;
         font-size: 16px; } }
     @media all and (min-width: 850px) {
+      /* line 129, ../sass/partials/_header.scss */
       .index-footer .headButton {
         width: 280px;
         font-size: 26px;
         padding: 15px 30px; } }
 
+/* line 161, ../sass/partials/_header.scss */
 .main_arrow {
   width: 100%;
   position: relative;
   background-color: #fff; }
 
 /* the wrapper element that will become the outer circle */
+/* line 168, ../sass/partials/_header.scss */
 .arrow-wrap {
   position: absolute;
   z-index: 1;
@@ -453,6 +534,7 @@ body.contact nav a[href="contact.html"] {
   box-shadow: 0px 0px 5px 0px #333; }
 
 /* a triangle to make the main part of the arrow. Adjust the border-color to fit your needs */
+/* line 185, ../sass/partials/_header.scss */
 .arrow {
   float: left;
   position: relative;
@@ -465,6 +547,7 @@ body.contact nav a[href="contact.html"] {
   /* added for better anti-aliasing on webkit browsers */ }
 
 /* a pseudo element arrow placed on top of the other one with the same color as the wrapper */
+/* line 197, ../sass/partials/_header.scss */
 .arrow:after {
   content: '';
   position: absolute;
@@ -478,29 +561,36 @@ body.contact nav a[href="contact.html"] {
   -webkit-transform: rotate(360deg);
   /* added for better anti-aliasing on webkit browsers */ }
 
+/* line 1, ../sass/partials/_index_about.scss */
 #index-about {
   padding: 60px 15px;
   font-family: "futura-pt", sans-serif;
   font-size: 16px; }
   @media only screen and (min-width: 48rem) {
+    /* line 1, ../sass/partials/_index_about.scss */
     #index-about {
       font-size: 20px;
       padding: 60px 35px; } }
   @media only screen and (min-width: 64rem) {
+    /* line 1, ../sass/partials/_index_about.scss */
     #index-about {
       font-size: 25px;
       padding: 60px 65px; } }
   @media only screen and (min-width: 87.5rem) {
+    /* line 1, ../sass/partials/_index_about.scss */
     #index-about {
       font-size: 30px;
       padding: 60px 165px; } }
+  /* line 22, ../sass/partials/_index_about.scss */
   #index-about h1 {
     font-weight: 700;
     color: #FD6C6E; }
+  /* line 28, ../sass/partials/_index_about.scss */
   #index-about h2 {
     font-family: "futura-pt", sans-serif;
     font-size: 0.9em;
     margin: 1em 0; }
+  /* line 34, ../sass/partials/_index_about.scss */
   #index-about p {
     font-size: 0.8em;
     line-height: 1.3;
@@ -508,35 +598,44 @@ body.contact nav a[href="contact.html"] {
     font-weight: 400;
     color: #595959; }
     @media only screen and (min-width: 64rem) {
+      /* line 34, ../sass/partials/_index_about.scss */
       #index-about p {
         line-height: 1.4;
         color: #8c8c8c; } }
+  /* line 48, ../sass/partials/_index_about.scss */
   #index-about .buttonHolder {
     margin: 60px auto; }
+  /* line 52, ../sass/partials/_index_about.scss */
   #index-about .button {
     background-color: #282E44;
     font-size: 1em;
     color: white;
     font-family: "futura-pt", sans-serif; }
+  /* line 61, ../sass/partials/_index_about.scss */
   #index-about .btn-blue:hover,
   #index-about .btn-blue:focus {
     color: #FD6C6E;
     text-decoration: none; }
+  /* line 68, ../sass/partials/_index_about.scss */
   #index-about .btn-pink:hover,
   #index-about .btn-pink:focus {
     color: #282E44;
     text-decoration: none; }
 
+/* line 1, ../sass/partials/_expertise.scss */
 #index-expertise {
   display: flex;
   flex-direction: column;
   font-size: 16px; }
   @media only screen and (min-width: 76.25rem) {
+    /* line 1, ../sass/partials/_expertise.scss */
     #index-expertise {
       font-size: 20px; } }
   @media only screen and (min-width: 87.5rem) {
+    /* line 1, ../sass/partials/_expertise.scss */
     #index-expertise {
       font-size: 26px; } }
+  /* line 13, ../sass/partials/_expertise.scss */
   #index-expertise h1 {
     color: green;
     font-weight: bold;
@@ -544,16 +643,21 @@ body.contact nav a[href="contact.html"] {
     color: #55CDC3;
     margin-bottom: 80px;
     font-size: 1.8em; }
+  /* line 23, ../sass/partials/_expertise.scss */
   #index-expertise .expertise {
     /* Header Style */ }
+    /* line 25, ../sass/partials/_expertise.scss */
     #index-expertise .expertise h1 {
       color: white; }
+    /* line 28, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .top, #index-expertise .expertise .bottom {
       display: flex;
       flex-direction: column; }
       @media only screen and (min-width: 48rem) {
+        /* line 28, ../sass/partials/_expertise.scss */
         #index-expertise .expertise .top, #index-expertise .expertise .bottom {
           flex-direction: row; } }
+    /* line 39, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .menu {
       display: flex;
       flex: 1;
@@ -562,18 +666,24 @@ body.contact nav a[href="contact.html"] {
       align-items: center;
       height: 450px;
       color: white; }
+      /* line 51, ../sass/partials/_expertise.scss */
       #index-expertise .expertise .menu img {
         width: 200px;
         height: 200px;
         padding: 30px; }
+    /* line 58, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .menu1 {
       background-color: #282E44; }
+    /* line 62, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .menu2 {
       background-color: #45C7BC; }
+    /* line 65, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .menu3 {
       background-color: #ffe576; }
+    /* line 68, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .menu4 {
       background-color: #FD6C6E; }
+    /* line 72, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view {
       margin: 0;
       overflow: hidden;
@@ -583,6 +693,7 @@ body.contact nav a[href="contact.html"] {
       -moz-box-shadow: 1px 1px 2px #e6e6e6;
       box-shadow: 1px 1px 2px #e6e6e6;
       cursor: default; }
+    /* line 83, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view .mask, #index-expertise .expertise .view .content {
       width: 100%;
       height: 100%;
@@ -590,6 +701,7 @@ body.contact nav a[href="contact.html"] {
       overflow: hidden;
       top: 0;
       left: 0; }
+    /* line 92, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view h2 {
       text-transform: uppercase;
       color: #fff;
@@ -599,6 +711,7 @@ body.contact nav a[href="contact.html"] {
       padding: 10px;
       background: rgba(0, 0, 0, 0.8);
       margin: 20px 0 0 0; }
+    /* line 102, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view p {
       font-family: Georgia, serif;
       font-style: italic;
@@ -607,6 +720,7 @@ body.contact nav a[href="contact.html"] {
       color: #fff;
       padding: 10px 20px 20px;
       text-align: center; }
+    /* line 111, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view a.info {
       display: inline-block;
       text-decoration: none;
@@ -617,12 +731,15 @@ body.contact nav a[href="contact.html"] {
       -webkit-box-shadow: 0 0 1px #000;
       -moz-box-shadow: 0 0 1px #000;
       box-shadow: 0 0 1px #000; }
+    /* line 122, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view a.info:hover {
       -webkit-box-shadow: 0 0 5px #000;
       -moz-box-shadow: 0 0 5px #000;
       box-shadow: 0 0 5px #000; }
+    /* line 129, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .clr {
       clear: both; }
+    /* line 135, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .header {
       font-family: 'Arial Narrow', Arial, sans-serif;
       line-height: 24px;
@@ -635,19 +752,24 @@ body.contact nav a[href="contact.html"] {
       -moz-box-shadow: 1px 0px 2px #000;
       -webkit-box-shadow: 1px 0px 2px #000;
       box-shadow: 1px 0px 2px #000; }
+    /* line 148, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .header a {
       padding: 0px 10px;
       letter-spacing: 1px;
       color: #ddd;
       display: block;
       float: left; }
+    /* line 155, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .header a:hover {
       color: #fff; }
+    /* line 158, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .header span.right {
       float: right; }
+    /* line 161, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .header span.right a {
       float: none;
       display: inline; }
+    /* line 166, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .more {
       position: relative;
       clear: both;
@@ -657,19 +779,23 @@ body.contact nav a[href="contact.html"] {
       padding: 5px 0px 10px;
       width: 540px;
       margin: 0 auto; }
+    /* line 176, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .more ul {
       display: block;
       text-align: center;
       height: 30px; }
+    /* line 181, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .more ul li {
       display: block;
       padding: 4px 2px;
       float: left; }
+    /* line 186, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .more ul li.selected a,
     #index-expertise .expertise .more ul li.selected a:hover {
       background: #b2891b;
       color: #fff;
       text-shadow: none; }
+    /* line 192, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .more ul li a {
       color: #555;
       float: left;
@@ -679,9 +805,11 @@ body.contact nav a[href="contact.html"] {
       -moz-box-shadow: 1px 1px 2px #aaa;
       -webkit-box-shadow: 1px 1px 2px #aaa;
       box-shadow: 1px 1px 2px #aaa; }
+    /* line 202, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .more ul li a:hover {
       background: #000;
       color: #fff; }
+    /* line 207, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view-eighth .mask {
       background-color: rgba(255, 255, 255, 0.7);
       top: -200px;
@@ -698,6 +826,7 @@ body.contact nav a[href="contact.html"] {
       flex-direction: column;
       justify-content: center;
       align-items: center; }
+    /* line 224, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view-eighth h2 {
       -webkit-transform: translateY(-200px);
       -moz-transform: translateY(-200px);
@@ -709,6 +838,7 @@ body.contact nav a[href="contact.html"] {
       -o-transition: all 0.2s ease-in-out 0.1s;
       -ms-transition: all 0.2s ease-in-out 0.1s;
       transition: all 0.2s ease-in-out 0.1s; }
+    /* line 236, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view-eighth p {
       color: #333;
       font-size: 30px;
@@ -722,6 +852,7 @@ body.contact nav a[href="contact.html"] {
       -o-transition: all 0.2s ease-in-out 0.2s;
       -ms-transition: all 0.2s ease-in-out 0.2s;
       transition: all 0.2s ease-in-out 0.2s; }
+    /* line 250, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view-eighth a.info {
       -webkit-transform: translateY(-200px);
       -moz-transform: translateY(-200px);
@@ -734,6 +865,7 @@ body.contact nav a[href="contact.html"] {
       -ms-transition: all 0.2s ease-in-out 0.3s;
       transition: all 0.2s ease-in-out 0.3s;
       width: 50%; }
+    /* line 263, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view-eighth:hover .mask {
       -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
       filter: alpha(opacity=100);
@@ -748,6 +880,7 @@ body.contact nav a[href="contact.html"] {
       -moz-animation: bounceY 0.9s linear;
       -ms-animation: bounceY 0.9s linear;
       animation: bounceY 0.9s linear; }
+    /* line 278, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view-eighth:hover h2 {
       -webkit-transform: translateY(0px);
       -moz-transform: translateY(0px);
@@ -759,6 +892,7 @@ body.contact nav a[href="contact.html"] {
       -o-transition-delay: 0.4s;
       -ms-transition-delay: 0.4s;
       transition-delay: 0.4s; }
+    /* line 290, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view-eighth:hover p {
       -webkit-transform: translateY(0px);
       -moz-transform: translateY(0px);
@@ -770,6 +904,7 @@ body.contact nav a[href="contact.html"] {
       -o-transition-delay: 0.2s;
       -ms-transition-delay: 0.2s;
       transition-delay: 0.2s; }
+    /* line 302, ../sass/partials/_expertise.scss */
     #index-expertise .expertise .view-eighth:hover a.info {
       -webkit-transform: translateY(0px);
       -moz-transform: translateY(0px);
@@ -824,9 +959,11 @@ body.contact nav a[href="contact.html"] {
     -webkit-transform: translateY(-12px); }
   55%, 75%, 87%, 97%, 100% {
     -webkit-transform: translateY(0px); } }
+/* line 1, ../sass/partials/_portofolio.scss */
 #index-work {
   font-size: 16px;
   padding: 60px 0; }
+  /* line 6, ../sass/partials/_portofolio.scss */
   #index-work h1 {
     font-weight: bold;
     color: #16c1f8;
@@ -834,10 +971,19 @@ body.contact nav a[href="contact.html"] {
     font-size: 2.3em;
     font-family: "futura-pt", sans-serif; }
     @media only screen and (min-width: 64rem) {
+      /* line 6, ../sass/partials/_portofolio.scss */
       #index-work h1 {
         font-size: 2.5em; } }
+  /* line 20, ../sass/partials/_portofolio.scss */
+  #index-work img {
+    transition: all .2s ease-in-out; }
+    /* line 23, ../sass/partials/_portofolio.scss */
+    #index-work img:hover {
+      transform: scale(1.1); }
+  /* line 28, ../sass/partials/_portofolio.scss */
   #index-work .index-work--header {
     margin: 0 auto; }
+    /* line 33, ../sass/partials/_portofolio.scss */
     #index-work .index-work--header h2 {
       font-family: "futura-pt", sans-serif;
       font-size: 1.3em;
@@ -845,22 +991,27 @@ body.contact nav a[href="contact.html"] {
       padding: 5px 0 35px 0;
       font-weight: bold; }
       @media only screen and (min-width: 64rem) {
+        /* line 33, ../sass/partials/_portofolio.scss */
         #index-work .index-work--header h2 {
           font-size: 2em; } }
+    /* line 45, ../sass/partials/_portofolio.scss */
     #index-work .index-work--header button {
       background-color: #ffe576;
       margin: 20px 0 30px 0;
       font-size: 1em;
       color: white;
       font-family: "futura-pt", sans-serif; }
+      /* line 53, ../sass/partials/_portofolio.scss */
       #index-work .index-work--header button a {
         color: black;
         font-weight: bold; }
+  /* line 62, ../sass/partials/_portofolio.scss */
   #index-work .portofolio {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     min-width: 100%; }
+    /* line 70, ../sass/partials/_portofolio.scss */
     #index-work .portofolio .portofolio-section {
       display: -webkit-flex;
       display: -moz-flex;
@@ -873,29 +1024,39 @@ body.contact nav a[href="contact.html"] {
       align-items: center;
       padding: 60px 0 10px 0;
       border-bottom: 2px solid lightgrey; }
+      /* line 85, ../sass/partials/_portofolio.scss */
       #index-work .portofolio .portofolio-section a {
         color: #45C7BC;
         text-decoration: underline; }
+      /* line 92, ../sass/partials/_portofolio.scss */
       #index-work .portofolio .portofolio-section:nth-child(1) {
         background-color: #F1F1F1; }
+        /* line 95, ../sass/partials/_portofolio.scss */
         #index-work .portofolio .portofolio-section:nth-child(1) a {
           color: #FD6C6E; }
+      /* line 101, ../sass/partials/_portofolio.scss */
       #index-work .portofolio .portofolio-section:nth-child(3) {
         background-color: #F1F1F1; }
+        /* line 104, ../sass/partials/_portofolio.scss */
         #index-work .portofolio .portofolio-section:nth-child(3) a {
           color: #FD6C6E; }
+      /* line 112, ../sass/partials/_portofolio.scss */
       #index-work .portofolio .portofolio-section:nth-child(4) {
         border-bottom: none; }
+      /* line 119, ../sass/partials/_portofolio.scss */
       #index-work .portofolio .portofolio-section:nth-child(even) h1 {
         align-self: flex-start; }
+      /* line 122, ../sass/partials/_portofolio.scss */
       #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body {
         display: -webkit-flex;
         display: -moz-flex;
         display: -ms-flex;
         display: -o-flex;
         display: flex; }
+        /* line 128, ../sass/partials/_portofolio.scss */
         #index-work .portofolio .portofolio-section:nth-child(even) .portofolio-body img {
           order: 1; }
+    /* line 137, ../sass/partials/_portofolio.scss */
     #index-work .portofolio .portofolio-body {
       display: -webkit-flex;
       display: -moz-flex;
@@ -906,24 +1067,34 @@ body.contact nav a[href="contact.html"] {
       justify-content: center;
       align-items: center;
       margin: 35px 0; }
-      @media only screen and (min-width: 48rem) {
+      @media only screen and (min-width: 64rem) {
+        /* line 137, ../sass/partials/_portofolio.scss */
         #index-work .portofolio .portofolio-body {
           flex-direction: row;
           margin-top: 25px; } }
+      /* line 153, ../sass/partials/_portofolio.scss */
       #index-work .portofolio .portofolio-body p {
         font-family: "tenso", serif;
         padding: 15px 40px;
         font-size: 1.2em; }
         @media only screen and (min-width: 48rem) {
+          /* line 153, ../sass/partials/_portofolio.scss */
           #index-work .portofolio .portofolio-body p {
             text-align: left; } }
+        @media only screen and (min-width: 76.25rem) {
+          /* line 153, ../sass/partials/_portofolio.scss */
+          #index-work .portofolio .portofolio-body p {
+            font-size: 1.8em; } }
+    /* line 171, ../sass/partials/_portofolio.scss */
     #index-work .portofolio .portfolio-img {
       width: 332px;
       height: 250px;
       margin: 70px 0; }
       @media only screen and (min-width: 48rem) {
+        /* line 171, ../sass/partials/_portofolio.scss */
         #index-work .portofolio .portfolio-img {
           margin: 0 10px 0 20px; } }
+    /* line 184, ../sass/partials/_portofolio.scss */
     #index-work .portofolio .portofolio-footer {
       display: -webkit-flex;
       display: -moz-flex;
@@ -933,11 +1104,13 @@ body.contact nav a[href="contact.html"] {
       justify-content: flex-end;
       align-items: flex-end;
       min-width: 100%; }
+      /* line 195, ../sass/partials/_portofolio.scss */
       #index-work .portofolio .portofolio-footer button {
         background-color: #282E44;
         color: white;
         margin: 60px 10px 5px 0; }
 
+/* line 1, ../sass/partials/_testimonials.scss */
 #index-testimonial {
   background-color: #59cdc3;
   display: -webkit-flex;
@@ -948,16 +1121,19 @@ body.contact nav a[href="contact.html"] {
   height: 400px;
   font-family: "tenso", serif;
   font-size: 16px; }
+  /* line 16, ../sass/partials/_testimonials.scss */
   #index-testimonial p {
     margin: 20px 0 30px 0;
     color: black;
     font-family: "tenso", serif;
     font-style: italic; }
     @media only screen and (min-width: 48rem) {
+      /* line 16, ../sass/partials/_testimonials.scss */
       #index-testimonial p {
         font-size: 1.5em; } }
 
 /* carousel */
+/* line 31, ../sass/partials/_testimonials.scss */
 #quote-carousel {
   padding: 0 10px 30px 10px;
   margin-top: 30px;
@@ -965,6 +1141,7 @@ body.contact nav a[href="contact.html"] {
   height: 100%; }
 
 /* indicator position */
+/* line 38, ../sass/partials/_testimonials.scss */
 #quote-carousel .carousel-indicators {
   right: 50%;
   top: auto;
@@ -972,21 +1149,26 @@ body.contact nav a[href="contact.html"] {
   margin-right: -19px; }
 
 /* indicator color */
+/* line 45, ../sass/partials/_testimonials.scss */
 #quote-carousel .carousel-indicators li {
   background: #c0c0c0; }
 
 /* active indicator */
+/* line 49, ../sass/partials/_testimonials.scss */
 #quote-carousel .carousel-indicators .active {
   background: #333333;
   height: 10px;
   width: 10px;
   margin-bottom: 1px; }
 
+/* line 55, ../sass/partials/_testimonials.scss */
 .container-index-testimonial {
   margin: auto; }
 
+/* line 1, ../sass/partials/_contact.scss */
 #index-contact {
   padding: 30px 0; }
+  /* line 5, ../sass/partials/_contact.scss */
   #index-contact h1 {
     font-weight: bold;
     color: #16c1f8;
@@ -994,8 +1176,10 @@ body.contact nav a[href="contact.html"] {
     font-size: 3.3em;
     font-family: "futura-pt", sans-serif; }
     @media only screen and (min-width: 64rem) {
+      /* line 5, ../sass/partials/_contact.scss */
       #index-contact h1 {
         font-size: 3em; } }
+  /* line 18, ../sass/partials/_contact.scss */
   #index-contact ul {
     display: -webkit-flex;
     display: -moz-flex;
@@ -1005,42 +1189,52 @@ body.contact nav a[href="contact.html"] {
     justify-content: center;
     align-items: center;
     margin: 35px 0; }
+    /* line 34, ../sass/partials/_contact.scss */
     #index-contact ul li {
       flex: 1; }
+    /* line 38, ../sass/partials/_contact.scss */
     #index-contact ul img {
       width: 100px;
       height: 100px;
       border-radius: 30%; }
       @media only screen and (min-width: 48rem) {
+        /* line 38, ../sass/partials/_contact.scss */
         #index-contact ul img {
           width: 150px;
           height: 150px; } }
       @media only screen and (min-width: 76.25rem) {
+        /* line 38, ../sass/partials/_contact.scss */
         #index-contact ul img {
           width: 200px;
           height: 200px; } }
       @media only screen and (min-width: 87.5rem) {
+        /* line 38, ../sass/partials/_contact.scss */
         #index-contact ul img {
           width: 200px;
           height: 200px; } }
 
+/* line 10, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%; }
 
+/* line 12, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
 #root {
   clear: both;
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin-bottom: -44px; }
+  /* line 18, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
   #root #root_footer {
     height: 44px; }
 
+/* line 20, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
   height: 44px; }
 
+/* line 3, ../sass/partials/_footer.scss */
 #footer {
   background-color: #f1f1f1;
   display: -webkit-flex;
@@ -1051,51 +1245,63 @@ html, body {
   align-items: center;
   padding-left: 20px; }
 
+/* line 1, ../sass/partials/_pricing.scss */
 .pricingContainer {
   padding: 20px; }
 
+/* line 5, ../sass/partials/_pricing.scss */
 .flex-grid {
   display: flex;
   justify-content: space-between;
   margin: 0 0 20px 0;
   padding: 5px; }
 
+/* line 12, ../sass/partials/_pricing.scss */
 .col {
   background: #16c1f8;
   min-height: 50px;
   margin: 5px;
   -ms-overflow-style: none; }
 
+/* line 18, ../sass/partials/_pricing.scss */
 .flex-grid .col {
   flex: 1; }
 
+/* line 22, ../sass/partials/_pricing.scss */
 .flex-grid-thirds {
   display: flex;
   justify-content: space-between;
   padding: 5px; }
 
+/* line 28, ../sass/partials/_pricing.scss */
 .flex-grid-thirds .col {
   width: 32%;
   margin-top: 10px; }
 
 @media (max-width: 400px) {
+  /* line 34, ../sass/partials/_pricing.scss */
   .flex-grid,
   .flex-grid-thirds {
     display: block; }
 
+  /* line 39, ../sass/partials/_pricing.scss */
   .flex-grid-thirds .col {
     width: 100%; }
 
+  /* line 43, ../sass/partials/_pricing.scss */
   .flex-grid-thirds .col {
     width: 100%; }
 
+  /* line 46, ../sass/partials/_pricing.scss */
   .flex-grid .col {
     width: 100%; } }
 /*hide the actual button*/
+/* line 53, ../sass/partials/_pricing.scss */
 #radio-box input {
   display: none; }
 
 /*change the color on check*/
+/* line 58, ../sass/partials/_pricing.scss */
 #radio-box input:checked + span {
   background-color: #404040;
   color: #F7F7F7;
@@ -1103,6 +1309,7 @@ html, body {
   display: block; }
 
 /*set the label size*/
+/* line 65, ../sass/partials/_pricing.scss */
 #radio-box label {
   overflow: auto;
   min-width: 100%;
@@ -1110,6 +1317,7 @@ html, body {
   margin-bottom: -5px; }
 
 /*make buttons fatter*/
+/* line 72, ../sass/partials/_pricing.scss */
 #radio-box label span {
   text-align: center;
   padding: 20px 0px;
@@ -1118,48 +1326,60 @@ html, body {
   margin: 0px; }
 
 /*position text*/
+/* line 80, ../sass/partials/_pricing.scss */
 #radio-box label input {
   position: absolute;
   top: -20px; }
 
+/* line 86, ../sass/partials/_pricing.scss */
 #radio-box .yellow {
   background-color: #ffe576;
   color: #333; }
 
+/* line 91, ../sass/partials/_pricing.scss */
 #radio-box .blue {
   background-color: #16c1f8;
   color: #333; }
 
+/* line 96, ../sass/partials/_pricing.scss */
 #radio-box .red {
   background-color: #FD6C6E;
   color: #333; }
 
+/* line 101, ../sass/partials/_pricing.scss */
 #radio-box .green {
   background-color: #45C7BC;
   color: #333; }
 
+/* line 106, ../sass/partials/_pricing.scss */
 #totalDiv {
   border: 5px solid #16c1f8;
   min-height: 50px;
   padding: 20px; }
 
+/* line 1, ../sass/partials/_marketing.scss */
 .marketingContainer {
   padding: 20px; }
 
+/* line 5, ../sass/partials/_marketing.scss */
 .quoteContainer {
   padding: 50px; }
 
+/* line 9, ../sass/partials/_marketing.scss */
 h2 {
   padding: 5px; }
 
+/* line 13, ../sass/partials/_marketing.scss */
 h3 {
   padding: 5px;
   font-weight: bold; }
 
+/* line 17, ../sass/partials/_marketing.scss */
 p {
   padding: 5px;
   padding-top: 10px; }
 
+/* line 22, ../sass/partials/_marketing.scss */
 .flex-grid-marketing {
   position: relative;
   display: flex;
@@ -1168,32 +1388,41 @@ p {
   margin: 0 0 20px 0;
   padding: 5px; }
 
+/* line 30, ../sass/partials/_marketing.scss */
 .col-marketing {
   box-sizing: border-box;
   flex: 1; }
 
 @media (max-width: 992px) {
+  /* line 36, ../sass/partials/_marketing.scss */
   .col-marketing {
     flex-basis: 50%; } }
 @media (max-width: 640px) {
+  /* line 42, ../sass/partials/_marketing.scss */
   .col-marketing {
     flex-basis: 100%; } }
+/* line 47, ../sass/partials/_marketing.scss */
 .cat {
   margin: 5px; }
 
+/* line 51, ../sass/partials/_marketing.scss */
 .cat img {
   width: 200px;
   height: 200px; }
 
+/* line 55, ../sass/partials/_marketing.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
+/* line 58, ../sass/partials/_marketing.scss */
 q:before {
   content: open-quote; }
 
+/* line 64, ../sass/partials/_marketing.scss */
 q:after {
   content: close-quote; }
 
+/* line 68, ../sass/partials/_marketing.scss */
 .marketing-mid-section {
   width: 100%;
   min-height: 50px;
@@ -1203,9 +1432,11 @@ q:after {
   font-family: "futura-pt", sans-serif; }
 
 /* table css */
+/* line 79, ../sass/partials/_marketing.scss */
 .table-div {
   padding: 40px; }
 
+/* line 82, ../sass/partials/_marketing.scss */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -1216,17 +1447,20 @@ table {
 /*tr:nth-of-type(odd) {
   background: #eee;
 }*/
+/* line 93, ../sass/partials/_marketing.scss */
 th {
   background: #282E44;
   color: white;
   font-weight: bold; }
 
+/* line 99, ../sass/partials/_marketing.scss */
 td, th {
   padding: 6px;
   border: 1px solid #ccc;
   text-align: left;
   height: 50px; }
 
+/* line 105, ../sass/partials/_marketing.scss */
 .center {
   text-align: center; }
 
@@ -1236,22 +1470,27 @@ This query will take effect for any screen smaller than 760px
 and also iPads specifically.
 */
 @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 118, ../sass/partials/_marketing.scss */
   .table-div {
     padding: 20px 0 0 0; }
 
   /* Force table to not be like tables anymore */
+  /* line 122, ../sass/partials/_marketing.scss */
   table, thead, tbody, th, td, tr {
     display: block; }
 
   /* Hide table headers (but not display: none;, for accessibility) */
+  /* line 127, ../sass/partials/_marketing.scss */
   thead tr {
     position: absolute;
     top: -9999px;
     left: -9999px; }
 
+  /* line 134, ../sass/partials/_marketing.scss */
   tr {
     border: 1px solid #ccc; }
 
+  /* line 136, ../sass/partials/_marketing.scss */
   td {
     /* Behave  like a "row" */
     border: none;
@@ -1261,6 +1500,7 @@ and also iPads specifically.
     min-height: 75px;
     text-align: center; }
 
+  /* line 146, ../sass/partials/_marketing.scss */
   td:before {
     /* Now like a table header */
     position: absolute;
@@ -1274,17 +1514,22 @@ and also iPads specifically.
   /*
   Label the data
   */
+  /* line 160, ../sass/partials/_marketing.scss */
   td:nth-of-type(1):before {
     content: "Service"; }
 
+  /* line 161, ../sass/partials/_marketing.scss */
   td:nth-of-type(2):before {
     content: "Package 1"; }
 
+  /* line 162, ../sass/partials/_marketing.scss */
   td:nth-of-type(3):before {
     content: "Package 2"; }
 
+  /* line 163, ../sass/partials/_marketing.scss */
   td:nth-of-type(4):before {
     content: "Package 3"; } }
+/* line 167, ../sass/partials/_marketing.scss */
 .tooltip {
   position: relative;
   /*this makes space to left of page in mobile!?*/
@@ -1295,6 +1540,7 @@ and also iPads specifically.
   margin-left: 5px;
   margin-bottom: -2px; }
 
+/* line 177, ../sass/partials/_marketing.scss */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -1311,6 +1557,7 @@ and also iPads specifically.
   opacity: 0;
   transition: opacity 1s; }
 
+/* line 194, ../sass/partials/_marketing.scss */
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
@@ -1321,10 +1568,12 @@ and also iPads specifically.
   border-style: solid;
   border-color: #55CDC3 transparent transparent transparent; }
 
+/* line 205, ../sass/partials/_marketing.scss */
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1; }
 
+/* line 20, ../sass/RGstyles.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -1334,17 +1583,22 @@ html, body {
   font-size: 16px;
   text-align: center;
   box-sizing: border-box; }
+  /* line 31, ../sass/RGstyles.scss */
   html a, body a {
     text-decoration: none; }
+    /* line 34, ../sass/RGstyles.scss */
     html a:hover, body a:hover {
       text-decoration: none; }
 
+/* line 40, ../sass/RGstyles.scss */
 .container {
   margin: 0; }
 
+/* line 46, ../sass/RGstyles.scss */
 img {
   max-width: 100%;
   height: auto; }
 
+/* line 51, ../sass/RGstyles.scss */
 p {
   line-height: 1.5; }

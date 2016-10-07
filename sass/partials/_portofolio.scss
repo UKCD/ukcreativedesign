@@ -17,6 +17,14 @@
 
   }
 
+  img {
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
   .index-work--header {
 
     margin: 0 auto;
@@ -119,6 +127,7 @@ a {
           display: flex;
           img {
             order: 1;
+
           }
     }
 
@@ -136,7 +145,7 @@ a {
    align-items: center;
    margin : 35px 0;
 
-   @include MQ (S) {
+   @include MQ (M) {
      flex-direction:row;
      margin-top: 25px;
    }
@@ -148,6 +157,11 @@ a {
 
      @include MQ (S){
       text-align:left;
+     };
+
+     @include MQ (L){
+      font-size: 1.8em;
+
      };
 
    }
