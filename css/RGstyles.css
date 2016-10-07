@@ -94,6 +94,9 @@ IF statement used from BOOK SASS and Compass for Designer
 .greenText {
   color: #45C7BC; }
 
+.uppercase {
+  text-transform: uppercase; }
+
 .menu2-button {
   border-radius: 50%;
   width: 50px;
