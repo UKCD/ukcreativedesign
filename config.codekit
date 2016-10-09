@@ -51,6 +51,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/Expertise_Header.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 333570,
+		"inputAbbreviatedPath": "\/css\/Expertise_Header.jpeg",
+		"outputAbbreviatedPath": "\/css\/Expertise_Header.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -85,6 +96,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/expertise.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/expertise.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -243,6 +263,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/Expertise_Header.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 333570,
+		"inputAbbreviatedPath": "\/images\/Expertise_Header.jpeg",
+		"outputAbbreviatedPath": "\/images\/Expertise_Header.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -349,6 +380,17 @@
 		"initialSize": 3.2338e+06,
 		"inputAbbreviatedPath": "\/images\/Index - full.jpg",
 		"outputAbbreviatedPath": "\/images\/Index - full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/info.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20252,
+		"inputAbbreviatedPath": "\/images\/info.png",
+		"outputAbbreviatedPath": "\/images\/info.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -492,6 +534,17 @@
 		"initialSize": 462676,
 		"inputAbbreviatedPath": "\/images\/NAP-index.png",
 		"outputAbbreviatedPath": "\/images\/NAP-index.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/office-620817_1920.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 556107,
+		"inputAbbreviatedPath": "\/images\/office-620817_1920.jpg",
+		"outputAbbreviatedPath": "\/images\/office-620817_1920.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -800,6 +853,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/partials\/_contact.scss",
 		"outputAbbreviatedPath": "\/css\/_contact.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/partials\/_expertise-page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_expertise-page.scss",
+		"outputAbbreviatedPath": "\/css\/_expertise-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

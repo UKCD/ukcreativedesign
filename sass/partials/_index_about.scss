@@ -23,15 +23,17 @@
     @extend %big_title;
     font-weight: 700;
     color: $Brightred;
+    font-size: 1.2em;
   }
 
   h2 {
     font-family: $secondary_font;
     font-size: 0.9em;
     margin: 1em 0;
+
   }
 
-  
+
 
   .buttonHolder{
     margin: 60px auto;
