@@ -230,6 +230,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/design(illustration-only).png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19668,
+		"inputAbbreviatedPath": "\/images\/design(illustration-only).png",
+		"outputAbbreviatedPath": "\/images\/design(illustration-only).png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/design-white.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -248,6 +259,28 @@
 		"initialSize": 467349,
 		"inputAbbreviatedPath": "\/images\/design.png",
 		"outputAbbreviatedPath": "\/images\/design.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/dev-(illustration-only).png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23540,
+		"inputAbbreviatedPath": "\/images\/dev-(illustration-only).png",
+		"outputAbbreviatedPath": "\/images\/dev-(illustration-only).png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ecommerce.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23167,
+		"inputAbbreviatedPath": "\/images\/ecommerce.png",
+		"outputAbbreviatedPath": "\/images\/ecommerce.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -1379,6 +1379,50 @@ and also iPads specifically.
     width: 80%;
     max-width: 1200px; }
 
+.expertise-intro {
+  background-color: #F6F5F1;
+  margin: 20px;
+  color: black;
+  padding: 20px 10px;
+  font-size: 1.2em;
+  font-family: "tenso", serif; }
+
+.expertise-main {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column; }
+  .expertise-main h1 {
+    color: white; }
+  .expertise-main .expertise-section {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .expertise-main .expertise-section-header {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    border: solid red;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    width: 100%; }
+    .expertise-main .expertise-section-header h1 {
+      color: white;
+      flex: 1; }
+    .expertise-main .expertise-section-header img {
+      flex: 2; }
+  .expertise-main section:nth-child(1) {
+    background-color: #282E44; }
+  .expertise-main section:nth-child(2) {
+    background-color: #45C7BC; }
+  .expertise-main section:nth-child(3) {
+    background-color: #ffe576; }
+
 html, body {
   width: 100%;
   height: 100%;
