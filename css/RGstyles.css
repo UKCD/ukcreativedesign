@@ -48,7 +48,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*
 Typekit Fonts
 */
-#index-about .button, #index-work .index-work--header button, #index-work .portofolio .portofolio-footer button, .expertise-main .expertise-section-body button {
+#index-about .button, #index-work .index-work--header button, #index-work .portofolio .portofolio-footer button, .expertise-main .expertise-section-body button, .expertise-contact .contact-bottom button, .expertise-contact .contact-footer button {
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -1369,7 +1369,7 @@ and also iPads specifically.
   opacity: 1; }
 
 #exp-header {
-  background: url("Expertise_Header.jpeg") no-repeat center center;
+  background: url("Expertise_Header2.jpeg") no-repeat center center;
   -webkit-background-size: cover;
   min-height: 100vh;
   min-width: 100%;
@@ -1514,6 +1514,68 @@ and also iPads specifically.
       color: #ffe576; }
     .expertise-main section:nth-child(3) h1 {
       color: #ffe576; }
+
+.expertise-contact {
+  width: 100%;
+  background: url("talk2.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  height: 400px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+  .expertise-contact .contact-header h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 50px;
+    font-weight: bold;
+    font-family: "futura-pt", sans-serif;
+    color: white; }
+  .expertise-contact .contact-bottom {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    @media only screen and (min-width: 48rem) {
+      .expertise-contact .contact-bottom {
+        flex-direction: row; } }
+    .expertise-contact .contact-bottom button {
+      min-width: 200px;
+      background-color: #16c1f8; }
+      .expertise-contact .contact-bottom button:hover {
+        background-color: rgba(22, 193, 248, 0.8); }
+      @media only screen and (min-width: 64rem) {
+        .expertise-contact .contact-bottom button {
+          min-width: 300px; }
+          .expertise-contact .contact-bottom button:nth-child(odd) {
+            margin-right: 30px; } }
+      .expertise-contact .contact-bottom button a {
+        color: white;
+        width: 100%;
+        font-size: 1em; }
+        @media only screen and (min-width: 64rem) {
+          .expertise-contact .contact-bottom button a {
+            font-size: 2em; } }
+  .expertise-contact .contact-footer {
+    width: 100%; }
+    .expertise-contact .contact-footer button {
+      min-width: 300px;
+      background-color: #16c1f8;
+      margin-top: 20px; }
+      .expertise-contact .contact-footer button:hover {
+        background-color: rgba(22, 193, 248, 0.8); }
+      .expertise-contact .contact-footer button a {
+        color: white;
+        width: 100%;
+        font-size: 1em; }
+        @media only screen and (min-width: 64rem) {
+          .expertise-contact .contact-footer button a {
+            font-size: 2em; } }
 
 #contact-header {
   background: url("Contact.jpeg") no-repeat center center;

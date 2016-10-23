@@ -1,6 +1,7 @@
+
 #exp-header {
 
-    background:url('Expertise_Header.jpeg')no-repeat center center;
+    background:url('Expertise_Header2.jpeg')no-repeat center center;
   	-webkit-background-size: cover;
   	min-height:100vh;
   	min-width: 100%;
@@ -230,4 +231,95 @@
   }
 
 
+}
+
+.expertise-contact {
+  width:100%;
+
+  background: url('talk2.jpg') no-repeat center center;
+  -webkit-background-size: cover;;
+  height:400px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .contact-header {
+      h1 {
+        font-size: 2em;
+        text-transform: uppercase;
+        margin:50px;
+        font-weight: bold;
+        font-family: $secondary_font;
+        color:white;
+
+      }
+  }
+.contact-bottom{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+
+  @include MQ (S) {
+    flex-direction: row;
+  }
+
+  button {
+    @extend %button;
+    min-width:200px;
+    background-color: $Brightblue;
+
+
+
+    &:hover {
+      background-color:rgba($Brightblue,0.8);
+    }
+    @include MQ (M){
+      min-width:300px;
+      &:nth-child(odd){
+      margin-right: 30px;
+  }
+    }
+    a {
+    color:white;
+    width: 100%;
+    font-size: 1em;
+
+    @include MQ (M){
+      font-size: 2em;
+    }
+
+}
+  }
+}
+.contact-footer {
+  width: 100%;
+  button {
+    @extend %button ;
+    min-width:300px;
+    background-color: $Brightblue;
+    margin-top: 20px;
+
+
+
+    &:hover {
+      background-color:rgba($Brightblue,0.8);
+    }
+    a {
+    color:white;
+    width: 100%;
+    font-size: 1em;
+
+    @include MQ (M){
+      font-size: 2em;
+    }
+
+}
+  }
+}
 }

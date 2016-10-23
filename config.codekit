@@ -82,6 +82,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/css\/Expertise_Header2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330570,
+		"inputAbbreviatedPath": "\/css\/Expertise_Header2.jpeg",
+		"outputAbbreviatedPath": "\/css\/Expertise_Header2.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -141,6 +152,39 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/css\/talk.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 422467,
+		"inputAbbreviatedPath": "\/css\/talk.jpeg",
+		"outputAbbreviatedPath": "\/css\/talk.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/talk2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148328,
+		"inputAbbreviatedPath": "\/css\/talk2.jpeg",
+		"outputAbbreviatedPath": "\/css\/talk2.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/talk2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 314310,
+		"inputAbbreviatedPath": "\/css\/talk2.jpg",
+		"outputAbbreviatedPath": "\/css\/talk2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/expertise.html": {
 		"fileType": 8192,
