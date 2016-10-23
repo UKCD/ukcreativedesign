@@ -1,0 +1,254 @@
+#contact-header {
+
+    background:url('Contact.jpeg')no-repeat center center;
+  	-webkit-background-size: cover;
+  	min-height:100vh;
+  	min-width: 100%;
+    width:100%;
+  	padding-bottom:100px;
+  	margin: 0;
+    font-family: $main_font;
+    font-size: 16px;
+
+    @include MQ (S) {
+      font-size: 20px;
+    };
+
+    @include MQ (S) {
+      font-size: 25px;
+    };
+
+    @include MQ (L) {
+      font-size: 30px;
+    };
+    @include MQ (XL) {
+      font-size: 40px;
+    };
+
+
+    .contact-main-header {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      font-family: $secondary_font;
+      font-weight: bold;
+      color:white;
+
+
+
+    }
+
+    .contact-main-title{
+      background-color: rgba(#5B95AA,0.7);
+      padding:60px 30px;
+      width:80%;
+      max-width: 1200px;
+
+      h1 {
+        color:white;
+        font-family: $secondary_font;
+        font-size:1.5em;
+
+      }
+    }
+
+}
+
+.Contact-intro {
+  font-size:1.5em;
+  padding:15px;
+  margin-top: 60px;
+
+  h1 {
+    font-size: 40px;
+
+    @include MQ (M){
+      font-size: 60px;
+    };
+  }
+}
+
+#contact-form {
+    background-color: rgba($Brightblue,0.5);
+    width:80%;
+    padding:20px;
+    height: auto;
+    margin: 50px auto;
+    border: 6px solid $Brightblue;
+
+}
+
+#contact-form h2 {
+    font-size:32px;
+    margin:20px;
+}
+
+
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+    font-size:15px;
+    margin-bottom:2px;
+    height:30px;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+    width:250px;
+    border: 1px solid #CEE1E8;
+    margin-bottom:20px;
+    padding:4px;
+
+    @include MQ (S) {
+      width:450px;
+    }
+}
+
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+    border: 1px solid #AFCDD8;
+    background-color: #EBF2F4;
+}
+
+#contact-form textarea {
+    height: 200px;
+    resize: none;
+}
+
+
+
+#contact-form .required {
+    font-weight:bold;
+    color:#F00;
+}
+
+#contact-form #submit-button {
+    width: 50%;
+    background-color:#333;
+    color:#FFF;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    background-color:$Darkblue;
+    -moz-border-radius:8px;
+    height: 40px; 
+    // border: #333 solid 2px;
+    text-align: center;
+}
+
+#contact-form #submit-button:hover {
+    background-color: rgba($Darkblue,0.8);
+}
+
+#contact-form #submit-button:active {
+    position:relative;
+    top:1px;
+}
+
+#contact-form #loading {
+    width:32px;
+    height:32px;
+    background-image:url(../img/loading.gif);
+    display:block;
+    position:absolute;
+    right:130px;
+    bottom:16px;
+    display:none;
+}
+
+#errors {
+    border:solid 1px #E58E8E;
+    padding:10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
+    display:none;
+}
+
+#errors li {
+    padding:2px;
+    list-style:none;
+}
+
+#errors li:before {
+    content: ' - ';
+}
+
+#errors #info {
+    font-weight:bold;
+}
+
+#errors #info:before {
+    content: '';
+}
+
+#success {
+    border:solid 1px #83D186;
+    padding:25px 10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
+    font-weight:bold;
+    display:none;
+}
+
+#errors.visible, #success.visible {
+    display:block;
+}
+
+#req-field-desc {
+    font-style:italic;
+}
+
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+input:required, textarea:required {
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+    box-shadow:none;
+}
+
+/* Normalize placeholder styles */
+
+/* chrome, safari */
+::-webkit-input-placeholder {
+    color:#CCC;
+    font-style:italic;
+}
+
+/* mozilla */
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color:#CCC;
+    font-style:italic;
+}
+
+/* ie (faux placeholder) */
+input.placeholder-text, textarea.placeholder-text  {
+    color:#CCC;
+    font-style:italic;
+}
+form {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

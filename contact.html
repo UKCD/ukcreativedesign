@@ -25,9 +25,9 @@
 <body>
 
 
-<div class="se-pre-con"></div>
+<!-- <div class="se-pre-con"></div> -->
 
-<section id="exp-header">
+<section id="contact-header">
 
 
 				<!--navbar-->
@@ -49,11 +49,10 @@
 					</button>
 				</nav>
 
-    <div class="exp-main-header">
-      <div class="exp-main-title">
-      <h1>WEB DESIGN <br><br>&amp  <br><br> DEVELOPEMENT</h1>
+    <div class="contact-main-header">
+      <div class="contact-main-title">
+      <h1>CONTACT</h1>
       </div>
-
     </div>
 
 		<!-- open/close -->
@@ -64,8 +63,8 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="expertise.html">Services</a></li>
 					<li><a href="marketing.html">Marketing</a></li>
-					<li><a href="#portofolio.html">Portfolio</a></li>
-					<li><a href="#contact.html">Contact</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</nav>
       <div class="my_contact">
@@ -80,41 +79,36 @@
       </div>
 		</div>
 </section><!--close section-->
-<div class="expertise-intro">
-  <p>Our team includes expert with all the necessary skills to design, develop and grow you business to the next level with our Digital marketing package.
+<div class="Contact-intro">
+  <h1>Get In Touch!</h1>
+  <p>Thank you for visiting our website, you can contact us via <a href="mailto:info@ukcreativedesign.co.uk">E-mail</a> or complete our quick form below.We will get back to you within 6 working hours.We are based in Surrey so if you around the area we can be available for a chat to talk about your project.
   </p>
 </div>
-<div class="expertise-main">
-  <section class="expertise-section">
-    <div class="expertise-section-header">
-      <img src="images/design.svg" alt="design">
-    </div>
-      <div class="expertise-section-body">
-				<h1>DESIGN</h1>
-        <p>We build beautifull and modern website with the best user experience possible.Every design is built from in depth research and understanding of your business.
-        We use the latest technique available and every website we built is a mix of great performance and accesiblity for everybody to access</p>
-				<button type="button" name="button"><a href="portofolio.html">View our Work</a></button>
-    </div>
-  </section>
-  <section class="expertise-section">
-    <div class="expertise-section-header">
-      <img src="images/design(illustration-only).svg" alt="dev">
-    </div>
-      <div class="expertise-section-body">
-				<h1>DEVELOPEMENT</h1>
-        <p>From Static website to Content Management system, we offer a wide range of possibilty to build you website.
-        Every Website are fully responsive to every screen and devises. We offer a range of services adaptable to any kind of business.</p>
-    </div>
-  </section>
-  <section class="expertise-section">
-    <div class="expertise-section-header">
-      <img src="images/ecommerce.svg" alt="e-commerce">
-    </div>
-      <div class="expertise-section-body">
-				  <h1>E-Commerce</h1>
-        <p>Sell your product easily from you website with a bespoke online store whith integrated payment for you customer to pay online with ease</p>
-    </div>
-  </section>
+<div id="contact-form" class="clearfix">
+    <form method="post" action="">
+        <label for="name">Name: <span class="required">*</span></label>
+        <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" autofocus="autofocus" />
+
+        <label for="email">Email Address: <span class="required">*</span></label>
+        <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" />
+
+        <label for="telephone">Telephone: </label>
+        <input type="tel" id="telephone" name="telephone" value="" />
+
+        <label for="enquiry">Enquiry: </label>
+        <select id="enquiry" name="enquiry">
+            <option value="general">General</option>
+            <option value="sales">Sales</option>
+            <option value="support">Support</option>
+        </select>
+
+        <label for="message">Message: <span class="required">*</span></label>
+        <textarea id="message" name="message" placeholder="Your message must be greater than 20 characters" required="required" data-minlength="20"></textarea>
+
+        <span id="loading"></span>
+        <input type="submit" value="SEND" id="submit-button" />
+        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+    </form>
 </div>
 <footer id="main_footer">
 		<div class="top-footer">
