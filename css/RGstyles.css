@@ -179,66 +179,65 @@ p {
 /* Overlay style */
 .overlay {
   position: fixed;
-  min-width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 100vh;
+  min-height: 600px;
   top: 0;
   left: 0;
   margin: 0;
-  background: rgba(0, 86, 120, 0.9);
+  background: #16c1f8;
   z-index: 1000;
   display: flex;
   flex-direction: column;
   /* Overlay closing cross */
   /* Menu style */
   /* Closing nav */ }
+  @media screen and (max-height: 600px) {
+    .overlay .my_contact {
+      visibility: hidden; } }
   .overlay .my_contact {
-    background-color: rgba(255, 255, 255, 0.7);
+    border-top: 1px white solid;
     width: 100%;
-    height: 30%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     position: absolute;
-    bottom: 0; }
+    bottom: 0;
+    padding: 30px; }
+    .overlay .my_contact .media {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
     .overlay .my_contact ul {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 25px 40px 0 0; }
+      width: 80%; }
       .overlay .my_contact ul li {
         flex: 1;
-        text-align: center; }
+        padding: 0 20px; }
     .overlay .my_contact img {
       width: 60px;
-      height: auto; }
+      height: 40px; }
       .overlay .my_contact img:hover {
         transform: scale(1.25); }
-      @media all and (min-width: 600px) {
-        .overlay .my_contact img {
-          width: 80px; } }
-      @media all and (min-width: 1000px) {
-        .overlay .my_contact img {
-          width: 100px; } }
     .overlay .my_contact .email {
-      text-align: center;
+      text-align: left;
       text-decoration: underline;
-      margin-top: 20px;
-      font-size: 30px;
-      font-size: bold;
-      padding-top: 15px; }
-      @media all and (min-width: 600px) {
-        .overlay .my_contact .email {
-          font-size: 40px; } }
-      @media all and (min-width: 1000px) {
-        .overlay .my_contact .email {
-          font-size: 60px; } }
+      margin: 20px 0;
+      font-size: 30px; }
+      .overlay .my_contact .email a {
+        color: black; }
   .overlay .overlay-close {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 40px;
     position: absolute;
-    right: 20px;
-    top: 20px;
+    left: 20px;
+    top: 10px;
     overflow: hidden;
     border: none;
     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/52820/cross.png") no-repeat center center;
@@ -247,75 +246,63 @@ p {
     outline: none;
     z-index: 1000; }
   .overlay nav {
-    text-align: center;
+    text-align: left;
     position: relative;
     font-family: "futura-pt", sans-serif;
     margin-top: 20px;
     top: 30%;
     height: 40%;
-    font-size: 54px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     /* Closing ul */ }
+    @media screen and (max-height: 600px) {
+      .overlay nav {
+        top: 35%;
+        margin-top: 80px; } }
     .overlay nav ul {
       list-style: none;
       padding: 0;
-      margin: 0 auto;
+      margin-left: 30px;
       display: inline-block;
-      height: 100%;
+      height: auto;
       position: relative;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       /* Closing li */ }
-      @media only screen and (min-width: 48rem) {
-        .overlay nav ul {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: center;
-          align-items: center;
-          margin: 0 10%; } }
       .overlay nav ul li {
         display: block;
-        flex: 1 1 250px;
         height: 100%;
-        height: calc(100% / 5);
-        min-height: 54px;
         margin-right: 5px;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
+        margin-left: 30px;
         /* Closing a */ }
         .overlay nav ul li a {
           font-size: 30px;
-          font-weight: 300;
           display: block;
-          padding: 15px;
+          padding: 10px;
           color: #fff;
-          width: 100%;
           -webkit-transition: color 0.2s;
           transition: color 0.2s; }
           .overlay nav ul li a:hover {
-            background-color: #282E44; }
-          .overlay nav ul li a:focus {
-            background-color: #282E44; }
-          @media all and (min-width: 750px) {
-            .overlay nav ul li a {
-              font-size: 35px; } }
-          @media all and (min-width: 1000px) {
-            .overlay nav ul li a {
-              font-size: 45px; } }
+            border-left: solid white 2px; }
 
 /* Closing overlay */
 /* Effects */
 .overlay-slidedown {
   visibility: hidden;
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
   transition: transform 0.4s ease-in-out, visibility 0s 0.4s; }
 
 .overlay-slidedown.open {
   visibility: visible;
-  -webkit-transform: translateY(0%);
-  transform: translateY(0%);
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out; }
 
@@ -1427,11 +1414,19 @@ and also iPads specifically.
     display: -ms-flex;
     display: flex;
     justify-content: center;
-    align-content: center; }
+    align-content: center;
+    flex-direction: column; }
+    @media only screen and (min-width: 37.5rem) {
+      .expertise-intro ul {
+        flex-direction: row; } }
   .expertise-intro li {
-    margin: 0 60px 30px 0;
-    min-width: 200px;
-    padding: 20px; }
+    padding: 20px;
+    width: 60%;
+    margin: 10px auto; }
+    @media only screen and (min-width: 37.5rem) {
+      .expertise-intro li {
+        margin: 0 10px 30px 10px;
+        flex: 1; } }
     .expertise-intro li a {
       width: 100%;
       color: white; }
@@ -1441,6 +1436,9 @@ and also iPads specifically.
     background-color: #45C7BC; }
   .expertise-intro li:nth-child(3) {
     background-color: #ffe576; }
+    @media only screen and (min-width: 37.5rem) {
+      .expertise-intro li:nth-child(3) {
+        flex: 1.5; } }
   .expertise-intro li:nth-child(4) {
     background-color: #FD6C6E; }
 

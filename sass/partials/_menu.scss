@@ -70,71 +70,91 @@
 /* Overlay style */
 .overlay {
     position: fixed;
-    min-width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 100vh;
+    min-height:600px;
     top: 0;
     left: 0;
     margin: 0;
-    background: rgba(#005678,0.9);
+    background: $Brightblue;
     z-index: 1000;
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-height: 600px) {
+      .my_contact {
+        visibility: hidden;
+      }
+
+    }
+
+
     .my_contact {
-        background-color: rgba(#fff,0.7);
+        border-top: 1px white solid;
         width: 100%;
-        height: 30%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        text-align: center;
+        align-items: center;
         position: absolute;
         bottom: 0;
+        padding:30px;
+
+
+
+
+        .media {
+          display: -webkit-flex;
+          display: -ms-flex;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
         ul {
             display: flex;
-            justify-content: center;
+            justify-content:center;
             align-items: center;
-            margin: 25px 40px 0 0;
+            width:80%;
+
             li {
                 flex: 1;
-                text-align: center;
+                padding: 0 20px;
+
+
             }
         }
         img {
             width: 60px;
-            height: auto;
+            height: 40px;
+
 
             &:hover{
               transform: scale(1.25);
             }
-            @media all and (min-width: 600px) {
-                width: 80px;
-            }
-            @media all and (min-width: 1000px) {
-                width: 100px;
-            }
+
         }
         .email {
-            text-align: center;
+            text-align: left;
             text-decoration:underline;
-            margin-top: 20px;
+            margin: 20px 0 ;
             font-size: 30px;
-            font-size: bold;
-            padding-top: 15px;
-            @media all and (min-width: 600px) {
-                font-size: 40px;
+
+
+            a {
+              color:black;
             }
-            @media all and (min-width: 1000px) {
-                font-size: 60px;
-            }
+
         }
     }
     /* Overlay closing cross */
     .overlay-close {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 40px;
         position: absolute;
-        right: 20px;
-        top: 20px;
+        left: 20px;
+        top: 10px;
         overflow: hidden;
         border: none;
         background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/52820/cross.png') no-repeat center center;
@@ -145,62 +165,59 @@
     }
     /* Menu style */
     nav {
-        text-align: center;
+
+        text-align: left;
         position: relative;
         font-family:$secondary_font;
         margin-top: 20px;
         top: 30%;
         height: 40%;
-        font-size: 54px;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
+
+        @media screen and (max-height: 600px) {
+
+        top:35%;
+            margin-top: 80px;
+
+
+
+
+        }
         ul {
             list-style: none;
             padding: 0;
-            margin: 0 auto;
+            margin-left: 30px;
             display: inline-block;
-            height: 100%;
+            height: auto;
             position: relative;
-          @include MQ (S) {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-items: center;
-                margin: 0 10%;
-            }
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
             li {
                 display: block;
-                flex: 1 1 250px;
                 height: 100%;
-                height: calc(100% / 5);
-                min-height: 54px;
                 margin-right: 5px;
                 -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
+                margin-left: 30px;
                 a {
                     font-size: 30px;
-                    font-weight: 300;
                     display: block;
-                    padding: 15px;
+                    padding: 10px;
                     color: #fff;
-                    width: 100%;
                     -webkit-transition: color 0.2s;
                     transition: color 0.2s;
                     &:hover {
-                        background-color: $Darkblue;
-                    }
-                    &:focus {
-                        background-color: $Darkblue;
+                        border-left: solid white 2px;
                     }
 
 
-                    @media all and (min-width:750px) {
-                        font-size: 35px;
-                    }
-                    @media all and (min-width:1000px) {
-                        font-size: 45px;
-                    }
+
+
                 }
                 /* Closing a */
             }
@@ -214,15 +231,15 @@
 /* Effects */
 .overlay-slidedown {
     visibility: hidden;
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
     -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
     transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
 }
 .overlay-slidedown.open {
     visibility: visible;
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
     -webkit-transition: -webkit-transform 0.4s ease-in-out;
     transition: transform 0.4s ease-in-out;
 }
@@ -237,7 +254,7 @@
 }
 
 
-// 
+//
 // body.home nav a[href="index.html"],
 // body.about nav a[href="about.html"],
 // body.pricing nav a[href="pricing.html"],
