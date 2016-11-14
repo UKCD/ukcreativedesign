@@ -254,6 +254,26 @@
 }
 
 
+.navbar-default .navbar-toggle .icon-bar:nth-child(0) {
+  border: 2px solid red;
+  background-color: red;
+  transition: all 1s ease;
+
+  &:hover {
+    transform: rotate(60deg);
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar:nth-child(2) {
+  border: 2px solid red;
+  background-color: red;
+  transition: all 1s ease;
+
+  &:hover {
+    transform: rotate(-60deg);
+  }
+}
+
 //
 // body.home nav a[href="index.html"],
 // body.about nav a[href="about.html"],

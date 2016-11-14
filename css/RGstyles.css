@@ -313,6 +313,20 @@ p {
 
   .overlay ul li {
     min-height: 34px; } }
+.navbar-default .navbar-toggle .icon-bar:nth-child(0) {
+  border: 2px solid red;
+  background-color: red;
+  transition: all 1s ease; }
+  .navbar-default .navbar-toggle .icon-bar:nth-child(0):hover {
+    transform: rotate(60deg); }
+
+.navbar-default .navbar-toggle .icon-bar:nth-child(2) {
+  border: 2px solid red;
+  background-color: red;
+  transition: all 1s ease; }
+  .navbar-default .navbar-toggle .icon-bar:nth-child(2):hover {
+    transform: rotate(-60deg); }
+
 #splash {
   background: url("http://oliverwebdesigns.com/UKCD/images/background.jpeg") no-repeat center center;
   -webkit-background-size: cover;
