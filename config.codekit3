@@ -100,7 +100,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -847,6 +847,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/marketing\/analytics2.png": {
+		"ft": 32768,
+		"iS": 548354,
+		"oA": 0,
+		"oAP": "\/images\/marketing\/analytics2.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/images\/marketing\/email.png": {
 		"ft": 32768,
 		"iS": 894765,
@@ -1171,6 +1179,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/marketing-old.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/marketing-old.html",
+		"oF": 0
 		},
 	"\/marketing.html": {
 		"ft": 8192,

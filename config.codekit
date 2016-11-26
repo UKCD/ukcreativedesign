@@ -507,7 +507,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 20252,
+		"initialSize": 19056,
 		"inputAbbreviatedPath": "\/images\/info.png",
 		"outputAbbreviatedPath": "\/images\/info.png",
 		"outputPathIsOutsideProject": 0,
@@ -628,7 +628,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.03122e+06,
+		"initialSize": 721579,
 		"inputAbbreviatedPath": "\/images\/marketing\/seo.png",
 		"outputAbbreviatedPath": "\/images\/marketing\/seo.png",
 		"outputPathIsOutsideProject": 0,
@@ -1263,7 +1263,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Romain Gaget",
+"lastSavedByUser": "Jane Oliver",
 "manualImportLinks": {
 	},
 "projectAttributes": {
