@@ -42,13 +42,6 @@ $(document).ready(function() {
                 }
       });
 
-      //marketing page show tooltip on click
-        $( ".tooltip" ).click(function() {
-          $(".tooltip").css("visibility", "visible");
-          $(".tooltip").css("opacity", "1");
-        });
-
-
 
         $(function() {
           $('a[href*="#"]:not([href="#"])').click(function() {
@@ -66,6 +59,12 @@ $(document).ready(function() {
 });
 
 
+//marketing page show tooltip on click
+  $( ".tooltip" ).on("click", function() {
+    window.alert('hi');
+    $(".tooltip").css("visibility", "visible");
+    $(".tooltip").css("opacity", "1");
+  });
 
 
     }); //close document ready

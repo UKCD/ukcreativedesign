@@ -1389,14 +1389,6 @@ q:before {
 q:after {
   content: close-quote; }
 
-.marketing-mid-section {
-  width: 100%;
-  min-height: 50px;
-  background-color: #59cdc3;
-  padding: 50px 100px 50px 100px;
-  color: #fff;
-  font-family: "futura-pt", sans-serif; }
-
 /* table css */
 .table-div {
   padding: 40px; }
@@ -1418,7 +1410,7 @@ th {
 
 td, th {
   padding: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #282E44;
   text-align: left;
   height: 50px; }
 
@@ -1445,11 +1437,11 @@ and also iPads specifically.
     left: -9999px; }
 
   tr {
-    border: 1px solid #ccc; }
+    border: 1px solid #282E44; }
 
   td {
     /* Behave  like a "row" */
-    border: none;
+    border: 1px solid #282E44;
     border-bottom: 1px solid #eee;
     position: relative;
     padding-left: 50%;
