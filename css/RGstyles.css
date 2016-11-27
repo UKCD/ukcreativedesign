@@ -1335,8 +1335,10 @@ html, body {
       color: #16c1f8; }
 
 .marketingContainer {
-  background-color: #F1F1F1;
-  padding: 20px; }
+  background-color: #ffffff; }
+
+.marketingText {
+  background-color: #F1F1F1; }
 
 .quoteContainer {
   padding: 50px; }
