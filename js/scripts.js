@@ -63,7 +63,6 @@ $(document).ready(function() {
 
 //marketing page show tooltip on click
   $( ".tooltip" ).on("click", function() {
-    window.alert('hi');
     $(".tooltip").css("visibility", "visible");
     $(".tooltip").css("opacity", "1");
   });
