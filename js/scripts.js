@@ -35,15 +35,17 @@ $(document).ready(function() {
 
 
     //set target offset for scroll on home page
+
+      var targetOffset;
       if ($('body.home').length > 0)
       {
-        var targetOffset = $("#index-about").offset().top;
+        targetOffset = $("#index-about").offset().top;
 
       }
       //set target offset for scroll on all other pages
       else
       {
-        var targetOffset = $(".underline").offset().top;
+        targetOffset = $(".underline").offset().top;
 
       }
       //do the scrolling
@@ -58,6 +60,14 @@ $(document).ready(function() {
       });
 
 
+});
+
+
+$(document).ready(function(){
+	$('.navbar-default .navbar-toggle').click(function(){
+		$(this).toggleClass('open');
+    //$(this).removeClass('open');
+	});
 });
 
 
